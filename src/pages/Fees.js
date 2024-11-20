@@ -1,11 +1,11 @@
 import Container from "react-bootstrap/Container"
-import { useTranslation, Trans } from 'react-i18next'
+import { useTranslation, Trans, withTranslation } from 'react-i18next'
 import Breadcrumb from '../components/Breadcrumb'
 
 const Fees = () => {
   const { t } = useTranslation(['fees', 'common']);
   const { line1, line2, line3, line4, line5, line6, line7, line8 } = t('description');
-  
+
   return (
     <>
       <Container id="fee">
@@ -109,4 +109,4 @@ const Fees = () => {
   );
 }
 
-export default Fees;
+export default withTranslation(['fees', 'common'])(Fees);
