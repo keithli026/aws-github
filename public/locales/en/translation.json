@@ -360,6 +360,5 @@
   "Monday to Friday: 6am – 8pm": "Monday to Friday: 6am – 8pm",
   "Saturday: 7am – 2pm": "Saturday: 7am – 2pm",
   "Sunday: Appointment only": "Sunday: Appointment only",
-  "Fitsio. Copyright 2024 - All rights reserved.": "Fitsio. Copyright 2024 - All rights reserved."
-
+  "Fitzio. Copyright {{year}} - All rights reserved.": "Fitzio. Copyright {{year}} - All rights reserved."
 }

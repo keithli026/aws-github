@@ -1,15 +1,19 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebook, faInstagram, faTwitter, faYoutube, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 import { phone } from "../WhatsappButton"
-import logoIcon from "../../assets/images/logo_white.png"
+import logoIcon from "../../assets/images/fitzio-logo.png"
 import mailIcon from "../../assets/images/Mail.png"
 import "../../components/i18n"
 import { useTranslation, Trans } from 'react-i18next'
 import Container from "react-bootstrap/Container"
 
-const email = "info@fitsiophysiotherapyandfitness.com.hk";
+const email = "Oli@fitzio.com.au";
 const Footer = () => {
   const { t, i18n } = useTranslation();
+  const currentYear = new Date().getFullYear();
+  // console.log("currentYear:", currentYear); // Check the value
+  // console.log("Translation key:", 'Fitsio. Copyright {{year}} - All rights reserved.'); // Check the key
+  // console.log("Translation options:", { year: currentYear }); // Check the options
   return (
     <>
       <div id="footer">
@@ -62,7 +66,9 @@ const Footer = () => {
             </div>
           </div>
           <div className="disclaimer">
-            {t('Fitsio. Copyright 2024 - All rights reserved.')}
+            {/* {t('Fitsio. Copyright 2024 - All rights reserved.')} */}
+            {/* {`Fitzio. Copyright ${{year}} - All rights reserved.`} */}
+            {t('Fitzio. Copyright {{year}} - All rights reserved.', { year: currentYear })}
           </div>
         </Container>
       </div>

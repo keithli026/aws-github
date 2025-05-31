@@ -1,8 +1,6 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from 'i18next-browser-languagedetector';
-import translationEN from "../translationEN.json";
-import translationTC from "../translationTC.json";
 import Backend from 'i18next-http-backend';
 
 i18n
@@ -17,19 +15,15 @@ i18n
     // for all options read: https://www.i18next.com/overview/configuration-options
     debug: true,
     fallbackLng: "en",
-    lng: "en",
+    // lng: "en",
     returnObjects: true,
     interpolation: {
       escapeValue: false // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape
     },
-    // resources: {
-    //   en: {
-    //     translation: translationEN
-    //   },
-    //   tc: {
-    //     translation: translationTC
-    //   }
-    // },
+    backend: {
+      loadPath: '/locales/{{lng}}/translation.json', // Path to your translation files
+    },
+    supportedLngs: ['en', 'tc'], // Add supported languages
   });
 
 export default i18n;

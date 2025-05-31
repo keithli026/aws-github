@@ -17,6 +17,7 @@ import longLastingClinicalOutcomes from "../assets/images/Long_lasting_clinical_
 import ongoingSupport from "../assets/images/Ongoing_support.png"
 import evidenceBasedPractice from "../assets/images/Evidence_based_practice.png"
 import arrowIcon from "../assets/images/arrow.png"
+// import Button from "react-bootstrap/Button"
 
 const Home = () => {
   const { t } = useTranslation(['home', 'common']);
@@ -175,7 +176,7 @@ const Home = () => {
             <div className="box"><Link to="/services/dry-needling">{t('Acupuncture')}</Link></div>
             <div className="box"><Link to="/services/exercise-rehabilitation">{t('Exercise rehabilitation')}</Link></div>
             <div className="box"><Link to="/services/massage-therapy">{t('Massage therapy')}</Link></div>
-            <div className="box"><Link to="/services/extracorporeal-shockwave-therapy">{t('Shockwave therapy')}</Link></div>
+            <div className="box"><Link to="/services/shockwave-therapy">{t('Shockwave therapy')}</Link></div>
             <div className="box"><Link to="/services/electrotherapy">{t('Electrotherapy')}</Link></div>
             <div className="box"><Link to="/services/cupping-therapy">{t('Cupping therapy')}</Link></div>
           </div>

@@ -359,5 +359,5 @@
   "Monday to Friday: 6am – 8pm": "星期一至五：早上6點至晚上8點",
   "Saturday: 7am – 2pm": "星期六：早上7點至下午2點",
   "Sunday: Appointment only": "敬請預約",
-  "Fitsio. Copyright 2024 - All rights reserved.": "Fitsio。版權所有 2024 - 保留所有權利。"
+  "Fitzio. Copyright {{year}} - All rights reserved.": "Fitzio. 版權所有 {{year}} - 保留所有權利。"
 }

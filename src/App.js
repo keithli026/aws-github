@@ -1,7 +1,8 @@
 import './custom.scss';
 import "./components/i18n";
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import LanguageSwitcher from './components/LanguageSwitcher';
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -32,11 +33,16 @@ import ScrollToTop from './components/ScrollToTop';
 // import TestingContentPage from './pages/TestingContentPage';
 
 function App() {
+  const defaultLanguage = 'en'; // Or your default language
+
   return (
     <BrowserRouter>
       <ScrollToTop>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          {/* Redirect root path to default language */}
+          <Route path="/" element={<Navigate to={`/${defaultLanguage}`} replace />} />
+
+          <Route path="/:lang" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
             {/* <Route path="physiotherapists" element={<Physiotherapists />}>
@@ -50,7 +56,7 @@ function App() {
             <Route path="services" element={<Services />}>
               <Route index element={<ServicesOverview />} />
               <Route path="manual-therapy" element={<ManualTherapy />} />
-              <Route path="acupuncture" element={<Acupuncture />}/>
+              <Route path="acupuncture" element={<Acupuncture />} />
               <Route path="exercise-rehabilitation" element={<ExerciseRehabilitation />} />
               <Route path="massage-therapy" element={<MassageTherapy />} />
               <Route path="shockwave-therapy" element={<ShockwaveTherapy />} />

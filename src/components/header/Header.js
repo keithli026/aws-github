@@ -45,7 +45,7 @@ const Header = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   useEffect(() => {
-    console.log(i18n.resolvedLanguage)
+    // console.log(i18n.resolvedLanguage);
     refMenu.current.style.height = `${window.innerHeight - refHeader.current.clientHeight}px`;
     // console.log(window.innerHeight, refHeader.current.clientHeight);
     // console.log("pathname: " + location.pathname + "; search: " + location.search);
@@ -79,6 +79,21 @@ const Header = () => {
   }
 
   const { t, i18n } = useTranslation();
+
+  const currentLanguage = i18n.language;
+  console.log("lang: ", currentLanguage);
+
+  // Function to prepend the language to the path
+  const getLocalizedPath = (path) => {
+    if (path.startsWith(`/${currentLanguage}`) || path.startsWith('http') || path.startsWith('#')) {
+      return path;
+    }
+    if (path === "/") {
+      return `/${currentLanguage}`;
+    }
+    return `/${currentLanguage}${path}`;
+  };
+
   return (
     <>
       <div id="header">
@@ -99,34 +114,34 @@ const Header = () => {
                 </ul>
               </li> */}
                 <li>
-                  <Link to="/about">{t('About')}</Link>
+                  <Link to={ getLocalizedPath("/about") }>{t('About')}</Link>
                 </li>
                 <li>
-                  <Link to="/meet-our-team">{t('Meet Our Team')}</Link>
+                  <Link to={ getLocalizedPath("/meet-our-team") }>{t('Meet Our Team')}</Link>
                 </li>
                 <li className="expandable">
-                  <Link to="/services">{t('Services')}</Link>
+                  <Link to={ getLocalizedPath("/services") }>{t('Services')}</Link>
                   <ul id="level-1">
-                    <li><Link to="/services/manual-therapy">{t('Manual Therapy')}</Link></li>
-                    <li><Link to="/services/acupuncture">{t('Acupuncture')}</Link></li>
-                    <li><Link to="/services/exercise-rehabilitation">{t('Exercise Rehabilitation')}</Link></li>
-                    <li><Link to="/services/massage-therapy">{t('Massage Therapy')}</Link></li>
-                    <li><Link to="/services/shockwave-therapy">{t('Shockwave Therapy')}</Link></li>
-                    <li><Link to="/services/electrotherapy">{t('Electrotherapy')}</Link></li>
-                    <li><Link to="/services/cupping-therapy">{t('Cupping Therapy')}</Link></li>
+                    <li><Link to={ getLocalizedPath("/services/manual-therapy") }>{t('Manual Therapy')}</Link></li>
+                    <li><Link to={ getLocalizedPath("/services/acupuncture") }>{t('Acupuncture')}</Link></li>
+                    <li><Link to={ getLocalizedPath("/services/exercise-rehabilitation") }>{t('Exercise Rehabilitation')}</Link></li>
+                    <li><Link to={ getLocalizedPath("/services/massage-therapy") }>{t('Massage Therapy')}</Link></li>
+                    <li><Link to={ getLocalizedPath("/services/shockwave-therapy") }>{t('Shockwave Therapy')}</Link></li>
+                    <li><Link to={ getLocalizedPath("/services/electrotherapy") }>{t('Electrotherapy')}</Link></li>
+                    <li><Link to={ getLocalizedPath("/services/cupping-therapy") }>{t('Cupping Therapy')}</Link></li>
                   </ul>
                 </li>
                 <li>
-                  <Link to="/fees">{t('Fees')}</Link>
+                  <Link to={ getLocalizedPath("/fees") }>{t('Fees')}</Link>
                 </li>
                 <li>
-                  <Link to="/conditions">{t('Conditions')}</Link>
+                  <Link to={ getLocalizedPath("/conditions") }>{t('Conditions')}</Link>
                 </li>
                 <li>
-                  <Link to="/contact">{t('Contact')}</Link>
+                  <Link to={ getLocalizedPath("/contact") }>{t('Contact')}</Link>
                 </li>
                 <li>
-                  <Link to="/book-online" className="button">{t('Book Online')}</Link>
+                  <Link to={ getLocalizedPath("/book-online") } className="button">{t('Book Online')}</Link>
                 </li>
               </ul>
             </div>
@@ -158,37 +173,37 @@ const Header = () => {
               </ul>
             </li> */}
             <li>
-              <Link to="/about" onClick={closeMenu}>{t('About')}</Link>
+              <Link to={ getLocalizedPath("/about") } onClick={closeMenu}>{t('About')}</Link>
             </li>
             <li>
-              <Link to="/meet-our-team" onClick={closeMenu}>{t('Meet Our Team')}</Link>
+              <Link to={ getLocalizedPath("/meet-our-team") } onClick={closeMenu}>{t('Meet Our Team')}</Link>
             </li>
             <li >
-              <Link to="/services" style={{ paddingBottom: state.isServicesOn ? "0.5rem" : "0" }} onClick={closeMenu}>{t('Services')}</Link>
+              <Link to={ getLocalizedPath("/services") } style={{ paddingBottom: state.isServicesOn ? "0.5rem" : "0" }} onClick={closeMenu}>{t('Services')}</Link>
               <div className="dropdownBtn" onClick={() => dispatch({ type: "isServicesOn" })} aria-expanded={state.isServicesOn ? "true" : "false"}>
                 {state.isServicesOn ? (<div className="up"></div>) : (<div className="down"></div>)}
               </div>
               <ul id="mlevel-1" className={state.isServicesOn ? "expanded" : ""}>
-                <li><Link to="/services/manual-therapy" onClick={closeMenu}>{t('Manual Therapy')}</Link></li>
-                <li><Link to="/services/acupuncture" onClick={closeMenu}>{t('Acupuncture')}</Link></li>
-                <li><Link to="/services/exercise-rehabilitation" onClick={closeMenu}>{t('Exercise Rehabilitation')}</Link></li>
-                <li><Link to="/services/massage-therapy" onClick={closeMenu}>{t('Massage Therapy')}</Link></li>
-                <li><Link to="/services/shockwave-therapy" onClick={closeMenu}>{t('Shockwave Therapy')}</Link></li>
-                <li><Link to="/services/electrotherapy" onClick={closeMenu}>{t('Electrotherapy')}</Link></li>
-                <li><Link to="/services/cupping-therapy" onClick={closeMenu}>{t('Cupping Therapy')}</Link></li>
+                <li><Link to={ getLocalizedPath("/services/manual-therapy") } onClick={closeMenu}>{t('Manual Therapy')}</Link></li>
+                <li><Link to={ getLocalizedPath("/services/acupuncture") } onClick={closeMenu}>{t('Acupuncture')}</Link></li>
+                <li><Link to={ getLocalizedPath("/services/exercise-rehabilitation") } onClick={closeMenu}>{t('Exercise Rehabilitation')}</Link></li>
+                <li><Link to={ getLocalizedPath("/services/massage-therapy") } onClick={closeMenu}>{t('Massage Therapy')}</Link></li>
+                <li><Link to={ getLocalizedPath("/services/shockwave-therapy") } onClick={closeMenu}>{t('Shockwave Therapy')}</Link></li>
+                <li><Link to={ getLocalizedPath("/services/electrotherapy") } onClick={closeMenu}>{t('Electrotherapy')}</Link></li>
+                <li><Link to={ getLocalizedPath("/services/cupping-therapy") } onClick={closeMenu}>{t('Cupping Therapy')}</Link></li>
               </ul>
             </li>
             <li>
-              <Link to="/fees" onClick={closeMenu}>{t('Fees')}</Link>
+              <Link to={ getLocalizedPath("/fees") } onClick={closeMenu}>{t('Fees')}</Link>
             </li>
             <li>
-              <Link to="/conditions" onClick={closeMenu}>{t('Conditions')}</Link>
+              <Link to={ getLocalizedPath("/conditions") } onClick={closeMenu}>{t('Conditions')}</Link>
             </li>
             <li>
-              <Link to="/contact" onClick={closeMenu}>{t('Contact')}</Link>
+              <Link to={ getLocalizedPath("/contact") } onClick={closeMenu}>{t('Contact')}</Link>
             </li>
             <li>
-              <Link to="/book-online" onClick={closeMenu}>{t('Book Online')}</Link>
+              <Link to={ getLocalizedPath("/book-online") } onClick={closeMenu}>{t('Book Online')}</Link>
             </li>
             <li>
               <LanguageSwitcher />
