@@ -6,7 +6,7 @@ import { faBars, faTimes, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { phone } from "../WhatsappButton"
 import "../../components/i18n"
 import { useTranslation, Trans } from 'react-i18next'
-import logoIcon from "../../assets/images/logo_white.png"
+import logoIcon from "../../assets/images/fitzio_logo_trans.png"
 import Container from "react-bootstrap/Container"
 import Navbar from "react-bootstrap/Navbar"
 import LanguageSwitcher from "../LanguageSwitcher"

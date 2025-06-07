@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebook, faInstagram, faTwitter, faYoutube, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 import { phone } from "../WhatsappButton"
-import logoIcon from "../../assets/images/fitzio-logo.png"
+import logoIcon from "../../assets/images/fitzio_logo_trans.png"
 import mailIcon from "../../assets/images/Mail.png"
 import "../../components/i18n"
 import { useTranslation, Trans } from 'react-i18next'

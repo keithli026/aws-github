@@ -27,7 +27,7 @@ function LanguageSwitcher() {
     // Extract the original path after the language code
     const pathSegments = location.pathname.split('/').filter(Boolean);
     let originalPathAfterLanguage = '';
-
+    
     if (pathSegments.length > 0 && Object.keys(lngs).includes(pathSegments[0])) {
       originalPathAfterLanguage = '/' + pathSegments.slice(1).join('/'); // Get path after language code
     } else {

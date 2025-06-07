@@ -576,7 +576,7 @@ $focus-ring-width:      .25rem !default;
 $focus-ring-opacity:    .25 !default;
 $focus-ring-color:      rgba($primary, $focus-ring-opacity) !default;
 $focus-ring-blur:       0 !default;
-$focus-ring-box-shadow: 0 0 $focus-ring-blur $focus-ring-width $focus-ring-color !default;
+$focus-ring-box-shadow: none;
 // scss-docs-end focus-ring-variables
 
 // scss-docs-start caret-variables
@@ -755,9 +755,9 @@ $table-active-color:          $table-color !default;
 $table-active-bg-factor:      .1 !default;
 $table-active-bg:             rgba(var(--#{$prefix}emphasis-color-rgb), $table-active-bg-factor) !default;
 
-$table-hover-color:           $white;
+$table-hover-color:           none;
 $table-hover-bg-factor:       .075 !default;
-$table-hover-bg:              $cyan;
+$table-hover-bg:              none;
 
 $table-border-factor:         .2 !default;
 $table-border-width:          var(--#{$prefix}border-width) !default;
