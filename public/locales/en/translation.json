@@ -357,9 +357,8 @@
 
   "Follow Us on": "Follow Us on",
   "Opening Hours": "Opening Hours",
-  "Monday to Friday: 6am – 8pm": "Monday to Friday: 6am – 8pm",
-  "Saturday: 7am – 2pm": "Saturday: 7am – 2pm",
-  "Sunday: Appointment only": "Sunday: Appointment only",
+  "Monday to Saturday: 8am - 8pm": "Monday to Saturday: 8am - 8pm",
+  "Sunday & Public Holidays: By Appointment Only": "Sunday & Public Holidays: By Appointment Only",
   "Fitzio. Copyright {{year}} - All rights reserved.": "Fitzio. Copyright {{year}} - All rights reserved.",
 
   "Home Visit Physiotherapy Consultation Fee": "Home Visit Physiotherapy Consultation Fee",
@@ -392,5 +391,20 @@
   "A wellness package is designed for clients who need ongoing physiotherapy for long-term management.": "A wellness package is designed for clients who need ongoing physiotherapy for long-term management.",
   "How does a physiotherapy program work?": "How does a physiotherapy program work?",
   "The aim of an intensive week program is to make the treatment sessions more affordable especially for clients who need multiple intensive treatments for optimal recovery.": "The aim of an intensive week program is to make the treatment sessions more affordable especially for clients who need multiple intensive treatments for optimal recovery.",
-  "A discount will be applicable on follow-up consultations in the following week after the initial consultation.": "A discount will be applicable on follow-up consultations in the following week after the initial consultation."
+  "A discount will be applicable on follow-up consultations in the following week after the initial consultation.": "A discount will be applicable on follow-up consultations in the following week after the initial consultation.",
+
+
+  "Oli": "Mr. Oliver Li",
+  "physiotherapist": {
+    "oliver_li": "Mr. Oliver Li",
+    "title": "Physiotherapist",
+    "oliver_li_summary": {
+      "line1": "Oliver graduated from Curtin with a Bachelor of Physiotherapy.",
+      "line2": "He understands the importance of professional development to further enhance his clinical skills after graduation.",
+      "line3": "He completed a qualification of deep dry needling and several courses including shoulder rehabilitation, running biomechanics, headache, and dizziness management.",
+      "line4": "Oliver is interested in treating musculoskeletal conditions especially shoulder, back, and neck pain.",
+      "line5": "He believes a combination of \"hands-on\" treatment and therapeutic exercises is important for clients to manage their musculoskeletal conditions and achieve their goals.",
+      "line6": "Outside the clinic, Oliver goes to the gym regularly. He enjoys grocery shopping and cooking big meals."
+    }
+  }
 }

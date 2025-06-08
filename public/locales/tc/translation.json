@@ -356,9 +356,8 @@
 
   "Follow Us on": "追蹤我們",
   "Opening Hours": "開放時間",
-  "Monday to Friday: 6am – 8pm": "星期一至五：早上6點至晚上8點",
-  "Saturday: 7am – 2pm": "星期六：早上7點至下午2點",
-  "Sunday: Appointment only": "敬請預約",
+  "Monday to Saturday: 8am - 8pm": "星期一至五：早上8點至晚上8點",
+  "Sunday & Public Holidays: By Appointment Only": "星期日及公共假期：敬請預約",
   "Fitzio. Copyright {{year}} - All rights reserved.": "Fitzio. 版權所有 {{year}} - 保留所有權利。",
 
   "Home Visit Physiotherapy Consultation Fee": "物理治療診症費用",
@@ -391,5 +390,20 @@
   "A wellness package is designed for clients who need ongoing physiotherapy for long-term management.": "健康套餐則是為需要持續物理治療以進行長期管理的客戶設計的。",
   "How does a physiotherapy program work?": "物理治療計劃是如何運作的？",
   "The aim of an intensive week program is to make the treatment sessions more affordable especially for clients who need multiple intensive treatments for optimal recovery.": "週密集計劃的目標是使治療會議變得更具可負擔性，特別是對於需要多次密集治療以達到最佳恢復的客戶。",
-  "A discount will be applicable on follow-up consultations in the following week after the initial consultation.": "在初次諮詢後的下一周，後續諮詢將適用折扣。"
+  "A discount will be applicable on follow-up consultations in the following week after the initial consultation.": "在初次諮詢後的下一周，後續諮詢將適用折扣。",
+
+
+  "Oli": "李健豪先生",
+  "physiotherapist": {
+    "oliver_li": "李健豪先生",
+    "title": "物理治療師",
+    "oliver_li_summary": {
+      "line1": "李健豪先生畢業於科廷大學，獲得物理治療學士學位。",
+      "line2": "他明白專業發展對於在畢業後進一步提升臨床技能的重要性。",
+      "line3": "他完成了深層乾針療法的資格認證，並參加了幾個課程，包括肩部康復、跑步生物力學、頭痛和眩暈管理。",
+      "line4": "他對於治療肌肉骨骼疾病特別感興趣，尤其是肩部、背部和頸部疼痛。",
+      "line5": "他相信結合「手動」治療和治療性運動對於客戶管理肌肉骨骼疾病和實現他們的目標至關重要。",
+      "line6": "在診所外，他經常去健身房。他喜歡購物和烹飪大餐。"
+    }
+  }
 }

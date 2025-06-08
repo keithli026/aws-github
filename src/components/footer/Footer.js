@@ -7,7 +7,7 @@ import "../../components/i18n"
 import { useTranslation, Trans } from 'react-i18next'
 import Container from "react-bootstrap/Container"
 
-const email = "Oli@fitzio.com.au";
+const email = "oli@fitzio.com.au";
 const Footer = () => {
   const { t, i18n } = useTranslation();
   const currentYear = new Date().getFullYear();
@@ -60,9 +60,8 @@ const Footer = () => {
           <div id="opening">
             <h2 className="underline">{t('Opening Hours')}</h2>
             <div className="time">
-              {t('Monday to Friday: 6am – 8pm')}<br />
-              {t('Saturday: 7am – 2pm')}<br />
-              {t('Sunday: Appointment only')}
+              {t('Monday to Saturday: 8am - 8pm')}<br />
+              {t('Sunday & Public Holidays: By Appointment Only')}
             </div>
           </div>
           <div className="disclaimer">
