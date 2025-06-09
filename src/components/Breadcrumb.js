@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 
 const Breadcrumb = () => {
   const breadcrumbs = useBreadcrumbs();
-  const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation(['common']);
 
   // console.log("Breadcrumbs:", breadcrumbs); // Log the breadcrumbs array
 
@@ -27,11 +27,11 @@ const Breadcrumb = () => {
         if (!breadcrumbLabel) {
           return null;
         }
-
+        const formattedLabel = breadcrumbLabel.toLowerCase().replace(/\s+/g, '_');
         return (
           <React.Fragment key={match.pathname}>
             <NavLink to={match.pathname}>
-              {t(breadcrumbLabel)}
+              {t(`common:breadcrumb.${formattedLabel}`)}
             </NavLink>
             {index === breadcrumbs.length - 1 ? null : (<span>{">"}</span>)}
           </React.Fragment>

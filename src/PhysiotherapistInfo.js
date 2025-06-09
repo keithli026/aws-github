@@ -4,17 +4,17 @@ var physiotherapists = [
   {
     pid: 1,
     symbol: "oli",
-    name: "physiotherapist.oliver_li",
+    name: "translation:physiotherapist.oliver_li",
     gender: "M",
-    title: "physiotherapist.title",
+    title: "translation:physiotherapist.title",
     photo: physiotherapist,
     summary: [
-      "physiotherapist.oliver_li_summary.line1",
-      "physiotherapist.oliver_li_summary.line2",
-      "physiotherapist.oliver_li_summary.line3",
-      "physiotherapist.oliver_li_summary.line4",
-      "physiotherapist.oliver_li_summary.line5",
-      "physiotherapist.oliver_li_summary.line6"
+      "translation:physiotherapist.oliver_li_summary.line1",
+      "translation:physiotherapist.oliver_li_summary.line2",
+      "translation:physiotherapist.oliver_li_summary.line3",
+      "translation:physiotherapist.oliver_li_summary.line4",
+      "translation:physiotherapist.oliver_li_summary.line5",
+      "translation:physiotherapist.oliver_li_summary.line6"
     ]
   },
   {

@@ -18,9 +18,10 @@ import ongoingSupport from "../assets/images/Ongoing_support.png"
 import evidenceBasedPractice from "../assets/images/Evidence_based_practice.png"
 import arrowIcon from "../assets/images/arrow.png"
 // import Button from "react-bootstrap/Button"
+import LocalizedPath from "../components/LocalizedPath"
 
 const Home = () => {
-  const { t } = useTranslation(['home', 'common']);
+  const { t } = useTranslation(['common','home']);
   const ref = useRef(null);
   const executeScroll = () => ref.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
   var settings = {
@@ -47,21 +48,21 @@ const Home = () => {
             <img src={bannerImg} alt={t('banner')} loading="lazy"/>
             <div className="textbox container">
               <div className="content container">
-                <h2>{t('GET BACK TO DOING WHAT YOU LOVE')}</h2>
-                <h3>{t("DON'T SUFFER FROM PAIN WHEN YOU CAN MANAGE IT")}</h3>
+                <h2>{t('home:banner.slogan_1')}</h2>
+                <h3>{t("home:banner.slogan_2")}</h3>
                 <ul>
-                  <li>{t('Pain relief')}</li>
-                  <li>{t('Improved mobility and function')}</li>
-                  <li>{t('Injury prevention')}</li>
-                  <li>{t('Enhanced sports performance')}</li>
+                  <li>{t('home:banner.Pain_relief')}</li>
+                  <li>{t('home:banner.Improved_mobility_and_function')}</li>
+                  <li>{t('home:banner.Injury_prevention')}</li>
+                  <li>{t('home:banner.Enhanced_sports_performance')}</li>
                 </ul>
                 <div className="button_container">
-                  <a className="button" href="/contact">{t('Contact Us')}</a>
-                  <a className="button" href="/book-online">{t('Book Now')}</a>
+                  <a className="button" href={LocalizedPath({path: "/contact"})}>{t('home:banner.Contact_Us')}</a>
+                  <a className="button" href={LocalizedPath({path: "/book-online"})}>{t('home:banner.Book_Now')}</a>
                 </div>
                 <div className="learn-more">
-                  <div>{t('Learn More')}</div>
-                  <button onClick={executeScroll}><img src={arrowIcon} alt={t('arrow')} /></button>
+                  <div>{t('common:learn_more')}</div>
+                  <button onClick={executeScroll}><img src={arrowIcon} alt={t('common:arrow')} /></button>
                   {/* <button onClick={executeScroll}><img src={process.env.PUBLIC_URL + '/arrow.png'} alt={t('arrow')} /></button> */}
                 </div>
               </div>
@@ -70,24 +71,24 @@ const Home = () => {
         </div>
         <div className="slide">
           <div className="banner">
-            <img src={banner2Img} alt={t('banner')} loading="lazy"/>
+            <img src={banner2Img} alt={t('common:banner')} loading="lazy"/>
             <div className="textbox container">
               <div className="content">
-                <h2>{t('GET BACK TO DOING WHAT YOU LOVE')}</h2>
-                <h3>{t("DON'T SUFFER FROM PAIN WHEN YOU CAN MANAGE IT")}</h3>
+               <h2>{t('home:banner.slogan_1')}</h2>
+                <h3>{t("home:banner.slogan_2")}</h3>
                 <ul>
-                  <li>{t('Pain relief')}</li>
-                  <li>{t('Improved mobility and function')}</li>
-                  <li>{t('Injury prevention')}</li>
-                  <li>{t('Enhanced sports performance')}</li>
+                  <li>{t('home:banner.Pain_relief')}</li>
+                  <li>{t('home:banner.Improved_mobility_and_function')}</li>
+                  <li>{t('home:banner.Injury_prevention')}</li>
+                  <li>{t('home:banner.Enhanced_sports_performance')}</li>
                 </ul>
                 <div className="button_container">
-                  <a className="button" href="/contact">{t('Contact Us')}</a>
-                  <a className="button" href="/book-online">{t('Book Now')}</a>
+                  <a className="button" href={LocalizedPath({path: "/contact"})}>{t('home:banner.Contact_Us')}</a>
+                  <a className="button" href={LocalizedPath({path: "/book-online"})}>{t('home:banner.Book_Now')}</a>
                 </div>
                 <div className="learn-more">
                   <div>{t('Learn More')}</div>
-                  <button onClick={executeScroll}><img src={arrowIcon} alt={t('arrow')} loading="lazy"/></button>
+                  <button onClick={executeScroll}><img src={arrowIcon} alt={t('common:arrow')} loading="lazy"/></button>
                 </div>
               </div>
             </div>
@@ -103,88 +104,88 @@ const Home = () => {
       <div id="our-values-section" ref={ref}>
         <Container>
           <div className="content">
-            <h2 className="underline">{t('Our values')}</h2>
+            <h2 className="underline">{t('home:our_values:title')}</h2>
             <div className="boxes">
               <div className="box">
                 <div className='image_wrapper'>
-                  <img src={holisticCare} alt={t('Holistic care')} loading="lazy"/>
+                  <img src={holisticCare} alt={t('home:our_values:Holistic_care')} loading="lazy"/>
                 </div>
-                <h3>{t('Holistic care')}</h3>
-                {/* <p>{t("We consider our clients' general well-being.")}</p> */}
+                <h3>{t('home:our_values:Holistic_care')}</h3>
+                {/* <p>{t("home:our_values:Holistic_care_value")}</p> */}
               </div>
               <div className="box">
                 <div className='image_wrapper'>
-                  <img src={individualizedServices} alt={t('Individualized services')} loading="lazy"/>
+                  <img src={individualizedServices} alt={t('home:our_values:Individualized_services')} loading="lazy"/>
                 </div>
-                <h3>{t('Individualized services')}</h3>
-                {/* <p>{t('We provide services on a one-to-one basis.')}</p> */}
+                <h3>{t('home:our_values:Individualized_services')}</h3>
+                {/* <p>{t('home:our_values:Individualized_services_value')}</p> */}
               </div>
               <div className="box">
                 <div className='image_wrapper'>
-                  <img src={exerciseRehabilitation} alt={t('Exercise rehabilitation')} loading="lazy"/>
+                  <img src={exerciseRehabilitation} alt={t('home:our_values:Exercise_rehabilitation')} loading="lazy"/>
                 </div>
-                <h3>{t('Exercise rehabilitation')}</h3>
-                {/* <p>{t('We prescribe exercises as part of the management.')}</p> */}
+                <h3>{t('home:our_values:Exercise_rehabilitation')}</h3>
+                {/* <p>{t('home:our_values:Exercise_rehabilitation_value')}</p> */}
               </div>
               <div className="box">
                 <div className='image_wrapper'>
-                  <img src={goalOriented} alt={t('Goal-oriented')} loading="lazy"/>
+                  <img src={goalOriented} alt={t('home:our_values:Goal_oriented')} loading="lazy"/>
                 </div>
-                <h3>{t('Goal-oriented')}</h3>
-                {/* <p>{t("Our treatment and exercise rehabilitation are guided by clients' goals.")}</p> */}
+                <h3>{t('home:our_values:Goal_oriented')}</h3>
+                {/* <p>{t("home:our_values:Goal_oriented_value")}</p> */}
               </div>
               <div className="box">
                 <div className='image_wrapper'>
-                  <img src={empowerment} alt={t('Empowerment')} loading="lazy"/>
+                  <img src={empowerment} alt={t('home:our_values:Empowerment')} loading="lazy"/>
                 </div>
-                <h3>{t('Empowerment')}</h3>
-                {/* <p>{t('We promote self-management and disease prevention.')}</p> */}
+                <h3>{t('home:our_values:Empowerment')}</h3>
+                {/* <p>{t('home:our_values:Empowerment_value')}</p> */}
               </div>
               <div className="box">
                 <div className='image_wrapper'>
-                  <img src={longLastingClinicalOutcomes} alt={t('Long-lasting clinical outcomes')} loading="lazy"/>
+                  <img src={longLastingClinicalOutcomes} alt={t('home:our_values:Long_lasting_clinical_outcomes')} loading="lazy"/>
                 </div>
-                <h3>{t('Long-lasting clinical outcomes')}</h3>
-                {/* <p>{t('We focus on long-term solutions by addressing causes and symptoms of musculoskeletal conditions.')}</p> */}
+                <h3>{t('home:our_values:Long_lasting_clinical_outcomes')}</h3>
+                {/* <p>{t('home:our_values:Long_lasting_clinical_outcomes_value')}</p> */}
               </div>
               <div className="box">
                 <div className='image_wrapper'>
-                  <img src={ongoingSupport} alt={t('Ongoing support')} loading="lazy"/>
+                  <img src={ongoingSupport} alt={t('home:our_values:Ongoing_support')} loading="lazy"/>
                 </div>
-                <h3>{t('Ongoing support')}</h3>
-                {/* <p>{t('Our team will follow up on our clients regularly. Please contact us if you have any concerns.')}</p> */}
+                <h3>{t('home:our_values:Ongoing_support')}</h3>
+                {/* <p>{t('home:our_values:Ongoing_support_value')}</p> */}
               </div>
               <div className="box">
                 <div className='image_wrapper'>
-                  <img src={evidenceBasedPractice} alt={t('Evidence-based practice')} loading="lazy"/>
+                  <img src={evidenceBasedPractice} alt={t('home:our_values:Evidence_based_practice')} loading="lazy"/>
                 </div>
-                <h3>{t('Evidence-based practice')}</h3>
-                {/* <p>{t("We integrate the best available research evidence with clinical expertise and clients' values for our treatment.")}</p> */}
+                <h3>{t('home:our_values:Evidence_based_practice')}</h3>
+                {/* <p>{t("home:our_values:Evidence_based_practice_value")}</p> */}
               </div>
             </div>
             <div className="button_wrapper">
-              <Link className="button" to="/about">{t('Learn More')}</Link>
+              <Link className="button" to={LocalizedPath({path: "/about"})}>{t('common:learn_more')}</Link>
             </div>
           </div>
         </Container>
       </div>
       <div id="our-services-section">
         <Container>
-          <h2 className="underline">{t('Our services')}</h2>
+          <h2 className="underline">{t('home:our_services:title')}</h2>
           <div className="boxes">
-            <div className="box"><Link to="/services/manual-therapy">{t('Manual therapy')}</Link></div>
-            <div className="box"><Link to="/services/dry-needling">{t('Acupuncture')}</Link></div>
-            <div className="box"><Link to="/services/exercise-rehabilitation">{t('Exercise rehabilitation')}</Link></div>
-            <div className="box"><Link to="/services/massage-therapy">{t('Massage therapy')}</Link></div>
-            <div className="box"><Link to="/services/shockwave-therapy">{t('Shockwave therapy')}</Link></div>
-            <div className="box"><Link to="/services/electrotherapy">{t('Electrotherapy')}</Link></div>
-            <div className="box"><Link to="/services/cupping-therapy">{t('Cupping therapy')}</Link></div>
+            <div className="box"><Link to={LocalizedPath({path: "/services/manual-therapy"})}>{t('common:header.services.manual_therapy')}</Link></div>
+            <div className="box"><Link to={LocalizedPath({path: "/services/acupuncture"})}>{t('common:header.services.acupuncture')}</Link></div>
+            <div className="box"><Link to={LocalizedPath({path: "/services/exercise-rehabilitation"})}>{t('common:header.services.exercise_rehabilitation')}</Link></div>
+            <div className="box"><Link to={LocalizedPath({path: "/services/massage-therapy"})}>{t('common:header.services.massage_therapy')}</Link></div>
+            <div className="box"><Link to={LocalizedPath({path: "/services/shockwave-therapy"})}>{t('common:header.services.shockwave_therapy')}</Link></div>
+            <div className="box"><Link to={LocalizedPath({path: "/services/electrotherapy"})}>{t('common:header.services.electrotherapy')}</Link></div>
+            <div className="box"><Link to={LocalizedPath({path: "/services/cupping-therapy"})}>{t('common:header.services.cupping_therapy')}</Link></div>
           </div>
         </Container>
       </div>
       <div className="our-team-section">
         <Container>
-          <h2 className="underline">{t('Our team')}</h2>
+          <h2 className="underline">{t('home:our_team:title')}</h2>
           <div className="members">
             {physiotherapists.map((physiotherapist, i) => {
               return (
