@@ -1,9 +1,10 @@
 {
-  "Manual Therapy": "徒手治療",
-  "Manual therapy consists of a wide range of hands-on interventions including soft tissue mobilizations, joint mobilizations, manipulations or muscle energy techniques.": "徒手治療包括軟組織按摩、關節鬆動術、整脊或肌肉能量技術。",
-  "Manual therapy is used in conjunction with an active rehabilitation program to become effective in optimizing the rehabilitation process and return to function.": "徒手治療通常與運動治療結合使用，以提高康復過程和治療效果。", 
-  "Benefits of manual therapy are": "徒手治療的好處包括：",
-  "Restore joint range of motion": "恢復關節活動範圍",
-  "Restore muscle function": "恢復肌肉功能",
-  "Reduce pain": "減輕疼痛"
+  "paragraph1": "徒手治療包括軟組織按摩、關節鬆動術、整脊或肌肉能量技術。",
+  "paragraph2": "徒手治療通常與運動治療結合使用，以提高康復過程和治療效果。",
+  "list": {
+    "title": "徒手治療的好處包括：",
+    "item1": "恢復關節活動範圍",
+    "item2": "恢復肌肉功能",
+    "item3": "減輕疼痛"
+  }
 }

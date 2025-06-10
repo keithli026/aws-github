@@ -1,10 +1,11 @@
 {
-  "Exercise Rehabilitation": "運動治療", 
-  "Exercise rehabilitation plays an important role in physiotherapy for a broad spectrum of musculoskeletal conditions and injuries. Exercise rehabilitation is used effectively in helping people return to the workforce, recover from surgery or simply get back to the activities they enjoy.": "運動治療在物理治療中對各種肌肉骨骼疾病和損傷起著重要作用。運動治療有效地幫助人們重返工作崗位、康復手術，或者僅僅是回到他們喜愛的活動。", 
-  "Therapeutic exercises consist of muscle stretching, joint mobility, or strengthening exercises.": "運動治療包括肌肉伸展、關節活動範圍或力量鍛鍊運動。",
-  "Benefits of exercise rehabilitation are": "運動治療的好處包括：", 
-  "Strengthen muscles": "增強肌肉力量", 
-  "Improve muscle function": "改善肌肉功能", 
-  "Reduce stress and anxiety": "減輕壓力和焦慮", 
-  "Reduce pain and inflammation": "減少疼痛和炎症"
+  "paragraph1": "運動治療在物理治療中對各種肌肉骨骼疾病和損傷起著重要作用。運動治療有效地幫助人們重返工作崗位、康復手術，或者僅僅是回到他們喜愛的活動。",
+  "paragraph2": "運動治療包括肌肉伸展、關節活動範圍或力量鍛鍊運動。",
+  "list": {
+    "title": "運動治療的好處包括：",
+    "item1": "增強肌肉力量",
+    "item2": "改善肌肉功能",
+    "item3": "減輕壓力和焦慮",
+    "item4": "減少疼痛和炎症"
+  }
 }

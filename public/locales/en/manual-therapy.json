@@ -1,9 +1,10 @@
 {
-  "Manual Therapy": "Manual Therapy",
-  "Manual therapy consists of a wide range of hands-on interventions including soft tissue mobilizations, joint mobilizations, manipulations or muscle energy techniques.": "Manual therapy consists of a wide range of hands-on interventions including soft tissue mobilizations, joint mobilizations, manipulations or muscle energy techniques.",
-  "Manual therapy is used in conjunction with an active rehabilitation program to become effective in optimizing the rehabilitation process and return to function.": "Manual therapy is used in conjunction with an active rehabilitation program to become effective in optimizing the rehabilitation process and return to function.", 
-  "Benefits of manual therapy are": "Benefits of manual therapy are:",
-  "Restore joint range of motion": "Restore joint range of motion",
-  "Restore muscle function": "Restore muscle function",
-  "Reduce pain": "Reduce pain"
+  "paragraph1": "Manual therapy consists of a wide range of hands-on interventions including soft tissue mobilizations, joint mobilizations, manipulations or muscle energy techniques.",
+  "paragraph2": "Manual therapy is used in conjunction with an active rehabilitation program to become effective in optimizing the rehabilitation process and return to function.",
+  "list": {
+    "title": "Benefits of manual therapy are:",
+    "item1": "Restore joint range of motion",
+    "item2": "Restore muscle function",
+    "item3": "Reduce pain"
+  }
 }

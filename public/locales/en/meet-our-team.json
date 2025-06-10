@@ -1,3 +1,14 @@
 {
-
+  "oli": {
+    "name": "Mr. Oliver Li",
+    "title": "Physiotherapist",
+    "summary": {
+      "line1": "Oliver graduated from Curtin with a Bachelor of Physiotherapy.",
+      "line2": "He understands the importance of professional development to further enhance his clinical skills after graduation.",
+      "line3": "He completed a qualification of deep dry needling and several courses including shoulder rehabilitation, running biomechanics, headache, and dizziness management.",
+      "line4": "Oliver is interested in treating musculoskeletal conditions especially shoulder, back, and neck pain.",
+      "line5": "He believes a combination of \"hands-on\" treatment and therapeutic exercises is important for clients to manage their musculoskeletal conditions and achieve their goals.",
+      "line6": "Outside the clinic, Oliver goes to the gym regularly. He enjoys grocery shopping and cooking big meals."
+    }
+  }
 }

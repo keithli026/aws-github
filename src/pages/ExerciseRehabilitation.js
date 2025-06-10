@@ -5,24 +5,24 @@ import { useTranslation, Trans } from 'react-i18next'
 import exerciseRehabilitation from "../assets/images/Exercise_therapy.jpg"
 
 const ExerciseRehabilitation = () => {
-  const { t } = useTranslation(['exercise-rehabilitation', 'common']);
+  const { t } = useTranslation(['common','exercise-rehabilitation']);
   return (
     <>
       <Container>
-        <h1 className='service'>{t('Exercise Rehabilitation')}</h1>
+        <h1 className='service'>{t('common:header.services.exercise_rehabilitation')}</h1>
         <div className='flexbox'>
           <div className='image_wrapper'>
-            <img src={exerciseRehabilitation} alt={t('Exercise Rehabilitation')} />
+            <img src={exerciseRehabilitation} alt={t('common:header.services.exercise_rehabilitation')} />
           </div>
           <div className='content'>
-            <p>{t('Exercise rehabilitation plays an important role in physiotherapy for a broad spectrum of musculoskeletal conditions and injuries. Exercise rehabilitation is used effectively in helping people return to the workforce, recover from surgery or simply get back to the activities they enjoy.')}</p>
-            <p>{t('Therapeutic exercises consist of muscle stretching, joint mobility, or strengthening exercises.')}</p>
-            <div>{t('Benefits of exercise rehabilitation are')}</div>
+            <p>{t('exercise-rehabilitation:paragraph1')}</p>
+            <p>{t('exercise-rehabilitation:paragraph2')}</p>
+            <div>{t('exercise-rehabilitation:list.title')}</div>
             <ul className='effect'>
-              <li>{t('Strengthen muscles')}</li>
-              <li>{t('Improve muscle function')}</li>
-              <li>{t('Reduce stress and anxiety')}</li>
-              <li>{t('Reduce pain and inflammation')}</li>
+              <li>{t('exercise-rehabilitation:list.item1')}</li>
+              <li>{t('exercise-rehabilitation:list.item2')}</li>
+              <li>{t('exercise-rehabilitation:list.item3')}</li>
+              <li>{t('exercise-rehabilitation:list.item4')}</li>
             </ul>
           </div>
         </div>

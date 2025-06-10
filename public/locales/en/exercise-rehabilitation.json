@@ -1,10 +1,11 @@
 {
-  "Exercise Rehabilitation": "Exercise Rehabilitation", 
-  "Exercise rehabilitation plays an important role in physiotherapy for a broad spectrum of musculoskeletal conditions and injuries. Exercise rehabilitation is used effectively in helping people return to the workforce, recover from surgery or simply get back to the activities they enjoy.": "Exercise rehabilitation plays an important role in physiotherapy for a broad spectrum of musculoskeletal conditions and injuries. Exercise rehabilitation is used effectively in helping people return to the workforce, recover from surgery or simply get back to the activities they enjoy.", 
-  "Therapeutic exercises consist of muscle stretching, joint mobility, or strengthening exercises.": "Therapeutic exercises consist of muscle stretching, joint mobility, or strengthening exercises.",
-  "Benefits of exercise rehabilitation are": "Benefits of exercise rehabilitation are:", 
-  "Strengthen muscles": "Strengthen muscles", 
-  "Improve muscle function": "Improve muscle function", 
-  "Reduce stress and anxiety": "Reduce stress and anxiety", 
-  "Reduce pain and inflammation": "Reduce pain and inflammation"
+  "paragraph1": "Exercise rehabilitation plays an important role in physiotherapy for a broad spectrum of musculoskeletal conditions and injuries. Exercise rehabilitation is used effectively in helping people return to the workforce, recover from surgery or simply get back to the activities they enjoy.",
+  "paragraph2": "Therapeutic exercises consist of muscle stretching, joint mobility, or strengthening exercises.",
+  "list": {
+    "title": "Benefits of exercise rehabilitation are:",
+    "item1": "Strengthen muscles",
+    "item2": "Improve muscle function",
+    "item3": "Reduce stress and anxiety",
+    "item4": "Reduce pain and inflammation"
+  }
 }

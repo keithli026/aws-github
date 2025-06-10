@@ -10,7 +10,7 @@ const About = () => {
     <>
       <Container>
         <Breadcrumb />
-        <h1>{t('common:header.About')}</h1>
+        <h1>{t('common:header.about')}</h1>
         <p>{t('about:about_summary')}</p> {/* From about namespace */}
       </Container>
       <Outlet />

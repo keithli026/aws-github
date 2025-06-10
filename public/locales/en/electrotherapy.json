@@ -1,9 +1,10 @@
 {
-  "Electrotherapy": "Electrotherapy", 
-  "Electrotherapy is the use of electrical energy as a medical treatment. This includes interferential therapy, magnetic field therapy, or therapeutic ultrasound.": "Electrotherapy is the use of electrical energy as a medical treatment. This includes interferential therapy, magnetic field therapy, or therapeutic ultrasound.", 
-  "Benefits of modalities are": "Benefits of modalities are:",
-  "Reduce pain": "Reduce pain", 
-  "Reduce swelling": "Reduce swelling", 
-  "Increase muscle stimulation": "Increase muscle stimulation", 
-  "Increase blood flow": "Increase blood flow"
+  "paragraph": "Electrotherapy is the use of electrical energy as a medical treatment. This includes interferential therapy, magnetic field therapy, or therapeutic ultrasound.",
+  "list": {
+    "title": "Benefits of modalities are:",
+    "item1": "Reduce pain",
+    "item2": "Reduce swelling",
+    "item3": "Increase muscle stimulation",
+    "item4": "Increase blood flow"
+  }
 }

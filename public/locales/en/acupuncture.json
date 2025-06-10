@@ -1,10 +1,11 @@
 {
-  "Acupuncture": "Acupuncture", 
-  "Acupuncture is a treatment technique involving needling introduced to your skin and the soft tissue below, aiming for trigger points in your muscles and fascia.": "Acupuncture is a treatment technique involving needling introduced to your skin and the soft tissue below, aiming for trigger points in your muscles and fascia.", 
-  "Benefits of acupuncture are": "Benefits of acupuncture are:",
-  "Release trigger points (muscle knots)": "Release trigger points (muscle knots)", 
-  "Promote tissue healing response": "Promote tissue healing response", 
-  "Reduce pain": "Reduce pain", 
-  "Reduce muscle tightness": "Reduce muscle tightness", 
-  "Restore muscle function": "Restore muscle function"
+  "paragraph": "Acupuncture is a treatment technique involving needling introduced to your skin and the soft tissue below, aiming for trigger points in your muscles and fascia.",
+  "list": {
+    "title": "Benefits of acupuncture are:",
+    "item1": "Release trigger points (muscle knots)",
+    "item2": "Promote tissue healing response",
+    "item3": "Reduce pain",
+    "item4": "Reduce muscle tightness",
+    "item5": "Restore muscle function"
+  }
 }

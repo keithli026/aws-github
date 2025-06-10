@@ -1,7 +1,8 @@
 {
-  "Shockwave Therapy": "衝擊波治療", 
-  "Shock wave therapy promotes a healing environment in injured tissue by stimulating the growth of new blood vessels, growth factors, cell proliferation, and reducing inflammatory markers. It is commonly used in treating tendon injuries.": "衝擊波治療透過刺激新血管的生長、促進生長因子和細胞增殖、減少炎症標誌物，從而在受傷組織中促進治療。它常用於治療肌腱損傷。", 
-  "Benefits of extracorporeal shock wave therapy are": "衝擊波治療的好處包括：", 
-  "Promote tissue healing response": "促進組織修復反應", 
-  "Reduce inflammation": "減少炎症"
+  "paragraph": "衝擊波治療透過刺激新血管的生長、促進生長因子和細胞增殖、減少炎症標誌物，從而在受傷組織中促進治療。它常用於治療肌腱損傷。",
+  "list": {
+    "title": "衝擊波治療的好處包括：",
+    "item1": "促進組織修復反應",
+    "item2": "減少炎症"
+  }
 }

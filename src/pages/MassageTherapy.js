@@ -4,23 +4,23 @@ import { useTranslation, Trans } from 'react-i18next'
 import massageTherapy from "../assets/images/Massage_therapy.jpg"
 
 const MassageTherapy = () => {
-  const { t } = useTranslation(['massage-therapy', 'common']);
+  const { t } = useTranslation(['common','massage-therapy']);
   return (
     <>
       <Container>
-        <h1 className='service'>{t('Massage Therapy')}</h1>
+        <h1 className='service'>{t('common:header.services.massage_therapy')}</h1>
         <div className='flexbox'>
           <div className='image_wrapper'>
-            <img src={massageTherapy} alt={t('Massage Therapy')} />
+            <img src={massageTherapy} alt={t('common:header.services.massage_therapy')} />
           </div>
           <div className='content'>
-            <p>{t('Massage therapy involves a range of techniques and styles, such as soft tissue massage, deep tissue massage, sports massage, trigger point therapy, or myofascial release.')}</p>
-            <div>{t('Benefits of massage therapy are')}</div>
+            <p>{t('massage-therapy:paragraph')}</p>
+            <div>{t('massage-therapy:list.title')}</div>
             <ul className='effect'>
-              <li>{t('Reduce stress and anxiety')}</li>
-              <li>{t('Restore muscle function')}</li>
-              <li>{t('Promote blood circulation')}</li>
-              <li>{t('Reduce pain')}</li>
+              <li>{t('massage-therapy:list.item1')}</li>
+              <li>{t('massage-therapy:list.item2')}</li>
+              <li>{t('massage-therapy:list.item3')}</li>
+              <li>{t('massage-therapy:list.item4')}</li>
             </ul>
           </div>
         </div>

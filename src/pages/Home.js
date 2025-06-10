@@ -21,7 +21,7 @@ import arrowIcon from "../assets/images/arrow.png"
 import LocalizedPath from "../components/LocalizedPath"
 
 const Home = () => {
-  const { t } = useTranslation(['common','home']);
+  const { t } = useTranslation(['common','home','meet-our-team']);
   const ref = useRef(null);
   const executeScroll = () => ref.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
   var settings = {

@@ -10,11 +10,11 @@ const MeetOurTeamOverview = () => {
   let Physiotherapists = getPhysiotherapists();
   // let staff = getPhysiotherapistBySymbol(params.staffId);
   console.log(Physiotherapists.length, params);
-  const { t } = useTranslation(['meet-our-team', 'common']);
+  const { t } = useTranslation(['common']);
   return (
     <>
       <Container>
-        <h1>{t('Meet Our Team')}</h1>
+        <h1>{t('common:header.meet_our_team')}</h1>
         <div className='card_wrapper'>
           {Physiotherapists.map((profile) => {
             return (

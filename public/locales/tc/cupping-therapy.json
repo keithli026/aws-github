@@ -1,9 +1,10 @@
 {
-  "Cupping therapy": "拔罐治療", 
-  "Cupping therapy is an ancient form of alternative medicine in which a therapist puts special cups on your skin to create suction.": "拔罐治療是一種古老的另類療法，治療師會將特殊的罐子放在您的皮膚上，產生負壓吸附。", 
-  "Benefits of cupping therapy are": "拔罐治療的好處包括：", 
-  "Increase blood flow": "增加血液流動", 
-  "Restore muscle function": "恢復肌肉功能", 
-  "Reduce pain": "減輕疼痛", 
-  "Reduce muscle tightness": "減少肌肉緊繃"
+  "paragraph": "拔罐治療是一種古老的另類療法，治療師會將特殊的罐子放在您的皮膚上，產生負壓吸附。",
+  "list": {
+    "title": "拔罐治療的好處包括：",
+    "item1": "增加血液流動",
+    "item2": "恢復肌肉功能",
+    "item3": "減輕疼痛",
+    "item4": "減少肌肉緊繃"
+  }
 }

@@ -114,7 +114,7 @@ const Header = () => {
                     <li><Link to={LocalizedPath({path: "/services/massage-therapy"})}>{t('header.services.massage_therapy')}</Link></li>
                     <li><Link to={LocalizedPath({path: "/services/shockwave-therapy"})}>{t('header.services.shockwave_therapy')}</Link></li>
                     <li><Link to={LocalizedPath({path: "/services/electrotherapy"})}>{t('header.services.electrotherapy')}</Link></li>
-                    <li><Link to={LocalizedPath({path: "/services/cupping-therapy"})}>{t('header.services.electrotherapy')}</Link></li>
+                    <li><Link to={LocalizedPath({path: "/services/cupping-therapy"})}>{t('header.services.cupping_therapy')}</Link></li>
                   </ul>
                 </li>
                 <li>
@@ -176,7 +176,7 @@ const Header = () => {
                 <li><Link to={LocalizedPath({ path:"/services/massage-therapy"})} onClick={closeMenu}>{t('header.services.massage_therapy')}</Link></li>
                 <li><Link to={LocalizedPath({ path:"/services/shockwave-therapy"})} onClick={closeMenu}>{t('header.services.shockwave_therapy')}</Link></li>
                 <li><Link to={LocalizedPath({ path:"/services/electrotherapy"})} onClick={closeMenu}>{t('header.services.electrotherapy')}</Link></li>
-                <li><Link to={LocalizedPath({ path:"/services/cupping-therapy"})} onClick={closeMenu}>{t('header.services.electrotherapy')}</Link></li>
+                <li><Link to={LocalizedPath({ path:"/services/cupping-therapy"})} onClick={closeMenu}>{t('header.services.cupping_therapy')}</Link></li>
               </ul>
             </li>
             <li>

@@ -4,14 +4,14 @@ import Breadcrumb from '../components/Breadcrumb'
 import Accordion from 'react-bootstrap/Accordion'
 
 const Fees = () => {
-  const { t } = useTranslation(['fees', 'common']);
+  const { t } = useTranslation(['common','fees']);
 
   return (
     <>
       <Container id="fee">
         <Breadcrumb />
-        <h1>{t('Fees', { ns: 'common' })}</h1>
-        <h2>{t('Home Visit Physiotherapy Consultation Fee')}</h2>
+        <h1>{t('common:header.fees')}</h1>
+        <h2>{t('fees:home_visit_physiotherapy_consultation_fee.title')}</h2>
         <div className="table-responsive mb-5">
           <table className="table table-bordered table-hover">
             <thead>

@@ -1,9 +1,10 @@
 {
-  "Massage Therapy": "按摩治療", 
-  "Massage therapy involves a range of techniques and styles, such as soft tissue massage, deep tissue massage, sports massage, trigger point therapy, or myofascial release.": "按摩治療包括一系列的技巧和風格，例如軟組織按摩、深層組織按摩、運動按摩、激痛點療法或筋膜釋放。", 
-  "Benefits of massage therapy are": "按摩治療的好處包括：", 
-  "Reduce stress and anxiety": "減輕壓力和焦慮", 
-  "Restore muscle function": "恢復肌肉功能", 
-  "Promote blood circulation": "促進血液循環", 
-  "Reduce pain": "減少疼痛"
+  "paragraph": "按摩治療包括一系列的技巧和風格，例如軟組織按摩、深層組織按摩、運動按摩、激痛點療法或筋膜釋放。",
+  "list": {
+    "title": "按摩治療的好處包括：",
+    "item1": "減輕壓力和焦慮",
+    "item2": "恢復肌肉功能",
+    "item3": "促進血液循環",
+    "item4": "減少疼痛"
+  }
 }
