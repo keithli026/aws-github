@@ -41,12 +41,12 @@ const Footer = () => {
                 <FontAwesomeIcon icon={faWhatsapp} ></FontAwesomeIcon><div>{phone}</div>
               </a>
             </div>
-            <div className="address">
+            {/* <div className="address">
               {t('common:footer.address_line_1')}<br />
               {t('common:footer.address_line_2')}<br />
               {t('common:footer.address_line_3')}<br />
               {t('common:footer.address_line_4')}
-            </div>
+            </div> */}
             <div className="follow-us">
               <div>{t('common:footer.follow_us_on')}</div>
               <div className="socialMedia">

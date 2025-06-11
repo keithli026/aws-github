@@ -44,6 +44,7 @@
       {
         "name": "Wellness Package",
         "description": "No expiry date for the package",
+        "duration": "20 min per session",
         "pricing": [
           "$650 for 5 sessions",
           "$1100 for 10 sessions"
@@ -53,7 +54,7 @@
   },
   "home_visit_massage_fee": {
     "title": "Home Visit Massage Fee",
-     "headers": {
+    "headers": {
       "time": "Time",
       "fee": "Fee"
     },

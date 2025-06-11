@@ -10,7 +10,7 @@ import dotImg from "../assets/images/dot.png"
 import shiningDotImg from "../assets/images/shining_dot.png"
 
 const Conditions = () => {
-  const { t } = useTranslation(['conditions', 'common']);
+  const { t } = useTranslation(['common','conditions']);
   const dot = useRef([]);
   const shiningDot = useRef([]);
   const textBox = useRef([]);
@@ -104,7 +104,7 @@ const Conditions = () => {
       <Breadcrumb />
       <div className="bodychart">
         <div className='image_wrapper'>
-          <img src={bodyChart} alt={t("body chart")} />
+          <img src={bodyChart} alt={t('common:body_chart')} title={t('common:body_chart')}/>
           {/* <img src={process.env.PUBLIC_URL + '/bodychart.png'} alt="body chart"></img> */}
         </div>
         {list.map(x => (
@@ -114,7 +114,7 @@ const Conditions = () => {
               {/* <img src={process.env.PUBLIC_URL + '/dot.png'} alt={`dot${x}`}></img> */}
             </div>
             <div className="shining_dots" id={`shining_dot${x}`} ref={el => shiningDot.current[x] = el} onClick={() => dispatch({ type: `dot${x}` })}>
-              <img src={shiningDotImg} alt={t('shining dot')} />
+              <img src={shiningDotImg} alt={t('common:shining_dot')} />
               {/* <img src={process.env.PUBLIC_URL + '/shining_dot.png'} alt={`shining_dot${x}`}></img> */}
             </div>
             <div className='textboxs' id={`box${x}`} ref={el => textBox.current[x] = el}>

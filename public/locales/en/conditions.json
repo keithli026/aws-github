@@ -1,236 +1,509 @@
 {
-  "Head": "Head",
-  "Cervicogenic headaches": "Cervicogenic headaches",
-  "What is a cervicogenic headache?": "What is a cervicogenic headache?",
-  "Cervicogenic headache is thought to be a referred pain from irritation to neck structures (joints and soft tissues) innervated by C1-3 spinal nerves.": "Cervicogenic headache is thought to be a referred pain from irritation to neck structures (joints and soft tissues) innervated by C1-3 spinal nerves.",
-  "What are the common clinical features?": "What are the common clinical features?",
-  "Headache is one-sided without a side shift with pain in the neck, shoulder, or arm on the same side.": "Headache is one-sided without a side shift with pain in the neck, shoulder, or arm on the same side.",
-  "Reduced neck range of motion.": "Reduced neck range of motion.",
-  "Pain is worse with suboptimal posture and movement of the head and neck.": "Pain is worse with suboptimal posture and movement of the head and neck.",
-  "How to manage the cervicogenic headache?": "How to manage the cervicogenic headache?",
-  "Treatment and management: reduce pain with manual therapy, massage therapy, acupuncture, cupping therapy, or electrotherapy.": "Treatment and management: reduce pain with manual therapy, massage therapy, acupuncture, cupping therapy, or electrotherapy.",
-  "Exercises: range of motion, stretches, and strengthening exercises": "Exercises: range of motion, stretches, and strengthening exercises.",
-  
-  "Neck": "Neck",
-  "What caused neck pain?": "What caused neck pain?",
-  "From incident (whiplash): might involve muscle strain, ligament sprain, or fracture.": "From incident (whiplash): might involve muscle strain, ligament sprain, or fracture.",
-  "From overuse: might involve sustained postures from daily tasks (home or work) or poor sleep postures causing tissue overloading.": "From overuse: might involve sustained postures from daily tasks (home or work) or poor sleep postures causing tissue overloading.",
-  "Contributing factors (poor quality of sleep and bad mood, and so on) might amplify your pain experience.": "Contributing factors (poor quality of sleep and bad mood, and so on) might amplify your pain experience.",
-  "How to manage neck pain?": "How to manage neck pain?",
-  "For whiplash": "For whiplash",
-  "Assessment: your physiotherapist will do thorough assessments based on guidelines.": "Assessment: your physiotherapist will do thorough assessments based on guidelines.",
-  "Investigation: might require an X-ray for the neck depending on assessment findings.": "Investigation: might require an X-ray for the neck depending on assessment findings.",
-  "Treatment: relieve pain and associated symptoms with manual therapy.": "Treatment: relieve pain and associated symptoms with manual therapy.",
-  "Exercises: improve muscle performance (strength and control) and address other impairments.": "Exercises: improve muscle performance (strength and control) and address other impairments.",
-  "Optimism: stay positive.": "Optimism: stay positive.",
-  "For overuse": "For overuse",
-  "Treatment and management: relieve pain and associated symptoms with acupuncture, manual therapy, massage therapy, electrotherapy, cupping therapy, or taping.": "Treatment and management: relieve pain and associated symptoms with acupuncture, manual therapy, massage therapy, electrotherapy, cupping therapy, or taping.",
-  "Exercises: improve neck range of motion and muscle performance.": "Exercises: Improve neck range of motion and muscle performance.",
-  
-  "Mid back": "Mid back",
-  "What caused mid back pain?": "What caused mid back pain?",
-  "Pain might be from irritation to intervertebral discs, rib articulations, Z joints, or paraspinals in mid-back region as a result of incident, repetitive movements, or sustained postures from daily tasks (home or work).": "Pain might be from irritation to intervertebral discs, rib articulations, Z joints, or paraspinals in mid-back region as a result of incident, repetitive movements, or sustained postures from daily tasks (home or work).",
-  "How to manage mid back pain?": "How to manage mid back pain?",
-  "Treatment and management: reduce pain and stiffness with manual therapy, massage therapy, or cupping therapy.": "Treatment and management: reduce pain and stiffness with manual therapy, massage therapy, or cupping therapy.",
-  "Exercises: range of motion, stretches, and strengthening exercises.": "Exercises: range of motion, stretches, and strengthening exercises.",
-  
-  "Low back": "Low back",
-  "What caused low back pain?": "What caused low back pain?",
-  "From incident: might involve muscle strain, ligament sprain, or fracture.": "From incident: might involve muscle strain, ligament sprain, or fracture.",
-  "From overuse: might involve repetitive movements or sustained postures from daily tasks (home or work) causing tissue overloading.": "From overuse: might involve repetitive movements or sustained postures from daily tasks (home or work) causing tissue overloading.",
-  "Contributing factors (poor quality of sleep and bad mood, and so on) might amplify your pain experience.": "Contributing factors (poor quality of sleep and bad mood, and so on) might amplify your pain experience.",
-  "How to manage low back pain?": "How to manage low back pain?",
-  "Treatment and management: reduce pain with manual therapy, massage therapy, acupuncture, taping, cupping therapy, or electrotherapy.": "Treatment and management: reduce pain with manual therapy, massage therapy, acupuncture, taping, cupping therapy, or electrotherapy.",
-  "Exercises: range of motion, stretches, and strengthening exercises.": "Exercises: range of motion, stretches, and strengthening exercises.",
-  "What caused sciatica?": "What caused sciatica?",
-  "Sciatica refers to pain and inflammation that affects the sciatic nerve, which travels from the lower back and down the leg. Irritation to sciatic nerve might be from bulging lumbar discs or tightness in the hip muscles such as piriformis (piriformis syndrome). Sciatic pain might be accompanied with pins and needles, tinglings, numbness, or weakness in the lower limb.": "Sciatica refers to pain and inflammation that affects the sciatic nerve, which travels from the lower back and down the leg. Irritation to sciatic nerve might be from bulging lumbar discs or tightness in the hip muscles such as piriformis (piriformis syndrome). Sciatic pain might be accompanied with pins and needles, tinglings, numbness, or weakness in the lower limb.",
-  "How to manage sciatica?": "How to manage sciatica?",
-  "Treatment and management: reduce pain with manual therapy, massage therapy, acupuncture, cupping therapy, or electrotherapy.": "Treatment and management: reduce pain with manual therapy, massage therapy, acupuncture, cupping therapy, or electrotherapy.",
-  "Exercises: range of motion, stretches, and strengthening exercises.": "Exercises: range of motion, stretches, and strengthening exercises.",
-
-  "Shoulder": "Shoulder",
-  "What structures are involved in shoulder pain?": "What structures are involved in shoulder pain?",
-  "Rotator cuff related (tear/tendinopathy/bursitis)": "Rotator cuff related (tear/tendinopathy/bursitis).",
-  "Joint related (frozen shoulder/labral tear/ACJ sprain)": "Shoulder joint related (frozen shoulder/labral tear/ACJ sprain).",
-  "How to manage shoulder pain?": "How to manage shoulder pain?",
-  "Treatment and management": "Treatment and management:",
-  "Deload: avoid or modify activities that aggravate symptoms.": "Deload: avoid or modify activities that aggravate symptoms.",
-  "Taping: taping might be used to reduce pain and offload sensitive structures around the shoulder.": "Taping: taping might be used to reduce pain and offload sensitive structures around the shoulder.",
-  "Acupuncture: acupuncture might be used to release trigger points and provide short-term pain relief.": "Acupuncture: Acupuncture might be used to release trigger points and provide short-term pain relief.",
-  "Manual therapy: soft and deep tissue release, joint mobilization, or stretching might be used to reduce pain and muscle tightness, and improve range of motion.": "Manual therapy: soft and deep tissue release, joint mobilization, or stretching might be used to reduce pain and muscle tightness, and improve range of motion.",
-  "Shockwave therapy: reduce tissue tightness around shoulder": "Shockwave therapy: reduce tissue tightness around shoulder",
-  "Electrotherapy: therapeutic ultrasound might be used to reduce pain and inflammation.": "Electrotherapy: therapeutic ultrasound might be used to reduce pain and inflammation.",
-  "Exercises": "Exercises:",
-  "Range of motion exercises: Range of motion exercises help to improve shoulder mobility and prevent stiffness.": "Range of motion exercises: Range of motion exercises help to improve shoulder mobility and prevent stiffness.",
-  "Strengthening exercises: Strengthening exercises for rotator cuffs and muscles around the shoulder blade can improve shoulder biomechanics and reduce pain.": "Strengthening exercises: Strengthening exercises for rotator cuffs and muscles around the shoulder blade can improve shoulder biomechanics and reduce pain.",
-  
-  "Elbow": "Elbow",
-  "What are the common conditions that cause elbow pain?": "What are the common conditions that cause elbow pain?",
-  "Tennis elbow: it involves extensor muscles of the forearm. It is common in tennis players but not limited to other sports players (squash and badminton) or non-sport populations. The main reason for developing tennis elbow is overuse.": "Tennis elbow: it involves extensor muscles of the forearm. It is common in tennis players but not limited to other sports players (squash and badminton) or non-sport populations. The main reason for developing tennis elbow is overuse.",
-  "Golfer's elbow: it involves flexor muscles of the forearm. It is common in golf players but not limited to other sports players. The main reason for developing a golfer's elbow is overuse.": "Golfer's elbow: it involves flexor muscles of the forearm. It is common in golf players but not limited to other sports players. The main reason for developing a golfer's elbow is overuse.",
-  "How to manage elbow pain?": "How to manage elbow pain?",
- 
-  "Deload: avoid or modify activities that aggravate symptoms. Sometimes, elbow brace might be suggested to relieve symptoms.": "Deload: avoid or modify activities that aggravate symptoms. Sometimes, elbow brace might be suggested to relieve symptoms.",
-  "Taping: taping might be used to reduce pain and offload sensitive structures around the elbow.": "Taping: taping might be used to reduce pain and offload sensitive structures around the elbow.",
-  "Acupuncture: acupuncture might be used to release trigger points, reduce muscle tightness, and restore muscle function.": "Acupuncture: acupuncture might be used to release trigger points, reduce muscle tightness, and restore muscle function.",
-  "Manual therapy: soft and deep tissue release, or joint mobilization might be used to reduce pain and improve range of motion.": "Manual therapy: soft and deep tissue release, or joint mobilization might be used to reduce pain and improve range of motion.",
-  "Shockwave therapy: promote tissue healing.": "Shockwave therapy: promote tissue healing.",
-  "Electrotherapy: therapeutic ultrasound or interferential therapy might be used to reduce pain and inflammation.": "Electrotherapy: therapeutic ultrasound or interferential therapy might be used to reduce pain and inflammation.",
-
-  "Range of motion exercises: Range of motion exercises help to improve elbow and wrist mobility and prevent stiffness.": "Range of motion exercises: Range of motion exercises help to improve elbow and wrist mobility and prevent stiffness.",
-  "Strengthening exercises: Strengthening exercises for upper limbs can improve muscle performance.": "Strengthening exercises: Strengthening exercises for upper limbs can improve muscle performance.",
-  
-  "Wrist": "Wrist",
-  "What are the common conditions that cause wrist pain?": "What are the common conditions that cause wrist pain?",
-  "Carpal tunnel syndrome: the median nerve is compressed as it passes through the carpal tunnel. This condition is characterized by burning wrist pain with numbness in the first three fingers.": "Carpal tunnel syndrome: the median nerve is compressed as it passes through the carpal tunnel. This condition is characterized by burning wrist pain with numbness in the first three fingers.",
-  "How to manage wrist pain?": "How to manage wrist pain?",
-  "For carpal tunnel syndrome": "For carpal tunnel syndrome",
-
-  "Splinting and taping: maintain wrist in neutral to avoid compression to the median nerve.": "Splinting and taping: maintain wrist in neutral to avoid compression to the median nerve.",
-  "Electrotherapy: might be helpful to reduce pain, swelling, and inflammation.": "Electrotherapy: might be helpful to reduce pain, swelling, and inflammation.",
-
-  "Nerve and tendon gliding exercises.": "Nerve and tendon gliding exercises.",
-  "Median nerve sliding exercises.": "Median nerve sliding exercises.",
-
-  "Thumb": "Thumb",
-  "What are the common conditions that cause thumb pain?": "What are the common conditions that cause thumb pain?",
-  "Mother's thumb: also called De Quervain's tenosynovitis affects the synovium of abductor pollicis longus and extensor pollicis brevis tendons. This results in pain, swelling, and inflammation.": "Mother's thumb: also called De Quervain's tenosynovitis affects the synovium of abductor pollicis longus and extensor pollicis brevis tendons. This results in pain, swelling, and inflammation.",
-  "How to manage thumb pain?": "How to manage thumb pain?",
-  "For mother's thumb": "For mother's thumb",
- 
-  "Deload: avoid or modify activities that aggravate symptoms. Sometimes, thumb brace might be suggested to relieve symptoms.": "Deload: avoid or modify activities that aggravate symptoms. Sometimes, thumb brace might be suggested to relieve symptoms.",
-  "Taping: taping might be used to reduce pain and offload sensitive structures around the thumb.": "Taping: taping might be used to reduce pain and offload sensitive structures around the thumb.",
-  "Acupuncture: acupuncture might be used to release trigger points, reduce muscle tightness, and restore muscle function.": "Acupuncture: acupuncture might be used to release trigger points, reduce muscle tightness, and restore muscle function.",
-  "Shockwave therapy: promote tissue healing.": "Shockwave therapy: promote tissue healing.",
-  "Electrotherapy: therapeutic ultrasound or interferential therapy might be used to reduce pain and inflammation.": "Electrotherapy: therapeutic ultrasound or interferential therapy might be used to reduce pain and inflammation.",
- 
-  "Range of motion exercises: Range of motion exercises help to improve thumb and wrist mobility and prevent stiffness.": "Range of motion exercises: Range of motion exercises help to improve thumb and wrist mobility and prevent stiffness.",
-  "Strengthening exercises: Strengthening exercises for upper limbs can improve muscle performance.": "Strengthening exercises: Strengthening exercises for upper limbs can improve muscle performance.",
-  
-  "Pelvis": "Pelvis",
-  "What structures are involved in pelvic girdle pain (PGP)?": "What structures are involved in pelvic girdle pain (PGP)?",
-  "The structures that are commonly involved are sacroiliac joint, symphysis pubis and the surrounding ligaments and muscles.": "The structures that are commonly involved are sacroiliac joint, symphysis pubis and the surrounding ligaments and muscles.",
-  "How to manage PGP?": "How to manage PGP?",
-  "A biopsychosocial model will be used to guide treatment and management.": "A biopsychosocial model will be used to guide treatment and management.",
-
-  "Reduce pain with massage therapy, acupuncture, taping, cupping therapy, or electrotherapy.": "Reduce pain with massage therapy, acupuncture, taping, cupping therapy, or electrotherapy.",
- 
-  "Stretches, strengthening, and relaxation exercises.": "Stretches, strengthening, and relaxation exercises.",
-
-  "Hip": "Hip",
-  "What are the common conditions that cause hip pain?": "What are the common conditions that cause hip pain?",
-  "Hip osteoarthritis: degenerative condition that affects the hip joint. The cartilage that cushions the joint is worn down causing inflammation, pain, and stiffness.": "Hip osteoarthritis: degenerative condition that affects the hip joint. The cartilage that cushions the joint is worn down causing inflammation, pain, and stiffness.",
-  "How to manage hip pain?": "How to manage hip pain?",
-  "For hip osteoarthritis": "For hip osteoarthritis",
-
-  "Reduce pain with manual therapy and hydrotherapy.": "Reduce pain with manual therapy and hydrotherapy.",
-  "Adopt healthy lifestyle.": "Adopt healthy lifestyle.",
-
-  "Exercises are key in managing hip osteoarthritis. These include hip range of motion, hip strengthening exercises (deep hip stabilizers, gluteus maximus and medius, lower limbs, and trunk), and balance and proprioception.": "Exercises are key in managing hip osteoarthritis. These include hip range of motion, hip strengthening exercises (deep hip stabilizers, gluteus maximus and medius, lower limbs, and trunk), and balance and proprioception.",
-  
-  "Thigh": "Thigh",
-  "What caused posterior thigh pain?": "What caused posterior thigh pain?",
-  "Type 1 hamstring strain: sprinting-related injury that involves high speed.": "Type 1 hamstring strain: sprinting-relatedinjury that involves high speed.",
-  "Type 2 hamstring strain: stretch-related injury that is commonly seen in dancers and gymnasts.": "Type 2 hamstring strain: stretch-related injury that is commonly seen in dancers and gymnasts.",
-  "How to manage posterior thigh pain?": "How to manage posterior thigh pain?",
-  "PEACE & LOVE principle will be used to manage hamstring strain.": "PEACE & LOVE principle will be used to manage hamstring strain.",
-  "Protect hamstring by deloading.": "Protect hamstring by deloading.",
-  "Elevate the injured limb to reduce swelling.": "Elevate the injured limb to reduce swelling.",
-  "Avoid anti-inflammatory medications and ice.": "Avoid anti-inflammatory medications and ice.",
-  "Compress with taping or bandages to reduce swelling.": "Compress with taping or bandages to reduce swelling.",
-  "Educate the benefits of active approach to recovery.": "Educate the benefits of active approach to recovery.",
-  "Load with gentle movement and exercises.": "Load with gentle movement and exercises.",
-  "Optimism: being optimistic.": "MOptimism: being optimistic.",
-  "Vascularisation: aerobic and cardiovascular exercises.": "Vascularisation: aerobic and cardiovascular exercises.",
-  "Exercises to improve mobility, strength, and flexibility.": "Exercises to improve mobility, strength, and flexibility.",
-  "In addition to acute soft tissue management described above, treatment (acupuncture, electrotherapy, massage therapy, or cupping therapy) and strengthening exercises should be commenced as soon as possible to enhance recovery.": "In addition to acute soft tissue management described above, treatment (acupuncture, electrotherapy, massage therapy, or cupping therapy) and strengthening exercises should be commenced as soon as possible to enhance recovery.",
-  
-  "Knee": "Knee",
-  "What are the common conditions that cause knee pain?": "What are the common conditions that cause knee pain?",
-  "Knee osteoarthritis: often called “wear and tear” arthritis. People with knee osteoarthritis usually complain about pain and stiffness which might affect their mobility.": "Knee osteoarthritis: often called “wear and tear” arthritis. People with knee osteoarthritis often experience pain and stiffness that can affect their mobility. ",
-  "Patellofemoral pain syndrome: The patellofemoral joint is the articulation between the patella and the femoral trochlea. Patellofemoral pain occurs when the patellofemoral joint is overloaded. Patellofemoral pain is often associated with activities that load the patellofemoral joint such as stair walking, squating, and running.": "Patellofemoral pain syndrome: The patellofemoral joint is the articulation between the patella and the femoral trochlea. Patellofemoral pain occurs when the patellofemoral joint is overloaded. Patellofemoral pain is often associated with activities that load the patellofemoral joint such as stair walking, squating, and running.",
-  "How to manage knee pain?": "How to manage knee pain?",
-  "For knee osteoarthritis": "For knee osteoarthritis",
-
-  "Reduce pain with manual therapy and hydrotherapy.": "Reduce pain with manual therapy and hydrotherapy.",
-  "Adopt healthy lifestyle.": "Adopt healthy lifestyle.",
-
-  "Exercises are key in managing knee osteoarthritis. These include range of motion and strengthening exercises (quadriceps, hamstring, and gluteus).": "Exercises are key in managing knee osteoarthritis. These include range of motion and strengthening exercises (quadriceps, hamstring, and gluteus). quadriceps, hamstrings, and glutes).",
-  "For patellofemoral pain syndrome": "For patellofemoral pain syndrome",
-
-  "Reduce pain with manual therapy and taping.": "RReduce pain with manual therapy and taping.",
-
-  "Exercises are key in managing patellofemoral pain syndrome. These include range of motion exercises, strengthening exercises (quadriceps, hip muscles, lower limbs, and trunk muscles), and balance and coordination training.": "Exercises are key in managing patellofemoral pain syndrome. These include range of motion exercises, strengthening exercises (quadriceps, hip muscles, lower limbs, and trunk muscles), and balance and coordination training.",
-  
-  "Leg": "Leg",
-  "What are the common conditions that cause posterior leg pain?": "What are the common conditions that cause posterior leg pain?",
-  "Gastrocnemius and soleus strain: both are common causes of posterior leg pain. It occurs when the muscles are overstretched with speed.": "Gastrocnemius and soleus strain: both are common causes of posterior leg pain. It occurs when the muscles are overstretched with speed.",
-  "How to manage posterior leg pain?": "How to manage posterior leg pain?",
-  "PEACE & LOVE principle will be used to manage calf strain.": "PEACE & LOVE principle will be used to manage calf strain.",
-  "Protect calf by deloading.": "Protect calf by deloading.",
-  "Elevate the injured limb to reduce swelling.": "Elevate the injured limb to reduce swelling.",
-  "Avoid anti-inflammatory medications and ice.": "Avoid anti-inflammatory medications and ice.",
-  "Compress with taping or bandages to reduce swelling.": "Compress with taping or bandages to reduce swelling.",
-  "Educate the benefits of active approach to recovery.": "Educate the benefits of active approach to recovery.",
-  "Load with gentle movement and exercises.": "Load with gentle movement and exercises.",
-  "Optimism: being optimistic.": "Optimism: being optimistic.",
-  "Vascularisation: aerobic and cardiovascular exercises.": "Vascularisation: aerobic and cardiovascular exercises.",
-  "Exercises to improve mobility, strength, and flexibility.": "Exercises to improve mobility, strength, and flexibility.",
-  "In addition to acute soft tissue management described above, treatment (acupuncture, electrotherapy, massage therapy, or cupping therapy) and strengthening exercises should be commenced as soon as possible to optimize tissue healing.": "In addition to acute soft tissue management described above, treatment (acupuncture, electrotherapy, massage therapy, or cupping therapy) and strengthening exercises should be commenced as soon as possible to optimize tissue healing.",
-  "What are the common conditions that cause medial leg pain?": "What are the common conditions that cause medial leg pain?",
-  "Medial tibial stress syndrome (shin splints): shin splints is a common cause of medial leg pain due to overuse. People with shin splints complain about diffuse pain along the medial aspect of the tibia. Flexor digitorum longus is thought to be the source of pain.": "Medial tibial stress syndrome (shin splints): shin splints is a common cause of medial leg pain due to overuse. People with shin splints complain about diffuse pain along the medial aspect of the tibia. Flexor digitorum longus is thought to be the source of pain.",
-  "How to manage medial leg pain?": "How to manage medial leg pain?",
-
-  "Deload: avoid or modify activities that aggravate symptoms. Sometimes, poor footwear might be one of the contributing factors to overloading muscles.": "Deload: avoid or modify activities that aggravate symptoms. Sometimes, poor footwear might be one of the contributing factors to overloading muscles.",
-  "Taping: taping might be used to reduce pain and offload sensitive structures around the leg.": "Taping: taping might be used to reduce pain and offload sensitive structures around the leg.",
-  "Acupuncture: acupuncture might be used to release trigger points, reduce muscle tightness, and restore muscle function.": "Acupuncture: acupuncture might be used to release trigger points, reduce muscle tightness, and restore muscle function.",
-  "Manual therapy: soft and deep tissue release, or joint mobilization might be used to reduce pain and improve range of motion.": "Manual therapy: soft and deep tissue release, or joint mobilization might be used to reduce pain and improve range of motion.",
-  "Electrotherapy: therapeutic ultrasound or interferential therapy might be used to reduce pain and inflammation.": "Electrotherapy: therapeutic ultrasound or interferential therapy might be used to reduce pain and inflammation.",
-
-  "Range of motion exercises: Range of motion exercises help to improve ankle and foot mobility and prevent stiffness.": "Range of motion exercises: Range of motion exercises help to improve ankle and foot mobility and prevent stiffness.",
-  "Strengthening exercises: Strengthening exercises for lower limbs can improve muscle performance.": "Strengthening exercises: Strengthening exercises for lower limbs can improve muscle performance.",
-  
-  "Achille pain": "Achille pain",
-  "What are the common conditions that cause achilles pain?": "What are the common conditions that cause achilles pain?",
-  "Midportion and insertional achilles tendinopathy: achilles tendon is the combined tendon of gastrocnemius and soleus muscles. People with achilles tendinopathy complain about gradual onset of pain around mid-portion or at insertion. Achilles tendinopathy might occur in a single episode (reactive) or over a period of time (degenerative) as a result of the achilles tendon being overloaded.": "Midportion and insertional achilles tendinopathy: achilles tendon is the combined tendon of gastrocnemius and soleus muscles. People with achilles tendinopathy complain about gradual onset of pain around mid-portion or at insertion. Achilles tendinopathy might occur in a single episode (reactive) or over a period of time (degenerative) as a result of the achilles tendon being overloaded.",
-  "How to manage achilles pain?": "How to manage achilles pain?",
-
-  "Deload: avoid or modify activities that aggravate symptoms. Shoe inserts might be used to reduce pain and offload achilles tendon.": "Deload: avoid or modify activities that aggravate symptoms. Shoe inserts might be used to reduce pain and offload achilles tendon.",
-  "Acupuncture: acupuncture might be used to release trigger points, reduce muscle tightness, and restore muscle function.": "Acupuncture: acupuncture might be used to release trigger points, reduce muscle tightness, and restore muscle function.",
-  "Manual therapy: soft and deep tissue release, or joint mobilization might be used to reduce pain and improve range of motion.": "Manual therapy: soft and deep tissue release, or joint mobilization might be used to reduce pain and improve range of motion.",
-  "Electrotherapy: therapeutic ultrasound or interferential therapy might be used to reduce pain and inflammation.": "Electrotherapy: therapeutic ultrasound or interferential therapy might be used to reduce pain and inflammation.",
-
-  "Range of motion exercises: Range of motion exercises help to improve ankle mobility and prevent stiffness.": "Range of motion exercises: Range of motion exercises help to improve ankle mobility and prevent stiffness.",
-  "Strengthening exercises: Strengthening exercises (isometric, isotonic, plyometric) for lower limbs can improve muscle performance.": "Strengthening exercises: Strengthening exercises (isometric, isotonic, plyometric) for lower limbs can improve muscle performance.",
-  
-  "Ankle": "Ankle",
-  "What are the common conditions that cause ankle pain?": "What are the common conditions that cause ankle pain?",
-  "Ankle sprain: Ankle joint is stabilized with its specific bone arrangement and the surrounding ligaments. Ligaments are tough bands of tissue that support and hold joints together. When you overstretch or tear one of these ligaments, this results in a sprained ankle.": "Ankle sprain: Ankle joint is stabilized with its specific bone arrangement and the surrounding ligaments. Ligaments are tough bands of tissue that support and hold joints together. When you overstretch or tear one of these ligaments, this results in a sprained ankle.",
-  "How to manage ankle pain?": "How to manage ankle pain?",
-  "For ankle sprain": "For ankle sprain",
-  "PEACE & LOVE principle will be used to manage an ankle sprain.": "PEACE & LOVE principle will be used to manage an ankle sprain.",
-  "Protect ankle by deloading.": "Protect ankle by deloading.",
-  "Elevate the injured limb to reduce swelling.": "Elevate the injured limb to reduce swelling.",
-  "Avoid anti-inflammatory medications and ice.": "Avoid anti-inflammatory medications and ice.",
-  "Compress with taping or bandages to reduce swelling.": "Compress with taping or bandages to reduce swelling.",
-  "Educate the benefits of active approach to recovery.": "Educate the benefits of active approach to recovery.",
-  "Load with gentle movement and exercises.": "Load with gentle movement and exercises.",
-  "Optimism: being optimistic.": "Optimism: being optimistic.",
-  "Vascularisation: aerobic and cardiovascular exercises.": "Vascularisation: aerobic and cardiovascular exercises.",
-  "Exercises to improve mobility, strength, and proprioception.": "Exercises to improve mobility, strength, and proprioception.",
-  "In addition to acute soft tissue management described above, treatment and exercises (range of motion, strengthening, and balance and proprioception exercises) should be commenced as soon as possible to optimize tissue healing.": "In addition to acute soft tissue management described above, treatment and exercises (range of motion, strengthening, and balance and proprioception exercises) should be commenced as soon as possible to optimize tissue healing.",
-  
-  "Foot": "Foot",
-  "What are the common conditions that cause foot pain?": "What are the common conditions that cause foot pain?",
-  "Plantar fasciitis: develops when the connective tissue (plantar fascia), which supports the arch of the foot, is irritated as a result of being overused, overstretched, or direct pressure.": "Plantar fasciitis: develops when the connective tissue (plantar fascia), which supports the arch of the foot, is irritated as a result of being overused, overstretched, or direct pressure.",
-  "How to manage foot pain?": "How to manage foot pain?",
-  "Plantar fasciitis": "Plantar fasciitis",
-
-  "Deload: avoid or modify activities that aggravate symptoms. Sometimes, customized and prefabricated foot orthoses might be used to relieve symptoms.": "Deload: avoid or modify activities that aggravate symptoms. Sometimes, customized and prefabricated foot orthoses might be used to relieve symptoms.",
-  "Taping: low dye taping to support plantar fascia.": "Taping: low dye taping to support plantar fascia.",
-  "Shockwave therapy: promote tissue healing.": "Shockwave therapy: promote tissue healing.",
-  "Acupuncture: reduce muscle tightness in lower limbs.": "Acupuncture: reduce muscle tightness in lower limbs.",
-  "Massage therapy: reduce tension in plantar fascia and proximal myofascial regions (calf/hamstrings/glutes).": "Massage therapy: reduce tension in plantar fascia and proximal myofascial regions (calf/hamstrings/glutes).",
-  "Manual therapy: reduce joint stiffness around the foot.": "Manual therapy: reduce joint stiffness around the foot.",
-  "Exercises: stretches (plantar fascia/calf) and strengthening exercises (lower limbs and foot intrinsics).": "Exercises: stretches (plantar fascia/calf) and strengthening exercises (lower limbs and foot intrinsics)."
+  "conditions": [
+    {
+      "area": "Head",
+      "details": {
+        "name": "Cervicogenic headaches",
+        "questions": [
+          {
+            "Q": "What is a cervicogenic headache?",
+            "A": "Cervicogenic headache is thought to be a referred pain from irritation to neck structures (joints and soft tissues) innervated by C1-3 spinal nerves."
+          },
+          {
+            "Q": "What are the common clinical features?",
+            "A": [
+              "Headache is one-sided without a side shift with pain in the neck, shoulder, or arm on the same side.",
+              "Reduced neck range of motion.",
+              "Pain is worse with suboptimal posture and movement of the head and neck."
+            ]
+          },
+          {
+            "Q": "How to manage the cervicogenic headache?",
+            "A": [
+              "Treatment and management: reduce pain with manual therapy, massage therapy, acupuncture, cupping therapy, or electrotherapy.",
+              "Exercises: range of motion, stretches, and strengthening exercises."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "area": "Neck",
+      "details": {
+        "questions": [
+          {
+            "Q": "What caused neck pain?",
+            "A": [
+              "From incident (whiplash): might involve muscle strain, ligament sprain, or fracture.",
+              "From overuse: might involve sustained postures from daily tasks (home or work) or poor sleep postures causing tissue overloading.",
+              "Contributing factors (poor quality of sleep and bad mood, and so on) might amplify your pain experience."
+            ]
+          },
+          {
+            "Q": "How to manage neck pain?",
+            "A": [
+              "For whiplash: Assessment: your physiotherapist will do thorough assessments based on guidelines.",
+              "Investigation: might require an X-ray for the neck depending on assessment findings.",
+              "Treatment: relieve pain and associated symptoms with manual therapy.",
+              "Exercises: improve muscle performance (strength and control) and address other impairments.",
+              "Optimism: stay positive.",
+              "For overuse: Treatment and management: relieve pain and associated symptoms with acupuncture, manual therapy, massage therapy, electrotherapy, cupping therapy, or taping.",
+              "Exercises: improve neck range of motion and muscle performance."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "area": "Mid back",
+      "details": {
+        "questions": [
+          {
+            "Q": "What caused mid back pain?",
+            "A": "Pain might be from irritation to intervertebral discs, rib articulations, Z joints, or paraspinals in mid-back region as a result of incident, repetitive movements, or sustained postures from daily tasks (home or work)."
+          },
+          {
+            "Q": "How to manage mid back pain?",
+            "A": [
+              "Treatment and management: reduce pain and stiffness with manual therapy, massage therapy, or cupping therapy.",
+              "Exercises: range of motion, stretches, and strengthening exercises."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "area": "Low back",
+      "details": {
+        "questions": [
+          {
+            "Q": "What caused low back pain?",
+            "A": [
+              "From incident: might involve muscle strain, ligament sprain, or fracture.",
+              "From overuse: might involve repetitive movements or sustained postures from daily tasks (home or work) causing tissue overloading.",
+              "Contributing factors (poor quality of sleep and bad mood, and so on) might amplify your pain experience."
+            ]
+          },
+          {
+            "Q": "How to manage low back pain?",
+            "A": [
+              "Treatment and management: reduce pain with manual therapy, massage therapy, acupuncture, taping, cupping therapy, or electrotherapy.",
+              "Exercises: range of motion, stretches, and strengthening exercises."
+            ]
+          },
+          {
+            "Q": "What caused sciatica?",
+            "A": "Sciatica refers to pain and inflammation that affects the sciatic nerve, which travels from the lower back and down the leg. Irritation to sciatic nerve might be from bulging lumbar discs or tightness in the hip muscles such as piriformis (piriformis syndrome). Sciatic pain might be accompanied with pins and needles, tinglings, numbness, or weakness in the lower limb."
+          },
+          {
+            "Q": "How to manage sciatica?",
+            "A": [
+              "Treatment and management: reduce pain with manual therapy, massage therapy, acupuncture, cupping therapy, or electrotherapy.",
+              "Exercises: range of motion, stretches, and strengthening exercises."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "area": "Shoulder",
+      "details": {
+        "questions": [
+          {
+            "Q": "What structures are involved in shoulder pain?",
+            "A": [
+              "Rotator cuff related (tear/tendinopathy/bursitis)",
+              "Joint related (frozen shoulder/labral tear/ACJ sprain)"
+            ]
+          },
+          {
+            "Q": "How to manage shoulder pain?",
+            "A": [
+              "Treatment and management: Deload: avoid or modify activities that aggravate symptoms.",
+              "Taping: taping might be used to reduce pain and offload sensitive structures around the shoulder.",
+              "Acupuncture: acupuncture might be used to release trigger points and provide short-term pain relief.",
+              "Manual therapy: soft and deep tissue release, joint mobilization, or stretching might be used to reduce pain and muscle tightness, and improve range of motion.",
+              "Shockwave therapy: reduce tissue tightness around shoulder.",
+              "Electrotherapy: therapeutic ultrasound might be used to reduce pain and inflammation.",
+              "Exercises: Range of motion exercises help to improve shoulder mobility and prevent stiffness.",
+              "Strengthening exercises for rotator cuffs and muscles around the shoulder blade can improve shoulder biomechanics and reduce pain."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "area": "Elbow",
+      "details": {
+        "questions": [
+          {
+            "Q": "What are the common conditions that cause elbow pain?",
+            "A": [
+              "Tennis elbow: it involves extensor muscles of the forearm. It is common in tennis players but not limited to other sports players (squash and badminton) or non-sport populations. The main reason for developing tennis elbow is overuse.",
+              "Golfer’s elbow: it involves flexor muscles of the forearm. It is common in golf players but not limited to other sports players. The main reason for developing a golfer's elbow is overuse."
+            ]
+          },
+          {
+            "Q": "How to manage elbow pain?",
+            "A": [
+              "Treatment and management: Deload: avoid or modify activities that aggravate symptoms. Sometimes, elbow brace might be suggested to relieve symptoms.",
+              "Taping: taping might be used to reduce pain and offload sensitive structures around the elbow.",
+              "Acupuncture: acupuncture might be used to release trigger points, reduce muscle tightness, and restore muscle function.",
+              "Manual therapy: soft and deep tissue release, or joint mobilization might be used to reduce pain and improve range of motion.",
+              "Shockwave therapy: promote tissue healing.",
+              "Electrotherapy: therapeutic ultrasound or interferential therapy might be used to reduce pain and inflammation.",
+              "Exercises: Range of motion exercises help to improve elbow and wrist mobility and prevent stiffness.",
+              "Strengthening exercises for upper limbs can improve muscle performance."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "area": "Wrist",
+      "details": {
+        "questions": [
+          {
+            "Q": "What are the common conditions that cause wrist pain?",
+            "A": "Carpal tunnel syndrome: the median nerve is compressed as it passes through the carpal tunnel. This condition is characterized by burning wrist pain with numbness in the first three fingers."
+          },
+          {
+            "Q": "How to manage wrist pain?",
+            "A": [
+              "For carpal tunnel syndrome: Treatment and management: Splinting and taping: maintain wrist in neutral to avoid compression to the median nerve.",
+              "Electrotherapy: might be helpful to reduce pain, swelling, and inflammation.",
+              "Exercises: Nerve and tendon gliding exercises, Median nerve sliding exercises."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "area": "Thumb",
+      "details": {
+        "questions": [
+          {
+            "Q": "What are the common conditions that cause thumb pain?",
+            "A": "Mother’s thumb: also called De Quervain’s tenosynovitis affects the synovium of abductor pollicis longus and extensor pollicis brevis tendons. This results in pain, swelling, and inflammation."
+          },
+          {
+            "Q": "How to manage thumb pain?",
+            "A": [
+              "For mother’s thumb: Treatment and management: Deload: avoid or modify activities that aggravate symptoms. Sometimes, thumb brace might be suggested to relieve symptoms.",
+              "Taping: taping might be used to reduce pain and offload sensitive structures around the thumb.",
+              "Acupuncture: acupuncture might be used to release trigger points, reduce muscle tightness, and restore muscle function.",
+              "Shockwave therapy: promote tissue healing.",
+              "Electrotherapy: therapeutic ultrasound or interferential therapy might be used to reduce pain and inflammation.",
+              "Exercises: Range of motion exercises help to improve thumb and wrist mobility and prevent stiffness.",
+              "Strengthening exercises for upper limbs can improve muscle performance."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "area": "Pelvis",
+      "details": {
+        "questions": [
+          {
+            "Q": "What structures are involved in pelvic girdle pain (PGP)?",
+            "A": "The structures that are commonly involved are sacroiliac joint, symphysis pubis and the surrounding ligaments and muscles."
+          },
+          {
+            "Q": "How to manage PGP?",
+            "A": [
+              "A biopsychosocial model will be used to guide treatment and management.",
+              "Treatment and management: reduce pain with massage therapy, acupuncture, taping, cupping therapy, or electrotherapy.",
+              "Exercises: stretches, strengthening, and relaxation exercises."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "area": "Hip",
+      "details": {
+        "questions": [
+          {
+            "Q": "What are the common conditions that cause hip pain?",
+            "A": "Hip osteoarthritis: degenerative condition that affects the hip joint. The cartilage that cushions the joint is worn down causing inflammation, pain, and stiffness."
+          },
+          {
+            "Q": "How to manage hip pain?",
+            "A": [
+              "For hip osteoarthritis: Treatment and management: Reduce pain with manual therapy and hydrotherapy.",
+              "Adopt healthy lifestyle.",
+              "Exercises are key in managing hip osteoarthritis. These include hip range of motion, hip strengthening exercises (deep hip stabilizers, gluteus maximus and medius, lower limbs, and trunk), and balance and proprioception."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "area": "Thigh",
+      "details": {
+        "questions": [
+          {
+            "Q": "What caused posterior thigh pain?",
+            "A": [
+              "Type 1 hamstring strain: sprinting-related injury that involves high speed.",
+              "Type 2 hamstring strain: stretch-related injury that is commonly seen in dancers and gymnasts."
+            ]
+          },
+          {
+            "Q": "How to manage posterior thigh pain?",
+            "A": [
+              "PEACE & LOVE principle will be used to manage hamstring strain.",
+              "Protect hamstring by deloading.",
+              "Elevate the injured limb to reduce swelling.",
+              "Avoid anti-inflammatory medications and ice.",
+              "Compress with taping or bandages to reduce swelling.",
+              "Educate the benefits of active approach to recovery.",
+              "Load with gentle movement and exercises.",
+              "Optimism: being optimistic.",
+              "Vascularisation: aerobic and cardiovascular exercises.",
+              "Exercises to improve mobility, strength, and flexibility.",
+              "In addition to acute soft tissue management described above, treatment (acupuncture, electrotherapy, massage therapy, or cupping therapy) and strengthening exercises should be commenced as soon as possible to enhance recovery."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "area": "Knee",
+      "details": {
+        "questions": [
+          {
+            "Q": "What are the common conditions that cause knee pain?",
+            "A": [
+              "Knee osteoarthritis: often called 'wear and tear' arthritis. People with knee osteoarthritis usually complain about pain and stiffness which might affect their mobility.",
+              "Patellofemoral pain syndrome: The patellofemoral joint is the articulation between the patella and the femoral trochlea. Patellofemoral pain occurs when the patellofemoral joint is overloaded."
+            ]
+          },
+          {
+            "Q": "How to manage knee pain?",
+            "A": [
+              "For knee osteoarthritis: Treatment and management: Reduce pain with manual therapy and hydrotherapy.",
+              "Adopt healthy lifestyle.",
+              "Exercises: exercises are key in managing knee osteoarthritis. These include range of motion and strengthening exercises (quadriceps, hamstring, and gluteus).",
+              "For patellofemoral pain syndrome: Treatment and management: Reduce pain with manual therapy and taping.",
+              "Exercises: exercises are key in managing patellofemoral pain syndrome. These include range of motion exercises, strengthening exercises (quadriceps, hip muscles, lower limbs, and trunk muscles), and balance and coordination training."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "area": "Leg",
+      "details": {
+        "questions": [
+          {
+            "Q": "What are the common conditions that cause posterior leg pain?",
+            "A": [
+              "Gastrocnemius and soleus strain: both are common causes of posterior leg pain. It occurs when the muscles are overstretched with speed.",
+              "Gastrocnemius contusion",
+              "Muscle cramp",
+              "DOMs"
+            ]
+          },
+          {
+            "Q": "How to manage posterior leg pain?",
+            "A": [
+              "PEACE & LOVE principle will be used to manage calf strain.",
+              "Protect calf by deloading.",
+              "Elevate the injured limb to reduce swelling.",
+              "Avoid anti-inflammatory medications and ice.",
+              "Compress with taping or bandages to reduce swelling.",
+              "Educate the benefits of active approach to recovery.",
+              "Load with gentle movement and exercises.",
+              "Optimism: being optimistic.",
+              "Vascularisation: aerobic and cardiovascular exercises.",
+              "Exercises to improve mobility, strength, and flexibility.",
+              "In addition to acute soft tissue management described above, treatment (acupuncture, electrotherapy, massage therapy, or cupping therapy) and strengthening exercises should be commenced as soon as possible to optimize tissue healing."
+            ]
+          },
+          {
+            "Q": "What are the common conditions that cause medial leg pain?",
+            "A": "Medial tibial stress syndrome (shin splints): shin splints is a common cause of medial leg pain due to overuse."
+          },
+          {
+            "Q": "How to manage medial leg pain?",
+            "A": [
+              "Treatment and management: Deload: avoid or modify activities that aggravate symptoms. Sometimes, poor footwear might be one of the contributing factors to overloading muscles.",
+              "Taping: taping might be used to reduce pain and offload sensitive structures around the leg.",
+              "Acupuncture: acupuncture might be used to release trigger points, reduce muscle tightness, and restore muscle function.",
+              "Manual therapy: soft and deep tissue release, or joint mobilization might be used to reduce pain and improve range of motion.",
+              "Electrotherapy: therapeutic ultrasound or interferential therapy might be used to reduce pain and inflammation.",
+              "Exercises: Range of motion exercises help to improve ankle and foot mobility and prevent stiffness. Strengthening exercises for lower limbs can improve muscle performance."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "area": "Achilles",
+      "details": {
+        "questions": [
+          {
+            "Q": "What are the common conditions that cause achilles pain?",
+            "A": [
+              "Midportion and insertional achilles tendinopathy: achilles tendon is the combined tendon of gastrocnemius and soleus muscles. People with achilles tendinopathy complain about gradual onset of pain around mid-portion or at insertion.",
+              "Retrocalcaneal bursitis"
+            ]
+          },
+          {
+            "Q": "How to manage achilles pain?",
+            "A": [
+              "Treatment and management: Deload: avoid or modify activities that aggravate symptoms. Shoe inserts might be used to reduce pain and offload achilles tendon.",
+              "Acupuncture: acupuncture might be used to release trigger points, reduce muscle tightness, and restore muscle function.",
+              "Manual therapy: soft and deep tissue release, or joint mobilization might be used to reduce pain and improve range of motion.",
+              "Electrotherapy: therapeutic ultrasound or interferential therapy might be used to reduce pain and inflammation.",
+              "Others: wear appropriate footwear to reduce friction around the heel. Protection of the heel area with heel donut cushion.",
+              "Exercises: Range of motion exercises help to improve ankle mobility and prevent stiffness. Strengthening exercises (isometric, isotonic, plyometric) for lower limbs can improve muscle performance."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "area": "Ankle",
+      "details": {
+        "questions": [
+          {
+            "Q": "What are the common conditions that cause lateral ankle pain?",
+            "A": [
+              "Ankle sprain: Ankle joint is stabilized with its specific bone arrangement and the surrounding ligaments. Ligaments are tough bands of tissue that support and hold joints together. When you overstretch or tear one of these ligaments, this results in a sprained ankle.",
+              "Fibularis tendinopathy: fibularis longus and brevis cross the ankle joint posterior to the lateral malleoli. Tendinopathy occurs after lateral ankle sprain or secondary to overuse injury.",
+              "Sinus tarsi syndrome: the sinus tarsi is a small canal in the subtalar joint that contains small blood vessels, connective tissues, ligaments, and synovial tissues. Ankle sprain with inversion injury can compromise the ligament inside the canal. Overuse injury with excessive pronation/eversion of foot can put stress to the structures inside the canal.",
+              "Ankle impingement: anterior, anterolateral, and posterior impingement are common. The common cause is overuse injury during activities and sports, which involves extreme dorsiflexion/plantarflexion. As a result, development of exostoses compromises joint space. Repeated ankle sprain can also cause ankle impingement.",
+              "Stress fracture of the talus: involved in posterolateral aspect of the talus. Commonly seen in athletes who are triathletes, soccer players, and gymnasts."
+            ]
+          },
+          {
+            "Q": "How to manage ankle pain?",
+            "A": [
+              "For ankle sprain: PEACE & LOVE principle will be used to manage an ankle sprain.",
+              "Protect ankle by deloading.",
+              "Elevate the injured limb to reduce swelling.",
+              "Avoid anti-inflammatory medications and ice.",
+              "Compress with taping or bandages to reduce swelling.",
+              "Educate the benefits of active approach to recovery.",
+              "Load with gentle movement and exercises.",
+              "Optimism: being optimistic.",
+              "Vascularisation: aerobic and cardiovascular exercises.",
+              "Exercises to improve mobility, strength, and proprioception.",
+              "In addition to acute soft tissue management described above, treatment and exercises (range of motion, strengthening, and balance and proprioception exercises) should be commenced as soon as possible to optimize tissue healing.",
+              "For fibularis tendinopathy: Deload: avoid or modify activities that aggravate symptoms.",
+              "Acupuncture: acupuncture might be used to release trigger points, reduce muscle tightness, and restore muscle function.",
+              "Manual therapy: soft and deep tissue release, or joint mobilization (subtalar and midtarsal joint) might be used to reduce pain and improve range of motion.",
+              "Electrotherapy: therapeutic ultrasound or interferential therapy might be used to reduce pain and inflammation.",
+              "Exercises: range of motion, stretches, and strengthening exercises for lower limb.",
+              "Others: appropriate footwear to reduce excessive pronation/eversion of the foot.",
+              "For sinus tarsi syndrome: Deload: avoid or modify activities that aggravate symptoms.",
+              "Acupuncture: acupuncture (calf complex) might be used to release trigger points, reduce muscle tightness, and restore muscle function.",
+              "Manual therapy: soft and deep tissue release, or joint mobilization (subtalar joint) might be used to reduce pain and improve range of motion.",
+              "Electrotherapy: therapeutic ultrasound or interferential therapy might be used to reduce pain and inflammation.",
+              "Exercises: range of motion, stretches, strengthening, and proprioception exercises for lower limb.",
+              "Others: appropriate footwear to reduce excessive pronation/eversion of the foot.",
+              "For ankle impingement: Deload: avoid or modify activities that aggravate symptoms.",
+              "Acupuncture: acupuncture might be used to release trigger points, reduce muscle tightness, and restore muscle function.",
+              "Manual therapy: soft and deep tissue release, or joint mobilization (ankle and subtalar joint) might be used to reduce pain and improve range of motion.",
+              "Electrotherapy: therapeutic ultrasound or interferential therapy might be used to reduce pain and inflammation.",
+              "Exercises: range of motion, stretches, strengthening, and proprioception exercises for lower limb.",
+              "Others: appropriate footwear to improve stability of the ankle and foot. Taping and orthoses might be used to increase stability and reduce extreme ROM of the ankle and foot during activity and sports.",
+              "For stress fracture of the talus: Treatment and management: Deload: avoid or modify activities that aggravate symptoms. Immobilization might be needed to enhance recovery.",
+              "Acupuncture: reduce muscle tightness in lower limbs especially after immobilization.",
+              "Massage therapy: reduce tension in lower limbs especially after immobilization.",
+              "Manual therapy: reduce joint stiffness around the ankle and foot especially after immobilization.",
+              "Exercises: strengthening muscles of the lower limbs."
+            ]
+          },
+          {
+            "Q": "What are the common conditions that cause medial ankle pain?",
+            "A": [
+              "Tendinopathy: tibialis posterior and flexor hallucis longus.",
+              "Tarsal tunnel syndrome.",
+              "Medial malleolar stress fracture.",
+              "Medial calcaneal nerve entrapment."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "area": "Foot",
+      "details": {
+        "questions": [
+          {
+            "Q": "What are the common conditions that cause rear foot pain?",
+            "A": [
+              "Plantar fasciitis: develops when the connective tissue (plantar fascia), which supports the arch of the foot, is irritated as a result of being overused, overstretched, or direct pressure.",
+              "Fat pad contusion: can occur after a traumatic injury such as a fall onto heels from a height.",
+              "Calcaneal stress fracture: common in people who are active in sports such as runners, ballet dancers, and jumping athletes."
+            ]
+          },
+          {
+            "Q": "How to manage rear foot pain?",
+            "A": [
+              "For plantar fasciitis: Treatment and management: Deload: avoid or modify activities that aggravate symptoms. Sometimes, customized and prefabricated foot orthoses might be used to relieve symptoms.",
+              "Taping: low dye taping to support plantar fascia.",
+              "Shockwave therapy: promote tissue healing.",
+              "Acupuncture: reduce muscle tightness in lower limbs.",
+              "Massage therapy: reduce tension in plantar fascia and proximal myofascial regions (calf/hamstrings/glutes).",
+              "Manual therapy: reduce joint stiffness around the foot.",
+              "Exercises: stretches (plantar fascia/calf) and strengthening exercises (lower limbs and foot intrinsics).",
+              "For fat pad contusion: Treatment and management: Deload: avoid or modify activities that aggravate symptoms. Sometimes, the use of heel gel pad might be used to relieve symptoms. Good footwear is recommended to reduce stress and tension in the fat pad.",
+              "Acupuncture: reduce muscle tightness in lower limbs.",
+              "Massage therapy: reduce tension in plantar fascia and proximal myofascial regions (calf/hamstrings/glutes).",
+              "Manual therapy: reduce joint stiffness around the foot.",
+              "Exercises: low impact exercises such as cycling and swimming are recommended.",
+              "For calcaneal stress fracture: Treatment and management: Deload: avoid or modify activities that aggravate symptoms. Sometimes, the use of heel gel pad might be used to relieve symptoms. Good footwear is recommended to reduce stress in the calcaneus.",
+              "Acupuncture: reduce muscle tightness in lower limbs.",
+              "Massage therapy: reduce tension in plantar fascia and proximal myofascial regions (calf/hamstrings/glutes).",
+              "Manual therapy: reduce joint stiffness around the foot.",
+              "Exercises: low impact exercises such as cycling and swimming are recommended."
+            ]
+          },
+          {
+            "Q": "What are the common conditions that cause midfoot pain?",
+            "A": [
+              "Navicular stress fracture: common in athletes especially in sports involving sprinting, jumping, hurdling. Stiff ankle can cause an increase in stress in the talonavicular joint. Excessive pronation of the foot can increase load to the navicular bone.",
+              "Midtarsal joint sprain: commonly involving dorsal calcaneocuboid ligament and bifurcate ligament as a result of inversion and plantarflexion of the ankle and foot.",
+              "Lisfranc joint injury: direct injury such as crush injury to the tarsometatarsal joint region; indirect injury from longitudinal force sustained while the foot is plantarflexed.",
+              "Tibialis posterior tendinopathy: due to overuse such as excessive walking, running, or jumping during sports or activities. Excessive subtalar pronation can increase load to the tibialis posterior."
+            ]
+          },
+          {
+            "Q": "How to manage midfoot pain?",
+            "A": [
+              "For navicular stress fracture: treatment and management vary depending on severity of the stress fracture. Sometimes, ankle brace with weight bearing restriction might be suggested to enhance recovery.",
+              "For midtarsal joint sprain: taping of the midtarsal joint might be used to increase stability. In addition, strengthening exercises for ankle and foot are recommended. Sometimes, immobilization might be suggested for recovery.",
+              "For Lisfranc joint injury: a period of immobilization might be suggested. Underlying impairments such as stiff ankle and foot as well as tight muscles in the lower limbs are addressed.",
+              "For tibialis posterior tendinopathy: Deload: avoid or modify activities that aggravate symptoms. Acupuncture might be used to release trigger points, reduce muscle tightness, and restore muscle function. Manual therapy: soft and deep tissue release, or joint mobilization might be used to reduce pain and improve range of motion. Electrotherapy: therapeutic ultrasound or interferential therapy might be used to reduce pain and inflammation. Exercises: range of motion, stretches, and strengthening exercises for lower limb. Others: appropriate footwear to reduce excessive pronation of the foot."
+            ]
+          },
+          {
+            "Q": "What are the common conditions that cause forefoot pain?",
+            "A": [
+              "Stress fracture: commonly seen in neck and base of the metatarsals especially the 2nd metatarsal.",
+              "Fracture of the 5th metatarsal: from direct impact such as falls or twisting ankle (plantarflexion and inversion).",
+              "1st MTPJ sprain: hyperextension injury with foot plantarflexed.",
+              "Hallux limitus and rigidus: limited dorsiflexion of the hallux in the 1st MTPJ due to exostoses. Hallux rigidus is the final progression of the hallux limitus with ankylosis of the joint.",
+              "Hallux valgus."
+            ]
+          },
+          {
+            "Q": "How to manage forefoot pain?",
+            "A": [
+              "For stress fracture of the 2nd metatarsal: Deload: avoid or modify activities that aggravate symptoms. Exercises: range of motion, stretches, and strengthening exercises for lower limb.",
+              "For fracture of the 5th metatarsal: Ankle brace with weight bearing restriction might be suggested to enhance recovery. Exercises: range of motion, stretches, and strengthening exercises for lower limb.",
+              "For 1st MTPJ sprain: Deload: avoid or modify activities that aggravate symptoms. Immobilization might be needed to enhance recovery. Taping: protect 1st MTPJ. Exercises: range of motion, stretches, and strengthening exercises for lower limb.",
+              "For hallux limitus and rigidus: activity modification to reduce symptoms. Improve stiff joints and relevant muscles with manual therapy, acupuncture, and electrotherapy.",
+              "For hallux valgus: Deload: avoid or modify activities that aggravate symptoms. Appropriate footwear (soft, flexible, wide-toed shoes) to reduce pressure. Address underlying impairments (stiff joints and tight muscles) with manual therapy, acupuncture, and electrotherapy if indicated."
+            ]
+          }
+        ]
+      }
+    }
+  ]
 }

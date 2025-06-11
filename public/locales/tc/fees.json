@@ -26,7 +26,7 @@
   "physiotherapy_program_and_package_fees": {
     "title": "物理治療計劃及套票費用",
     "headers": {
-      "package": "計劃",
+      "package_program": "計劃",
       "description": "描述",
       "time": "時間",
       "fee": "費用"
@@ -44,6 +44,7 @@
       {
         "name": "全人健康套票",
         "description": "套票沒有到期日",
+        "duration": "每次20分鐘",
         "pricing": [
           "$650 5堂",
           "$1100 10堂"
