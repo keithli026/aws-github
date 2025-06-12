@@ -54,5 +54,7 @@
   "body_chart": "身體結構圖",
   "dot": "點",
   "shining_dot": "發光點",
-  "physiotherapist": "物理治療師"
+  "physiotherapist": "物理治療師",
+  "no_area_available": "沒有部位資料",
+  "no_answer_available": "沒有答案"
 }

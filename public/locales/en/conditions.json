@@ -30,6 +30,7 @@
     {
       "area": "Neck",
       "details": {
+        "name": "Neck pain",
         "questions": [
           {
             "Q": "What caused neck pain?",
@@ -41,14 +42,46 @@
           },
           {
             "Q": "How to manage neck pain?",
+            "A": {
+              "whiplash": [
+                "Assessment: your physiotherapist will do thorough assessments based on guidelines.",
+                "Investigation: might require an X-ray for the neck depending on assessment findings.",
+                "Treatment: relieve pain and associated symptoms with manual therapy.",
+                "Exercises: improve muscle performance (strength and control) and address other impairments.",
+                "Optimism: stay positive."
+              ],
+              "overuse": [
+                "Treatment and management: relieve pain and associated symptoms with acupuncture, manual therapy, massage therapy, electrotherapy, cupping therapy, or taping.",
+                "Exercises: improve neck range of motion and muscle performance."
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "area": "Shoulder",
+      "details": {
+        "name": "Shoulder pain",
+        "questions": [
+          {
+            "Q": "What structures are involved in shoulder pain?",
             "A": [
-              "For whiplash: Assessment: your physiotherapist will do thorough assessments based on guidelines.",
-              "Investigation: might require an X-ray for the neck depending on assessment findings.",
-              "Treatment: relieve pain and associated symptoms with manual therapy.",
-              "Exercises: improve muscle performance (strength and control) and address other impairments.",
-              "Optimism: stay positive.",
-              "For overuse: Treatment and management: relieve pain and associated symptoms with acupuncture, manual therapy, massage therapy, electrotherapy, cupping therapy, or taping.",
-              "Exercises: improve neck range of motion and muscle performance."
+              "Rotator cuff related (tear/tendinopathy/bursitis)",
+              "Joint related (frozen shoulder/labral tear/ACJ sprain)"
+            ]
+          },
+          {
+            "Q": "How to manage shoulder pain?",
+            "A": [
+              "Treatment and management: Deload: avoid or modify activities that aggravate symptoms.",
+              "Taping: taping might be used to reduce pain and offload sensitive structures around the shoulder.",
+              "Acupuncture: acupuncture might be used to release trigger points and provide short-term pain relief.",
+              "Manual therapy: soft and deep tissue release, joint mobilization, or stretching might be used to reduce pain and muscle tightness, and improve range of motion.",
+              "Shockwave therapy: reduce tissue tightness around shoulder.",
+              "Electrotherapy: therapeutic ultrasound might be used to reduce pain and inflammation.",
+              "Exercises: Range of motion exercises help to improve shoulder mobility and prevent stiffness.",
+              "Strengthening exercises for rotator cuffs and muscles around the shoulder blade can improve shoulder biomechanics and reduce pain."
             ]
           }
         ]
@@ -57,6 +90,7 @@
     {
       "area": "Mid back",
       "details": {
+        "name": "Mid back pain",
         "questions": [
           {
             "Q": "What caused mid back pain?",
@@ -73,8 +107,37 @@
       }
     },
     {
+      "area": "Elbow",
+      "details": {
+        "name": "Elbow pain",
+        "questions": [
+          {
+            "Q": "What are the common conditions that cause elbow pain?",
+            "A": [
+              "Tennis elbow: it involves extensor muscles of the forearm. It is common in tennis players but not limited to other sports players (squash and badminton) or non-sport populations. The main reason for developing tennis elbow is overuse.",
+              "Golfer’s elbow: it involves flexor muscles of the forearm. It is common in golf players but not limited to other sports players. The main reason for developing a golfer's elbow is overuse."
+            ]
+          },
+          {
+            "Q": "How to manage elbow pain?",
+            "A": [
+              "Treatment and management: Deload: avoid or modify activities that aggravate symptoms. Sometimes, elbow brace might be suggested to relieve symptoms.",
+              "Taping: taping might be used to reduce pain and offload sensitive structures around the elbow.",
+              "Acupuncture: acupuncture might be used to release trigger points, reduce muscle tightness, and restore muscle function.",
+              "Manual therapy: soft and deep tissue release, or joint mobilization might be used to reduce pain and improve range of motion.",
+              "Shockwave therapy: promote tissue healing.",
+              "Electrotherapy: therapeutic ultrasound or interferential therapy might be used to reduce pain and inflammation.",
+              "Exercises: Range of motion exercises help to improve elbow and wrist mobility and prevent stiffness.",
+              "Strengthening exercises for upper limbs can improve muscle performance."
+            ]
+          }
+        ]
+      }
+    },
+    {
       "area": "Low back",
       "details": {
+        "name": "Low back pain",
         "questions": [
           {
             "Q": "What caused low back pain?",
@@ -106,104 +169,9 @@
       }
     },
     {
-      "area": "Shoulder",
-      "details": {
-        "questions": [
-          {
-            "Q": "What structures are involved in shoulder pain?",
-            "A": [
-              "Rotator cuff related (tear/tendinopathy/bursitis)",
-              "Joint related (frozen shoulder/labral tear/ACJ sprain)"
-            ]
-          },
-          {
-            "Q": "How to manage shoulder pain?",
-            "A": [
-              "Treatment and management: Deload: avoid or modify activities that aggravate symptoms.",
-              "Taping: taping might be used to reduce pain and offload sensitive structures around the shoulder.",
-              "Acupuncture: acupuncture might be used to release trigger points and provide short-term pain relief.",
-              "Manual therapy: soft and deep tissue release, joint mobilization, or stretching might be used to reduce pain and muscle tightness, and improve range of motion.",
-              "Shockwave therapy: reduce tissue tightness around shoulder.",
-              "Electrotherapy: therapeutic ultrasound might be used to reduce pain and inflammation.",
-              "Exercises: Range of motion exercises help to improve shoulder mobility and prevent stiffness.",
-              "Strengthening exercises for rotator cuffs and muscles around the shoulder blade can improve shoulder biomechanics and reduce pain."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "area": "Elbow",
-      "details": {
-        "questions": [
-          {
-            "Q": "What are the common conditions that cause elbow pain?",
-            "A": [
-              "Tennis elbow: it involves extensor muscles of the forearm. It is common in tennis players but not limited to other sports players (squash and badminton) or non-sport populations. The main reason for developing tennis elbow is overuse.",
-              "Golfer’s elbow: it involves flexor muscles of the forearm. It is common in golf players but not limited to other sports players. The main reason for developing a golfer's elbow is overuse."
-            ]
-          },
-          {
-            "Q": "How to manage elbow pain?",
-            "A": [
-              "Treatment and management: Deload: avoid or modify activities that aggravate symptoms. Sometimes, elbow brace might be suggested to relieve symptoms.",
-              "Taping: taping might be used to reduce pain and offload sensitive structures around the elbow.",
-              "Acupuncture: acupuncture might be used to release trigger points, reduce muscle tightness, and restore muscle function.",
-              "Manual therapy: soft and deep tissue release, or joint mobilization might be used to reduce pain and improve range of motion.",
-              "Shockwave therapy: promote tissue healing.",
-              "Electrotherapy: therapeutic ultrasound or interferential therapy might be used to reduce pain and inflammation.",
-              "Exercises: Range of motion exercises help to improve elbow and wrist mobility and prevent stiffness.",
-              "Strengthening exercises for upper limbs can improve muscle performance."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "area": "Wrist",
-      "details": {
-        "questions": [
-          {
-            "Q": "What are the common conditions that cause wrist pain?",
-            "A": "Carpal tunnel syndrome: the median nerve is compressed as it passes through the carpal tunnel. This condition is characterized by burning wrist pain with numbness in the first three fingers."
-          },
-          {
-            "Q": "How to manage wrist pain?",
-            "A": [
-              "For carpal tunnel syndrome: Treatment and management: Splinting and taping: maintain wrist in neutral to avoid compression to the median nerve.",
-              "Electrotherapy: might be helpful to reduce pain, swelling, and inflammation.",
-              "Exercises: Nerve and tendon gliding exercises, Median nerve sliding exercises."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "area": "Thumb",
-      "details": {
-        "questions": [
-          {
-            "Q": "What are the common conditions that cause thumb pain?",
-            "A": "Mother’s thumb: also called De Quervain’s tenosynovitis affects the synovium of abductor pollicis longus and extensor pollicis brevis tendons. This results in pain, swelling, and inflammation."
-          },
-          {
-            "Q": "How to manage thumb pain?",
-            "A": [
-              "For mother’s thumb: Treatment and management: Deload: avoid or modify activities that aggravate symptoms. Sometimes, thumb brace might be suggested to relieve symptoms.",
-              "Taping: taping might be used to reduce pain and offload sensitive structures around the thumb.",
-              "Acupuncture: acupuncture might be used to release trigger points, reduce muscle tightness, and restore muscle function.",
-              "Shockwave therapy: promote tissue healing.",
-              "Electrotherapy: therapeutic ultrasound or interferential therapy might be used to reduce pain and inflammation.",
-              "Exercises: Range of motion exercises help to improve thumb and wrist mobility and prevent stiffness.",
-              "Strengthening exercises for upper limbs can improve muscle performance."
-            ]
-          }
-        ]
-      }
-    },
-    {
       "area": "Pelvis",
       "details": {
+        "name": "Pelvic girdle pain",
         "questions": [
           {
             "Q": "What structures are involved in pelvic girdle pain (PGP)?",
@@ -221,8 +189,57 @@
       }
     },
     {
+      "area": "Thumb",
+      "details": {
+        "name": "Thumb pain",
+        "questions": [
+          {
+            "Q": "What are the common conditions that cause thumb pain?",
+            "A": "Mother’s thumb: also called De Quervain’s tenosynovitis affects the synovium of abductor pollicis longus and extensor pollicis brevis tendons. This results in pain, swelling, and inflammation."
+          },
+          {
+            "Q": "How to manage thumb pain?",
+            "A": {
+              "mother_thumb": [
+                "Treatment and management: Deload: avoid or modify activities that aggravate symptoms. Sometimes, a thumb brace might be suggested to relieve symptoms.",
+                "Taping: taping might be used to reduce pain and offload sensitive structures around the thumb.",
+                "Acupuncture: acupuncture might be used to release trigger points, reduce muscle tightness, and restore muscle function.",
+                "Shockwave therapy: promote tissue healing.",
+                "Electrotherapy: therapeutic ultrasound or interferential therapy might be used to reduce pain and inflammation.",
+                "Exercises: range of motion exercises help to improve thumb and wrist mobility and prevent stiffness.",
+                "Strengthening exercises for upper limbs can improve muscle performance."
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "area": "Wrist",
+      "details": {
+        "name": "Wrist pain",
+        "questions": [
+          {
+            "Q": "What are the common conditions that cause wrist pain?",
+            "A": "Carpal tunnel syndrome: the median nerve is compressed as it passes through the carpal tunnel. This condition is characterized by burning wrist pain with numbness in the first three fingers."
+          },
+          {
+            "Q": "How to manage wrist pain?",
+            "A": {
+              "carpal_tunnel_syndrome": [
+                "Treatment and management: Splinting and taping: maintain wrist in neutral to avoid compression to the median nerve.",
+                "Electrotherapy: might be helpful to reduce pain, swelling, and inflammation.",
+                "Exercises: Nerve and tendon gliding exercises, Median nerve sliding exercises."
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "area": "Hip",
       "details": {
+        "name": "Hip pain",
         "questions": [
           {
             "Q": "What are the common conditions that cause hip pain?",
@@ -230,11 +247,13 @@
           },
           {
             "Q": "How to manage hip pain?",
-            "A": [
-              "For hip osteoarthritis: Treatment and management: Reduce pain with manual therapy and hydrotherapy.",
-              "Adopt healthy lifestyle.",
-              "Exercises are key in managing hip osteoarthritis. These include hip range of motion, hip strengthening exercises (deep hip stabilizers, gluteus maximus and medius, lower limbs, and trunk), and balance and proprioception."
-            ]
+            "A": {
+              "hip_osteoarthritis": [
+                "Treatment and management: Reduce pain with manual therapy and hydrotherapy.",
+                "Adopt a healthy lifestyle.",
+                "Exercises are key in managing hip osteoarthritis. These include hip range of motion, hip strengthening exercises (deep hip stabilizers, gluteus maximus and medius, lower limbs, and trunk), and balance and proprioception."
+              ]
+            }
           }
         ]
       }
@@ -242,6 +261,7 @@
     {
       "area": "Thigh",
       "details": {
+        "name": "Thigh pain",
         "questions": [
           {
             "Q": "What caused posterior thigh pain?",
@@ -272,6 +292,7 @@
     {
       "area": "Knee",
       "details": {
+        "name": "Knee pain",
         "questions": [
           {
             "Q": "What are the common conditions that cause knee pain?",
@@ -282,13 +303,17 @@
           },
           {
             "Q": "How to manage knee pain?",
-            "A": [
-              "For knee osteoarthritis: Treatment and management: Reduce pain with manual therapy and hydrotherapy.",
-              "Adopt healthy lifestyle.",
-              "Exercises: exercises are key in managing knee osteoarthritis. These include range of motion and strengthening exercises (quadriceps, hamstring, and gluteus).",
-              "For patellofemoral pain syndrome: Treatment and management: Reduce pain with manual therapy and taping.",
-              "Exercises: exercises are key in managing patellofemoral pain syndrome. These include range of motion exercises, strengthening exercises (quadriceps, hip muscles, lower limbs, and trunk muscles), and balance and coordination training."
-            ]
+            "A": {
+              "knee_osteoarthritis": [
+                "Treatment and management: Reduce pain with manual therapy and hydrotherapy.",
+                "Adopt a healthy lifestyle.",
+                "Exercises: exercises are key in managing knee osteoarthritis. These include range of motion and strengthening exercises (quadriceps, hamstring, and gluteus)."
+              ],
+              "patellofemoral_pain_syndrome": [
+                "Treatment and management: Reduce pain with manual therapy and taping.",
+                "Exercises: exercises are key in managing patellofemoral pain syndrome. These include range of motion exercises, strengthening exercises (quadriceps, hip muscles, lower limbs, and trunk muscles), and balance and coordination training."
+              ]
+            }
           }
         ]
       }
@@ -296,6 +321,7 @@
     {
       "area": "Leg",
       "details": {
+        "name": "Leg pain",
         "questions": [
           {
             "Q": "What are the common conditions that cause posterior leg pain?",
@@ -343,6 +369,7 @@
     {
       "area": "Achilles",
       "details": {
+        "name": "Achilles pain",
         "questions": [
           {
             "Q": "What are the common conditions that cause achilles pain?",
@@ -368,6 +395,7 @@
     {
       "area": "Ankle",
       "details": {
+        "name": "Ankle pain",
         "questions": [
           {
             "Q": "What are the common conditions that cause lateral ankle pain?",
@@ -433,6 +461,7 @@
     {
       "area": "Foot",
       "details": {
+        "name": "Foot pain",
         "questions": [
           {
             "Q": "What are the common conditions that cause rear foot pain?",
@@ -444,25 +473,31 @@
           },
           {
             "Q": "How to manage rear foot pain?",
-            "A": [
-              "For plantar fasciitis: Treatment and management: Deload: avoid or modify activities that aggravate symptoms. Sometimes, customized and prefabricated foot orthoses might be used to relieve symptoms.",
-              "Taping: low dye taping to support plantar fascia.",
-              "Shockwave therapy: promote tissue healing.",
-              "Acupuncture: reduce muscle tightness in lower limbs.",
-              "Massage therapy: reduce tension in plantar fascia and proximal myofascial regions (calf/hamstrings/glutes).",
-              "Manual therapy: reduce joint stiffness around the foot.",
-              "Exercises: stretches (plantar fascia/calf) and strengthening exercises (lower limbs and foot intrinsics).",
-              "For fat pad contusion: Treatment and management: Deload: avoid or modify activities that aggravate symptoms. Sometimes, the use of heel gel pad might be used to relieve symptoms. Good footwear is recommended to reduce stress and tension in the fat pad.",
-              "Acupuncture: reduce muscle tightness in lower limbs.",
-              "Massage therapy: reduce tension in plantar fascia and proximal myofascial regions (calf/hamstrings/glutes).",
-              "Manual therapy: reduce joint stiffness around the foot.",
-              "Exercises: low impact exercises such as cycling and swimming are recommended.",
-              "For calcaneal stress fracture: Treatment and management: Deload: avoid or modify activities that aggravate symptoms. Sometimes, the use of heel gel pad might be used to relieve symptoms. Good footwear is recommended to reduce stress in the calcaneus.",
-              "Acupuncture: reduce muscle tightness in lower limbs.",
-              "Massage therapy: reduce tension in plantar fascia and proximal myofascial regions (calf/hamstrings/glutes).",
-              "Manual therapy: reduce joint stiffness around the foot.",
-              "Exercises: low impact exercises such as cycling and swimming are recommended."
-            ]
+            "A": {
+              "plantar_fasciitis": [
+                "Treatment and management: Deload: avoid or modify activities that aggravate symptoms. Sometimes, customized and prefabricated foot orthoses might be used to relieve symptoms.",
+                "Taping: low dye taping to support plantar fascia.",
+                "Shockwave therapy: promote tissue healing.",
+                "Acupuncture: reduce muscle tightness in lower limbs.",
+                "Massage therapy: reduce tension in plantar fascia and proximal myofascial regions (calf/hamstrings/glutes).",
+                "Manual therapy: reduce joint stiffness around the foot.",
+                "Exercises: stretches (plantar fascia/calf) and strengthening exercises (lower limbs and foot intrinsics)."
+              ],
+              "fat_pad_contusion": [
+                "Treatment and management: Deload: avoid or modify activities that aggravate symptoms. Sometimes, the use of a heel gel pad might be used to relieve symptoms. Good footwear is recommended to reduce stress and tension in the fat pad.",
+                "Acupuncture: reduce muscle tightness in lower limbs.",
+                "Massage therapy: reduce tension in plantar fascia and proximal myofascial regions (calf/hamstrings/glutes).",
+                "Manual therapy: reduce joint stiffness around the foot.",
+                "Exercises: low impact exercises such as cycling and swimming are recommended."
+              ],
+              "calcaneal_stress_fracture": [
+                "Treatment and management: Deload: avoid or modify activities that aggravate symptoms. Sometimes, the use of a heel gel pad might be used to relieve symptoms. Good footwear is recommended to reduce stress in the calcaneus.",
+                "Acupuncture: reduce muscle tightness in lower limbs.",
+                "Massage therapy: reduce tension in plantar fascia and proximal myofascial regions (calf/hamstrings/glutes).",
+                "Manual therapy: reduce joint stiffness around the foot.",
+                "Exercises: low impact exercises such as cycling and swimming are recommended."
+              ]
+            }
           },
           {
             "Q": "What are the common conditions that cause midfoot pain?",

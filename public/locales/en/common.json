@@ -54,5 +54,7 @@
   "body_chart": "body chart",
   "dot": "dot",
   "shining_dot": "shining dot",
-  "physiotherapist": "Physiotherapist"
+  "physiotherapist": "Physiotherapist",
+  "no_area_available": "No Content",
+  "no_answer_available": "No Answer"
 }

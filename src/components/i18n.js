@@ -13,7 +13,7 @@ i18n
   .init({
     // init i18next
     // for all options read: https://www.i18next.com/overview/configuration-options
-    debug: true,
+    debug: false,
     fallbackLng: "en",
     ns: ['common','translation'], // Define your namespaces
     // lng: "en",
