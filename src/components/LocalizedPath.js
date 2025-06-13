@@ -18,7 +18,7 @@ const LocalizedPath = ({ path }) => {
     }
 
     // Handle other public files or folders (e.g., favicon, images)
-    if (path.startsWith('/favicon.ico')) {
+    if (path.startsWith('/favicon.ico') || path.startsWith('/index.html')) {
       return path;
     }
 
