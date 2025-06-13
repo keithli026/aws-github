@@ -1,6 +1,6 @@
 {
   "home_visit_physiotherapy_consultation_fee": {
-    "title": "物理治療診症費用",
+    "title": "上門物理治療診症費用",
     "headers": {
       "time": "時間",
       "fee": "費用"
@@ -35,7 +35,7 @@
       {
         "name": "週密集計劃",
         "description": "在首診後的6天內覆診可享有折扣優惠，僅適用於一個身體部位。",
-        "duration": "每次20分鐘",
+        "duration": "20分鐘",
         "discounts": [
           "第二次覆診減免$20",
           "第三次覆診減免$40"
@@ -44,7 +44,7 @@
       {
         "name": "全人健康套票",
         "description": "套票沒有到期日",
-        "duration": "每次20分鐘",
+        "duration": "20分鐘",
         "pricing": [
           "$650 5堂",
           "$1100 10堂"
@@ -53,14 +53,14 @@
     ]
   },
   "home_visit_massage_fee": {
-    "title": "按摩費用",
+    "title": "上門按摩治療費用",
     "headers": {
       "time": "時間",
       "fee": "費用"
     },
     "services": [
       {
-        "name": "按摩",
+        "name": "按摩治療",
         "duration": "40分鐘",
         "cost": "$150"
       },
