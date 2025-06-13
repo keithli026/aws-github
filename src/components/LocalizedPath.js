@@ -11,13 +11,25 @@ const LocalizedPath = ({ path }) => {
     if (path.startsWith(`/${currentLanguage}`) || path.startsWith('http') || path.startsWith('#')) {
       return path;
     }
+
+    // Handle the locales folder
+    if (path.startsWith('/locales/')) {
+      return path;
+    }
+
+    // Handle other public files or folders (e.g., favicon, images)
+    if (path.startsWith('/favicon.ico')) {
+      return path;
+    }
+
     if (path === "/") {
       return `/${currentLanguage}`;
     }
+
     return `/${currentLanguage}${path}`;
   };
 
-  return getLocalizedPath(path) ;
+  return getLocalizedPath(path);
 };
 
 export default LocalizedPath;
