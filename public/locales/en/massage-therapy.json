@@ -1,9 +1,10 @@
 {
-  "Massage Therapy": "Massage Therapy", 
-  "Massage therapy involves a range of techniques and styles, such as soft tissue massage, deep tissue massage, sports massage, trigger point therapy, or myofascial release.": "Massage therapy involves a range of techniques and styles, such as soft tissue massage, deep tissue massage, sports massage, trigger point therapy, or myofascial release.", 
-  "Benefits of massage therapy are": "Benefits of massage therapy are:", 
-  "Reduce stress and anxiety": "Reduce stress and anxiety", 
-  "Restore muscle function": "Restore muscle function", 
-  "Promote blood circulation": "Promote blood circulation", 
-  "Reduce pain": "Reduce pain"
+  "paragraph": "Massage therapy involves a range of techniques and styles, such as soft tissue massage, deep tissue massage, sports massage, trigger point therapy, or myofascial release.",
+  "list": {
+    "title": "Benefits of massage therapy are:",
+    "item1": "Reduce stress and anxiety",
+    "item2": "Restore muscle function",
+    "item3": "Promote blood circulation",
+    "item4": "Reduce pain"
+  }
 }

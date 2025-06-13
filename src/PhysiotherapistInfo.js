@@ -1,55 +1,66 @@
-import physiotherapist from "./assets/images/physiotherapist.png"
+import physiotherapist from "./assets/images/unknown.png"
 
 var physiotherapists = [
-    {
-        pid: 1,
-        name: "Oliver A",
-        gender: "M",
-        title: "Physiotherapist",
-        photo: physiotherapist,
-        summary: `<p>Oliver graduated from Curtin with a Bachelor of Physiotherapy.</p>
-        <p>He understands the importance of professional development to further enhance his clinical skills after graduation.</p>
-        <p>He completed a qualification of deep dry needling and several courses including shoulder rehabilitation, running biomechanics, headache, and dizziness management.</p>
-        <p>Oliver is interested in treating musculoskeletal conditions especially shoulder, back, and neck pain.</p>
-        <p>He believes a combination of "hands-on" treatment and therapeutic exercises is important for clients to manage their musculoskeletal conditions and achieve their goals.</p>
-        <p>Outside the clinic, Oliver goes to the gym regularly. He enjoys grocery shopping and cooking big meals.</p>`
-    },
-    {
-        pid: 2,
-        name: "Oliver B",
-        gender: "F",
-        title: "Physiotherapist",
-        photo: physiotherapist
-    },
-    {
-        pid: 3,
-        name: "Oliver C",
-        gender: "M",
-        title: "Physiotherapist",
-        photo: physiotherapist
-    }
+  {
+    pid: 1,
+    symbol: "oli",
+    name: "meet-our-team:oli.name",
+    gender: "M",
+    title: "meet-our-team:oli.title",
+    photo: physiotherapist,
+    summary: [
+      "meet-our-team:oli.summary.line1",
+      "meet-our-team:oli.summary.line2",
+      "meet-our-team:oli.summary.line3",
+      "meet-our-team:oli.summary.line4",
+      "meet-our-team:oli.summary.line5",
+      "meet-our-team:oli.summary.line6"
+    ]
+  },
+  {
+    pid: 2,
+    symbol: "olib",
+    name: "Oliver B",
+    gender: "F",
+    title: "Physiotherapist",
+    photo: physiotherapist
+  },
+  {
+    pid: 3,
+    symbol: "olic",
+    name: "Oliver C",
+    gender: "M",
+    title: "Physiotherapist",
+    photo: physiotherapist
+  }
 ];
 
 export function getPhysiotherapists() {
-    return physiotherapists;
+  return physiotherapists;
 }
 
 export function getPhysiotherapist(id) {
-    return physiotherapists.find(
-        Physiotherapist => Physiotherapist.pid === id
-    );
+  return physiotherapists.find(
+    Physiotherapist => Physiotherapist.pid === id
+  );
 }
 
 export function getPhysiotherapistByName(name) {
-    return physiotherapists.find(
-        Physiotherapist => Physiotherapist.name.replace(/\s+/g, '-').toLowerCase() === name
-    );
+  return physiotherapists.find(
+    Physiotherapist => Physiotherapist.name.replace(/\s+/g, '-').toLowerCase() === name
+  );
+}
+
+export function getPhysiotherapistBySymbol(symbol) {
+  return physiotherapists.find(
+    Physiotherapist => Physiotherapist.symbol === symbol
+  );
 }
 
 export function deletePhysiotherapist(pid) {
-    physiotherapists = physiotherapists.filter(
-        (Physiotherapist) => Physiotherapist.pid !== pid
-    );
+  physiotherapists = physiotherapists.filter(
+    (Physiotherapist) => Physiotherapist.pid !== pid
+  );
 }
 
 

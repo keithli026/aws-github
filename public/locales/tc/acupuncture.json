@@ -1,10 +1,11 @@
 {
-  "Acupuncture": "針灸治療", 
-  "Acupuncture is a treatment technique involving needling introduced to your skin and the soft tissue below, aiming for trigger points in your muscles and fascia.": "針灸治療涉及針灸針插入皮膚和下面的軟組織，針對肌肉和筋膜中的激痛點。", 
-  "Benefits of acupuncture are": "針灸治療的好處包括：",
-  "Release trigger points (muscle knots)": "釋放激痛點（肌肉結節）", 
-  "Promote tissue healing response": "促進組織的治癒反應", 
-  "Reduce pain": "減輕疼痛", 
-  "Reduce muscle tightness": "減少肌肉緊張", 
-  "Restore muscle function": "恢復肌肉功能"
+  "paragraph": "針灸治療涉及針灸針插入皮膚和下面的軟組織，針對肌肉和筋膜中的激痛點。",
+  "list": {
+    "title": "針灸治療的好處包括：",
+    "item1": "釋放激痛點（肌肉結節）",
+    "item2": "促進組織的治癒反應",
+    "item3": "減輕疼痛",
+    "item4": "減少肌肉緊張",
+    "item5": "恢復肌肉功能"
+  }
 }

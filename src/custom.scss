@@ -20,6 +20,9 @@
 body {
   overflow-x: hidden;
   letter-spacing: 0.5px;
+  @include media-breakpoint-up(lg) {
+    font-size: $font-size-lg;
+  }
 }
 
 h1 {
@@ -100,12 +103,13 @@ img {
   width: auto;
   height: auto;
   display: block;
+  max-width: 100%;
 }
 
 a {
   @include media-breakpoint-up(lg) {
     &:hover {
-      color: $cyan;
+      // color: $cyan;
     }
   }
   &.button {
@@ -129,7 +133,7 @@ a {
 }
 
 p {
-  line-height: 35px;
+  // line-height: 35px;
 }
 
 .table {
@@ -166,7 +170,7 @@ p {
     text-decoration: none;
     &.active {
       &:last-child {
-        color: $cyan;
+        // color: $cyan;
       }
     }
   }
@@ -261,19 +265,16 @@ p {
 .card_wrapper {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 30px;
-  @include media-breakpoint-up(lg) {
-    margin-bottom: 50px;
-    > div:nth-child(3n) {
-      margin-right: 0;
-    }
-  }
+  margin-bottom: 50px;
+  gap: 24px;
+
   .card {
     position: relative;
-    margin-bottom: 30px;
-    @include media-breakpoint-up(lg) {
-      flex-basis: 32%;
-      margin-right: 2%;
+    @include media-breakpoint-up(sm) {
+      flex-basis: calc(50% - 24px / 2);
+    }
+    @include media-breakpoint-up(xl) {
+      flex-basis: calc(33.33% - 24px * 2 / 3);
     }
     img {
       width: 100%;
@@ -287,20 +288,26 @@ p {
       background-color: rgba(0,0,0,0.5);
       color: $white;
       padding: 10px 0;
+      line-height: 1.5;
       @include media-breakpoint-up(lg) {
-        padding: 0;
+        // padding: 0;
         &:hover {
-          color: $cyan;
+          // color: $cyan;
         }
       }
       .name {
         margin-bottom: 0;
         color: inherit;
+        font-size: 20px;
+          @include media-breakpoint-up(lg) {
+          font-size: 30px;
+        }
       }
       .title {
         color: inherit;
+        font-size: 16px;
         @include media-breakpoint-up(lg) {
-          font-size: 30px;
+          font-size: 25px;
         }
       }
     }

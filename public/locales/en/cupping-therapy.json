@@ -1,9 +1,10 @@
 {
-  "Cupping therapy": "Cupping therapy", 
-  "Cupping therapy is an ancient form of alternative medicine in which a therapist puts special cups on your skin to create suction.": "Cupping therapy is an ancient form of alternative medicine in which a therapist puts special cups on your skin to create suction.", 
-  "Benefits of cupping therapy are": "Benefits of cupping therapy are:", 
-  "Increase blood flow": "Increase blood flow", 
-  "Restore muscle function": "Restore muscle function", 
-  "Reduce pain": "Reduce pain", 
-  "Reduce muscle tightness": "Reduce muscle tightness"
+  "paragraph": "Cupping therapy is an ancient form of alternative medicine in which a therapist puts special cups on your skin to create suction.",
+  "list": {
+    "title": "Benefits of cupping therapy are:",
+    "item1": "Increase blood flow",
+    "item2": "Restore muscle function",
+    "item3": "Reduce pain",
+    "item4": "Reduce muscle tightness"
+  }
 }

@@ -1,9 +1,10 @@
 {
-  "Electrotherapy": "電療", 
-  "Electrotherapy is the use of electrical energy as a medical treatment. This includes interferential therapy, magnetic field therapy, or therapeutic ultrasound.": "電療是使用電能作為醫療治療的方法。這包括干擾波治療、磁場治療或超聲波治療。", 
-  "Benefits of modalities are": "電療的好處包括：",
-  "Reduce pain": "減少疼痛", 
-  "Reduce swelling": "減輕腫脹", 
-  "Increase muscle stimulation": "增加肌肉刺激", 
-  "Increase blood flow": "增加血液流動"
+  "paragraph": "電療是使用電能作為醫療治療的方法。這包括干擾波治療、磁場治療或超聲波治療。",
+  "list": {
+    "title": "電療的好處包括：",
+    "item1": "減少疼痛",
+    "item2": "減輕腫脹",
+    "item3": "增加肌肉刺激",
+    "item4": "增加血液流動"
+  }
 }

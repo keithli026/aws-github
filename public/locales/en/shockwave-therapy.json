@@ -1,7 +1,8 @@
 {
-  "Shockwave Therapy": "Shockwave Therapy", 
-  "Shock wave therapy promotes a healing environment in injured tissue by stimulating the growth of new blood vessels, growth factors, cell proliferation, and reducing inflammatory markers. It is commonly used in treating tendon injuries.": "Shock wave therapy promotes a healing environment in injured tissue by stimulating the growth of new blood vessels, growth factors, cell proliferation, and reducing inflammatory markers. It is commonly used in treating tendon injuries.", 
-  "Benefits of extracorporeal shock wave therapy are": "Benefits of extracorporeal shock wave therapy are:", 
-  "Promote tissue healing response": "Promote tissue healing response", 
-  "Reduce inflammation": "Reduce inflammation"
+  "paragraph": "Shock wave therapy promotes a healing environment in injured tissue by stimulating the growth of new blood vessels, growth factors, cell proliferation, and reducing inflammatory markers. It is commonly used in treating tendon injuries.",
+  "list": {
+    "title": "Benefits of extracorporeal shock wave therapy are:",
+    "item1": "Promote tissue healing response",
+    "item2": "Reduce inflammation"
+  }
 }

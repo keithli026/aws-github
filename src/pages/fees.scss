@@ -1,5 +1,13 @@
 #fee {
   .accordion {
     margin-bottom: 100px;
+
+    .accordion-header {
+      .accordion-button {
+        @include media-breakpoint-up(lg) {
+          font-size: $font-size-lg;
+        }
+      }
+    }
   }
 }

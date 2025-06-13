@@ -13,15 +13,16 @@ i18n
   .init({
     // init i18next
     // for all options read: https://www.i18next.com/overview/configuration-options
-    debug: true,
+    debug: false,
     fallbackLng: "en",
+    ns: ['common','translation'], // Define your namespaces
     // lng: "en",
     returnObjects: true,
     interpolation: {
       escapeValue: false // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape
     },
     backend: {
-      loadPath: '/locales/{{lng}}/translation.json', // Path to your translation files
+      loadPath: '/locales/{{lng}}/{{ns}}.json', // Path to your translation files
     },
     supportedLngs: ['en', 'tc'], // Add supported languages
   });
