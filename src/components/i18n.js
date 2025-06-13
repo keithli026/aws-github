@@ -15,7 +15,23 @@ i18n
     // for all options read: https://www.i18next.com/overview/configuration-options
     debug: false,
     fallbackLng: "en",
-    ns: ['common','translation'], // Define your namespaces
+    ns: [
+      'common',
+      'acupuncture',
+      'conditions',
+      'contact',
+      'cupping-therapy',
+      'electrotherapy',
+      'exercise-rehabilitation',
+      'fees',
+      'home',
+      'manual-therapy',
+      'massage-therapy',
+      'meet-our-team',
+      'services',
+      'shockwave-therapy',
+      'translation'
+    ],
     // lng: "en",
     returnObjects: true,
     interpolation: {
