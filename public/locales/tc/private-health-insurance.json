@@ -1,0 +1,91 @@
+{
+  "home_visit_physiotherapy_consultation_fee": {
+    "title": "上門物理治療診症費用",
+    "headers": {
+      "time": "時間",
+      "fee": "費用"
+    },
+    "services": [
+      {
+        "name": "首診",
+        "duration": "40分鐘",
+        "cost": "$150"
+      },
+      {
+        "name": "覆診",
+        "duration": "20分鐘",
+        "cost": "$150"
+      },
+      {
+        "name": "上門到診",
+        "duration": "20分鐘",
+        "cost": "免收"
+      }
+    ]
+  },
+  "physiotherapy_program_and_package_fees": {
+    "title": "物理治療計劃及套票費用",
+    "headers": {
+      "package_program": "計劃",
+      "description": "描述",
+      "time": "時間",
+      "fee": "費用"
+    },
+    "packages": [
+      {
+        "name": "週密集計劃",
+        "description": "在首診後的6天內覆診可享有折扣優惠，僅適用於一個身體部位。",
+        "duration": "20分鐘",
+        "discounts": [
+          "第二次覆診減免$20",
+          "第三次覆診減免$40"
+        ]
+      },
+      {
+        "name": "全人健康套票",
+        "description": "套票沒有到期日",
+        "duration": "20分鐘",
+        "pricing": [
+          "$650 5堂",
+          "$1100 10堂"
+        ]
+      }
+    ]
+  },
+  "home_visit_massage_fee": {
+    "title": "上門按摩治療費用",
+    "headers": {
+      "time": "時間",
+      "fee": "費用"
+    },
+    "services": [
+      {
+        "name": "按摩治療",
+        "duration": "40分鐘",
+        "cost": "$150"
+      },
+      {
+        "name": "上門到診",
+        "duration": "20分鐘",
+        "cost": "免收"
+      }
+    ]
+  },
+  "faq": {
+    "title": "常見問答",
+    "questions": [
+      {
+        "question": "可以使用醫療保險或私人健康保險參加計劃和套餐嗎？",
+        "answer": "是的，您可以使用醫療保險或私人健康保險參加計劃和套餐。"
+      },
+      {
+        "question": "我怎麼知道某個計劃或套餐是否適合我？",
+        "answer": "週密集計劃是為需要多次密集治療和運動康復以達到最佳恢復的客戶設計的。\n\n全人健康套餐則是為需要持續物理治療以進行長期管理的客戶設計的。"
+      },
+      {
+        "question": "物理治療計劃是如何運作的？",
+        "answer": "週密集計劃的目的是為了讓需要多次密集治療以實現最佳恢復的客戶，能夠更輕鬆地負擔治療費用。在初次諮詢後的下週，後續諮詢將享有折扣優惠。"
+      }
+    ]
+  }
+}

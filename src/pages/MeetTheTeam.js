@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom"
 import Container from "react-bootstrap/Container"
 import Breadcrumb from '../components/Breadcrumb'
 
-const MeetOurTeam = () => {
+const MeetTheTeam = () => {
   return (
     <>
       <Container>
@@ -14,4 +14,4 @@ const MeetOurTeam = () => {
   )
 }
 
-export default MeetOurTeam
+export default MeetTheTeam

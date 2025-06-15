@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import Container from "react-bootstrap/Container";
-import { useTranslation} from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import Breadcrumb from '../components/Breadcrumb';
 import Accordion from 'react-bootstrap/Accordion';
 import { getLanguageFromPath } from '../utils/getLanguage';

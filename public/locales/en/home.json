@@ -9,8 +9,8 @@
     "Contact_Us": "Contact Us",
     "Book_Now": "Book Now"
   },
-  "our_values": {
-    "title": "Our values",
+  "values": {
+    "title": "Values",
     "Holistic_care": "Holistic care",
     "Holistic_care_value": "We consider our clients' general well-being.",
     "Individualized_services": "Individualized services",
@@ -28,8 +28,8 @@
     "Evidence_based_practice": "Evidence-based practice",
     "Evidence_based_practice_value": "We integrate the best available research evidence with clinical expertise and clients' values for our treatment."
   },
-  "our_services": {
-    "title": "Our services",
+  "services": {
+    "title": "Services",
     "Manual therapy": "Manual Therapy",
     "Acupuncture": "Acupuncture",
     "Exercise rehabilitation": "Exercise Rehabilitation",
@@ -38,7 +38,7 @@
     "Electrotherapy": "Electrotherapy",
     "Cupping therapy": "Cupping Therapy"
   },
-  "our_team": {
-    "title": "Our team"
+  "the_team": {
+    "title": "The team"
   }
 }

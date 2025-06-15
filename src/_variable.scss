@@ -453,7 +453,7 @@ $body-emphasis-color:       $black !default;
 // Style anchor elements.
 
 $link-color:                              $primary !default;
-$link-decoration:                         underline !default;
+$link-decoration:                         none;
 $link-shade-percentage:                   20% !default;
 $link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
 $link-hover-decoration:                   null !default;
@@ -489,9 +489,7 @@ $grid-breakpoints: (
   md: 768px,
   lg: 992px,
   xl: 1200px,
-  xxl: 1400px,
-  xxxl: 1600px,
-  xxxxl: 1800px
+  xxl: 1400px
 );
 // scss-docs-end grid-breakpoints
 
@@ -509,9 +507,7 @@ $container-max-widths: (
   md: 720px,
   lg: 960px,
   xl: 1140px,
-  xxl: 1320px,
-  xxxl: 1520px,
-  xxxxl: 1720px
+  xxl: 1320px
 );
 // scss-docs-end container-max-widths
 
@@ -656,7 +652,7 @@ $font-sizes: (
 // scss-docs-end font-sizes
 
 // scss-docs-start headings-variables
-$headings-margin-bottom:      $spacer * .5 !default;
+$headings-margin-bottom:      $spacer * 2;
 $headings-font-family:        null !default;
 $headings-font-style:         null !default;
 $headings-font-weight:        600;
@@ -1759,9 +1755,7 @@ $md-max-width: map.get($container-max-widths, md);
 $lg-max-width: map.get($container-max-widths, lg); 
 $xl-max-width: map.get($container-max-widths, xl); 
 $xxl-max-width: map.get($container-max-widths, xxl); 
-$xxxl-max-width: map.get($container-max-widths, xxxl); 
-$xxxxl-max-width: map.get($container-max-widths, xxxxl); 
+// $xxxl-max-width: map.get($container-max-widths, xxxl); 
+// $xxxxl-max-width: map.get($container-max-widths, xxxxl); 
 // @debug map.values($grid-breakpoints); 
 // @debug map.values($container-max-widths);
-
-

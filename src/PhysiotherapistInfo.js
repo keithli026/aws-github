@@ -4,35 +4,35 @@ var physiotherapists = [
   {
     pid: 1,
     symbol: "oli",
-    name: "meet-our-team:oli.name",
+    name: "meet-the-team:oli.name",
     gender: "M",
-    title: "meet-our-team:oli.title",
+    title: "meet-the-team:oli.title",
     photo: physiotherapist,
     summary: [
-      "meet-our-team:oli.summary.line1",
-      "meet-our-team:oli.summary.line2",
-      "meet-our-team:oli.summary.line3",
-      "meet-our-team:oli.summary.line4",
-      "meet-our-team:oli.summary.line5",
-      "meet-our-team:oli.summary.line6"
+      "meet-the-team:oli.summary.line1",
+      "meet-the-team:oli.summary.line2",
+      "meet-the-team:oli.summary.line3",
+      "meet-the-team:oli.summary.line4",
+      "meet-the-team:oli.summary.line5",
+      "meet-the-team:oli.summary.line6"
     ]
   },
-  {
-    pid: 2,
-    symbol: "olib",
-    name: "Oliver B",
-    gender: "F",
-    title: "Physiotherapist",
-    photo: physiotherapist
-  },
-  {
-    pid: 3,
-    symbol: "olic",
-    name: "Oliver C",
-    gender: "M",
-    title: "Physiotherapist",
-    photo: physiotherapist
-  }
+  // {
+  //   pid: 2,
+  //   symbol: "olib",
+  //   name: "Oliver B",
+  //   gender: "F",
+  //   title: "Physiotherapist",
+  //   photo: physiotherapist
+  // },
+  // {
+  //   pid: 3,
+  //   symbol: "olic",
+  //   name: "Oliver C",
+  //   gender: "M",
+  //   title: "Physiotherapist",
+  //   photo: physiotherapist
+  // }
 ];
 
 export function getPhysiotherapists() {

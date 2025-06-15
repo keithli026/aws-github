@@ -1,0 +1,9 @@
+{
+  "department_of_veterans_affairs": {
+    "description": "如果您持有DVA退伍軍人卡 - 全部條件（黃金卡）或特定條件（白卡），DVA將為物理治療服務支付費用。",
+    "referral_information": {
+      "requirements": "您需要GP的轉介。在某些情況下，醫療專業人員也可以作為出院的一部分發出轉介。",
+      "validity": "轉介有效期為最多12次聯合健康治療或一年，以先到者為準。"
+    }
+  }
+}

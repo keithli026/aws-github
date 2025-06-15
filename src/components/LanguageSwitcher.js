@@ -1,16 +1,31 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import i18n from './i18n'; // Adjust path as needed
+import "../GlobalStyle"
+import { lg } from "../GlobalStyle"
 
 // Example lngs object (replace with your actual configuration)
 const lngs = {
-  en: { nativeName: 'English', path: 'en' }, // Path is "en"
-  tc: { nativeName: '繁體中文', path: 'tc' },
+  en: { nativeName: 'English', shortName: 'EN', path: 'en' },
+  tc: { nativeName: '繁體中文', shortName: '繁', path: 'tc' },
 };
 
 const defaultLanguage = 'en'; // Define the default language
 
 function LanguageSwitcher() {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    console.log("lg", lg);
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -27,7 +42,7 @@ function LanguageSwitcher() {
     // Extract the original path after the language code
     const pathSegments = location.pathname.split('/').filter(Boolean);
     let originalPathAfterLanguage = '';
-    
+
     if (pathSegments.length > 0 && Object.keys(lngs).includes(pathSegments[0])) {
       originalPathAfterLanguage = '/' + pathSegments.slice(1).join('/'); // Get path after language code
     } else {
@@ -46,7 +61,7 @@ function LanguageSwitcher() {
   // Effect to set initial language based on URL
   useEffect(() => {
     const pathSegments = location.pathname.split('/').filter(Boolean); // Split pathname into segments
-    // console.log("path segements: ",pathSegments);
+    console.log("path segements: ", pathSegments);
     let lng = defaultLanguage; // Default to English
 
     // If the first segment is a known language, set the language
@@ -66,7 +81,8 @@ function LanguageSwitcher() {
     <div>
       {Object.keys(lngs).map((lng) => (
         <button key={lng} onClick={() => changeLanguage(lng)}>
-          {lngs[lng].nativeName}
+          {/* {lngs[lng].nativeName} */}
+          {windowWidth > lg ? lngs[lng].shortName : lngs[lng].nativeName}
         </button>
       ))}
     </div>

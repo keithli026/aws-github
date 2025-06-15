@@ -5,7 +5,7 @@ import { getPhysiotherapist, getPhysiotherapists, deletePhysiotherapist, getPhys
 import { useTranslation, Trans } from 'react-i18next'
 import LocalizedPath from "../components/LocalizedPath"
 
-const MeetOurTeamOverview = () => {
+const MeetTheTeamOverview = () => {
   let params = useParams();
   let Physiotherapists = getPhysiotherapists();
   // let staff = getPhysiotherapistBySymbol(params.staffId);
@@ -14,12 +14,12 @@ const MeetOurTeamOverview = () => {
   return (
     <>
       <Container>
-        <h1>{t('common:header.meet_our_team')}</h1>
+        <h1>{t('common:header.meet_the_team')}</h1>
         <div className='card_wrapper'>
           {Physiotherapists.map((profile) => {
             return (
               <div className="card" key={profile.pid}>
-                <Link to={LocalizedPath({path: `/meet-our-team/${profile.symbol}`})}>
+                <Link to={LocalizedPath({path: `/meet-the-team/${profile.symbol}`})}>
                   <img src={profile.photo} alt={t(profile.name)}></img>
                   <div className="summary">
                     <div className="name">{t(profile.name)}</div>
@@ -35,4 +35,4 @@ const MeetOurTeamOverview = () => {
   )
 }
 
-export default MeetOurTeamOverview
+export default MeetTheTeamOverview

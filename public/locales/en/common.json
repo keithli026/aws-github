@@ -1,7 +1,7 @@
 {
   "header": {
     "about": "About",
-    "meet_our_team": "Meet Our Team",
+    "meet_the_team": "Meet The Team",
     "services": {
       "title": "Services",
       "manual_therapy": "Manual Therapy",
@@ -32,7 +32,7 @@
   "breadcrumb": {
     "home": "Home",
     "about": "About",
-    "meet_our_team": "Meet Our Team",
+    "meet_the_team": "Meet The Team",
     "services": "Services",
     "manual_therapy": "Manual Therapy",
     "acupuncture": "Acupuncture",
@@ -56,5 +56,6 @@
   "shining_dot": "shining dot",
   "physiotherapist": "Physiotherapist",
   "no_area_available": "No Content",
-  "no_answer_available": "No Answer"
+  "no_answer_available": "No Answer",
+  "tel": "Tel"
 }

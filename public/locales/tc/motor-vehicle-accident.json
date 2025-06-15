@@ -1,0 +1,13 @@
+{
+  "motor_vehicle_accident": {
+    "description": "涉及道路事故的人可能需要物理治療，以幫助他們恢復到受傷前的功能水平。您需要GP的轉介才能使您的物理治療得到保險的覆蓋。",
+    "initial_consultation_requirements": {
+      "requirements": [
+        "GP轉介信",
+        "您的強制第三方（CTP）接受信",
+        "索賠詳情，包括索賠號碼、案主姓名和聯絡方式",
+        "任何相關的檢查或掃描"
+      ]
+    }
+  }
+}

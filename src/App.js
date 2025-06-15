@@ -10,7 +10,7 @@ import Staff from './pages/Staff';
 // import Physiotherapists from './pages/Physiotherapists';
 // import PhysiotherapistsOverview from './pages/physiotherapistsOverview';
 // import Physiotherapist from './pages/Physiotherapist';
-import MeetOurTeam from './pages/MeetOurTeam';
+import MeetTheTeam from './pages/MeetTheTeam';
 import Fees from './pages/Fees';
 import Services from "./pages/Services";
 import ServicesOverview from './pages/ServicesOverview';
@@ -18,14 +18,14 @@ import Acupuncture from './pages/Acupuncture';
 import ManualTherapy from './pages/ManualTherapy';
 import ExerciseRehabilitation from './pages/ExerciseRehabilitation';
 import MassageTherapy from './pages/MassageTherapy';
-import ShockwaveTherapy from './pages/ShockwaveTherapy';
-import Electrotherapy from './pages/Electrotherapy';
+// import ShockwaveTherapy from './pages/ShockwaveTherapy';
+// import Electrotherapy from './pages/Electrotherapy';
 import CuppingTherapy from './pages/CuppingTherapy';
 import Conditions from "./pages/Conditions";
 import Contact from "./pages/Contact";
 import BookOnline from './pages/BookOnline';
 import NoPage from "./pages/NoPage";
-import MeetOurTeamOverview from './pages/MeetOurTeamOverview';
+import MeetTheTeamOverview from './pages/MeetTheTeamOverview';
 import ScrollToTop from './components/ScrollToTop';
 
 // import Testing from './pages/Testing';
@@ -49,8 +49,8 @@ function App() {
             <Route index element={<PhysiotherapistsOverview />} />
             <Route path=":physiotherapistId" element={<Physiotherapist />} />
           </Route> */}
-            <Route path="meet-our-team" element={<MeetOurTeam />}>
-              <Route index element={<MeetOurTeamOverview />} />
+            <Route path="meet-the-team" element={<MeetTheTeam />}>
+              <Route index element={<MeetTheTeamOverview />} />
               <Route path=":staffId" element={<Staff />} />
             </Route>
             <Route path="services" element={<Services />}>
@@ -59,8 +59,8 @@ function App() {
               <Route path="acupuncture" element={<Acupuncture />} />
               <Route path="exercise-rehabilitation" element={<ExerciseRehabilitation />} />
               <Route path="massage-therapy" element={<MassageTherapy />} />
-              <Route path="shockwave-therapy" element={<ShockwaveTherapy />} />
-              <Route path="electrotherapy" element={<Electrotherapy />} />
+              {/* <Route path="shockwave-therapy" element={<ShockwaveTherapy />} />
+              <Route path="electrotherapy" element={<Electrotherapy />} /> */}
               <Route path="cupping-therapy" element={<CuppingTherapy />} />
             </Route>
             <Route path="fees" element={<Fees />} />

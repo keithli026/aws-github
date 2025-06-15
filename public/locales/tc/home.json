@@ -9,8 +9,8 @@
     "Book_Now": "立即預約",
     "Contact_Us": "聯絡我們"
   },
-  "our_values": {
-    "title": "我們的價值觀",
+  "values": {
+    "title": "價值觀",
     "Holistic_care": "全人照護",
     "Holistic_care_value": "我們考慮到客戶的整體健康狀況。",
     "Individualized_services": "個別化服務",
@@ -28,8 +28,8 @@
     "Evidence_based_practice": "循證實踐",
     "Evidence_based_practice_value": "我們將最佳的研究證據與臨床專業知識和客戶價值觀結合，來提供治療。"
   },
-  "our_services": {
-    "title": "我們的服務",
+  "services": {
+    "title": "服務",
     "Manual therapy": "徒手治療",
     "Acupuncture": "針灸治療",
     "Exercise rehabilitation": "運動治療",
@@ -38,7 +38,7 @@
     "Electrotherapy": "電療",
     "Cupping therapy": "拔罐治療"
   },
-  "our_team": {
-    "title": "我們的團隊"
+  "the_team": {
+    "title": "團隊"
   }
 }

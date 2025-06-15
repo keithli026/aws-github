@@ -1,0 +1,9 @@
+{
+  "department_of_veterans_affairs": {
+    "description": "DVA will pay for physiotherapy services if you hold a DVA Veteran Card - All Conditions (Gold) or Specific Conditions (White).",
+    "referral_information": {
+      "requirements": "You need a referral from a GP. In certain circumstances, a referral may also be issued by a health professional as part of a hospital discharge.",
+      "validity": "A referral is valid for up to 12 sessions of allied health treatment or one year, whichever comes first."
+    }
+  }
+}

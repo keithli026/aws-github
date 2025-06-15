@@ -27,7 +27,7 @@ i18n
       'home',
       'manual-therapy',
       'massage-therapy',
-      'meet-our-team',
+      'meet-the-team',
       'services',
       'shockwave-therapy',
       'translation'

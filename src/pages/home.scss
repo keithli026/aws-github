@@ -1,140 +1,171 @@
 $header-height: 72.27px;
 $header-height-lg: 148.89px;
 $header-height-xxl: 87.89px;
+
 .slick-slider {
   .slick-list {
     .slick-slide {
       .banner {
         position: relative;
+
         >img {
           object-fit: cover;
           width: 100%;
           height: calc(100vh - $header-height);
+
           @include media-breakpoint-up(lg) {
             height: calc(100vh - $header-height-lg);
           }
+
           @include media-breakpoint-up(xxl) {
             height: calc(100vh - $header-height-xxl);
           }
         }
+
         .textbox {
-          position: absolute;
-          top: 10vw;
-          left: 0;
-          right: 0;
+          // position: absolute;
+          // top: 10vw;
+          // left: 0;
+          // right: 0;
           color: $white;
+
           @include media-breakpoint-up(lg) {
-            top: 0;
-            margin-top: 50px;
+            // top: 0;
+            padding-top: 50px;
           }
+
           @include media-breakpoint-up(xl) {
-            margin-top: 100px;
+            padding-top: 100px;
           }
+
           @include media-breakpoint-up(xxl) {
-            margin-top: 150px;
+            padding-top: 150px;
           }
-      
+
           .content {
             text-align: center;
-            h2 {
+
+            .slogan-1 {
               font-size: 30px;
-              margin-bottom: 30px;
+              font-weight: 600;
+              margin-bottom: 20px;
               color: inherit;
               line-height: 1.2;
+              
               @include media-breakpoint-up(sm) {
                 font-size: 40px;
               }
+
               @include media-breakpoint-up(lg) {
                 font-size: 64px;
               }
             }
-  
-            h3 {
+
+            .slogan-2 {
               font-size: 24px;
               font-weight: 400;
+              margin-bottom: 30px;
               color: inherit;
               line-height: 1.2;
+
               @include media-breakpoint-up(sm) {
                 font-size: 30px;
               }
+
               @include media-breakpoint-up(lg) {
                 font-size: 36px;
               }
             }
+
             ul {
               list-style-type: disclosure-closed;
+
               @include media-breakpoint-up(lg) {
                 list-style-type: disc;
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
               }
+
               li {
                 width: fit-content;
                 text-align: start;
+
                 &::marker {
                   color: $red;
                 }
+
                 @include media-breakpoint-up(lg) {
                   &::marker {
                     color: $white;
                   }
+
                   margin-right: 28px;
-    
+
                   &:first-child {
                     list-style-type: none;
                     padding-left: 0;
                   }
+
                   &:last-child {
                     margin-right: 0;
                   }
                 }
+
                 @include media-breakpoint-up(xl) {
                   margin-right: 38px;
                   padding-left: 10px;
                 }
+
                 @include media-breakpoint-up(xxl) {
                   margin-right: 49px;
                   padding-left: 21px;
                 }
               }
             }
-  
+
             .button_container {
-              text-align: center;
-              width: 100%;
-  
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              gap: 20px;
+              margin-bottom: 30px;
+
               @include media-breakpoint-up(lg) {
                 margin-bottom: 50px;
               }
-              @include media-breakpoint-up(xxxl) {
-                margin-bottom: 150px;
-              }
-  
-              a {
-                margin: 0 20px 20px;
-              }
+
             }
-  
+
             .learn-more {
-              display: flex;
-              flex-direction: column;
+
+              // display: flex;
+              // flex-direction: column;
               @include media-breakpoint-up(lg) {
-                margin-bottom: 30px;
+                // margin-bottom: 30px;
               }
+
+              >div {
+                margin-left: auto;
+                margin-right: auto;
+              }
+
               button {
                 text-align: center;
                 text-decoration: none;
                 color: $white;
-                align-self: center;
+                // align-self: center;
                 background-color: unset;
                 border: none;
+                margin-left: auto;
+                margin-right: auto;
+
               }
             }
-  
+
             p {
               display: none;
-  
+
               @include media-breakpoint-up(md) {
                 display: block;
               }
@@ -180,8 +211,10 @@ $header-height-xxl: 87.89px;
 
   .slick-dots {
     bottom: 10px;
+
     li {
       margin: 0;
+
       &.slick-active {
         button {
           &::before {
@@ -215,141 +248,103 @@ $header-height-xxl: 87.89px;
   }
 }
 
-#about-section {
-  padding-top: 80px;
-  padding-bottom: 80px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  @include media-breakpoint-up(lg) {
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
-  @include media-breakpoint-up(xxl) {
-    padding-top: 150px;
-    padding-bottom: 150px;
-  }
-}
-
-#our-values-section {
+#values-section {
   padding: 100px 0;
   background-color: $gray-100;
+
   .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-
-    @include media-breakpoint-up(lg) {
-      justify-content: start;
-    }
+    gap: 20px;
+    margin-bottom: 50px;
 
     .box {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      flex-basis: 100%;
-      margin-bottom: 50px;
-      @include media-breakpoint-up(sm) {
-        flex-basis: 48%;
-      }
+      font-weight: 600;
+      text-align: center;
+      flex: 1 1 calc(50% - 20px);
 
-      @include media-breakpoint-up(lg) {
-        flex-basis: 23.5%;
-        margin-right: 2%;
-
-        &:nth-child(4n) {
-          margin-right: 0;
-        }
+      @include media-breakpoint-up(md) {
+        flex: 1 1 calc(25% - 20px);
       }
 
       .image_wrapper {
         margin-bottom: 20px;
+
         img {
+          width: 200px;
           height: 200px;
-          width: 100%;
+          object-fit: contain;
+          margin: 0 auto;
         }
       }
-
-      h3 {
-        font-size: 20px;
-        margin-bottom: 10px;
-        text-align: center;
+      .value {
+        line-height: 1.5;
       }
     }
   }
+
   .button_wrapper {
     text-align: center;
   }
 }
 
-#our-services-section {
+#services-section {
   padding: 100px 0;
   background-color: $gray-300;
+
   @include media-breakpoint-up(lg) {
-    height: 700px;
+    // height: 700px;
     background-image: url("../assets/images/our_services.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
-  @include media-breakpoint-up(xxxl) {
-    height: 900px;
+
+  >div {
+    @include media-breakpoint-up(lg) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
   }
+
   h2 {
     @include media-breakpoint-up(lg) {
       margin: 0;
-      float: left;
+      height: fit-content;
+      // float: left;
     }
   }
+
   .boxes {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    @include media-breakpoint-up(md) {
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: start;
-    }
+    flex-wrap: wrap;
+    gap: 20px;
+
     @include media-breakpoint-up(lg) {
-      display: block;
-      float: right;
+      flex-direction: column;
+      // flex-basis: 400px;
     }
+
     .box {
       background-color: $white;
       border-radius: 60px;
       padding: 10px 20px;
-      margin-bottom: 20px;
-      width: fit-content;
-      min-width: 225px;
-      text-align: center;
       font-weight: 600;
+      // flex: 1 1 calc(50% - 20px);
+
       @include media-breakpoint-up(md) {
-        flex-basis: 48%;
-        &:nth-child(2n-1) {
-          margin-right: 2%;
-        }
-        &:nth-child(2n) {
-          margin-left: 2%;
-        }
+        // flex: 1 1 calc(25% - 20px);
       }
+
       @include media-breakpoint-up(lg) {
         padding: 10px 50px;
-        text-align: center;
-        width: auto;
-        &:nth-child(n) {
-          margin-left: 0;
-          margin-right: 0;
-        }
       }
+
       a {
-        color: $black;
-        text-decoration: none;
+
         @include media-breakpoint-up(lg) {
           font-size: 20px;
-          font-weight: 600;
-        }
-        @include media-breakpoint-up(xxxl) {
-          font-size: 32px;
           font-weight: 600;
         }
       }
@@ -357,42 +352,41 @@ $header-height-xxl: 87.89px;
   }
 }
 
-.our-team-section {
+.the-team-section {
   padding: 100px 0;
+
   .members {
     display: flex;
-    flex-direction: column;
-    @media (min-width: 300px) {
-      flex-direction: row;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-
-    @include media-breakpoint-up(lg) {
-      justify-content: space-evenly;
-    }
+    flex-wrap: wrap;
+        justify-content: center;
+    gap: 20px;
 
     .member {
-      padding: 30px 0;
-      text-align: center;
-      @media (min-width: 300px) {
-        flex-basis: 47%;
-      }
+      flex-basis: calc(50% - 20px * 1 / 2);
+
       @include media-breakpoint-up(lg) {
-        flex-basis: 20%
+        flex-basis: calc(25% - 20px * 3 / 4);
       }
 
       img {
-        width: 100%;
+        // width: 100%;
+        margin-bottom: 10px;
       }
 
-      h3 {
-        font-size: 20px;
-        margin: 10px 0;
+      .name {
+        font-weight: 600;
+
+        @include media-breakpoint-up(lg) {
+          font-size: 20px;
+        }
       }
 
-      p {
-        margin-bottom: 0;
+      .title {
+        font-weight: 400;
+
+        @include media-breakpoint-up(lg) {
+          font-size: 20px;
+        }
       }
 
       .button {

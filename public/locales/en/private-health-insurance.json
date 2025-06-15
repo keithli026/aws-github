@@ -1,0 +1,91 @@
+{
+  "home_visit_physiotherapy_consultation_fee": {
+    "title": "Home Visit Physiotherapy Consultation Fee",
+    "headers": {
+      "time": "Time",
+      "fee": "Fee"
+    },
+    "services": [
+      {
+        "name": "Initial Consultation",
+        "duration": "40 min",
+        "cost": "$150"
+      },
+      {
+        "name": "Subsequent Consultation",
+        "duration": "20 min",
+        "cost": "$150"
+      },
+      {
+        "name": "Travel",
+        "duration": "20 min",
+        "cost": "Free"
+      }
+    ]
+  },
+  "physiotherapy_program_and_package_fees": {
+    "title": "Physiotherapy Program and Package Fees",
+    "headers": {
+      "package_program": "Package/Program",
+      "description": "Description",
+      "time": "Time",
+      "fee": "Fee"
+    },
+    "packages": [
+      {
+        "name": "Intensive Week",
+        "description": "Discount will be applicable on subsequent consultations in the following week after an initial consultation. Only applicable to one body part at a time.",
+        "duration": "20 min per session",
+        "discounts": [
+          "$20 off on the 2nd visit",
+          "$40 off on the 3rd visit"
+        ]
+      },
+      {
+        "name": "Wellness Package",
+        "description": "No expiry date for the package",
+        "duration": "20 min per session",
+        "pricing": [
+          "$650 for 5 sessions",
+          "$1100 for 10 sessions"
+        ]
+      }
+    ]
+  },
+  "home_visit_massage_fee": {
+    "title": "Home Visit Massage Fee",
+    "headers": {
+      "time": "Time",
+      "fee": "Fee"
+    },
+    "services": [
+      {
+        "name": "Massage",
+        "duration": "40 min",
+        "cost": "$150"
+      },
+      {
+        "name": "Travel",
+        "duration": "20 min",
+        "cost": "Free"
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ",
+    "questions": [
+      {
+        "question": "Can I use Medicare or private health insurance on a program and package?",
+        "answer": "You can either Medicare or private health insurance on the program and package."
+      },
+      {
+        "question": "How do I know whether a program or package suits me?",
+        "answer": "An intensive week program is designed for clients who need multiple intensive treatments and exercises rehabilitation for optimal recovery.\n\nA wellness package is designed for clients who need ongoing physiotherapy for long-term management."
+      },
+      {
+        "question": "How does a physiotherapy program work?",
+        "answer": "The aim of an intensive week program is to make the treatment sessions more affordable especially for clients who need intensive treatments for optimal recovery. A discount will be applicable on follow-up consultations in the following week after the initial consultation."
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "home_care_package": {
+    "what_is_hcp": {
+      "description": "The Home Care Package (HCP) is a government-funded program that helps older Australians get care and support at home, so they can keep living independently for as long as possible. There are four levels of support—Level 1 is for basic care, while Level 4 is for high level care. This funding can be used for many various services, including care management, personal care, clinical care such as physiotherapy, dietary support, mobility support, and home modifications."
+    },
+    "who_is_eligible": {
+      "description": "You generally need to be aged 65 or over. You must have an assessment by an independent team to determine your eligibility based on your care needs and the support you require to live independently at home."
+    },
+    "after_approval": {
+      "description": "Once you receive a Home Care Package (HCP), you’ll choose an approved provider to help manage your funding and organise your care. With your permission, we’ll contact your case manager directly to introduce our physiotherapy services and discuss how we can support your needs."
+    }
+  }
+}

@@ -1,14 +1,15 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebook, faInstagram, faTwitter, faYoutube, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
-import { phone } from "../WhatsappButton"
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import logoIcon from "../../assets/images/fitzio_logo_trans.png"
 import mailIcon from "../../assets/images/Mail.png"
 import "../../components/i18n"
 import { useTranslation, Trans } from 'react-i18next'
 import Container from "react-bootstrap/Container"
 import LocalizedPath from "../LocalizedPath"
+import { phone, email } from "../ContactButtons"
 
-const email = "oli@fitzio.com.au";
+// const email = "oli@fitzio.com.au";
 const Footer = () => {
   const { t, i18n } = useTranslation(['common']);
   const currentYear = new Date().getFullYear();
@@ -20,26 +21,18 @@ const Footer = () => {
       <div id="footer">
         <Container>
           <div className="logo">
-            <a href={LocalizedPath({path: "/"})}>
-            <img src={logoIcon} alt={t('site_logo')} />
+            <a href={LocalizedPath({ path: "/" })}>
+              <img src={logoIcon} alt={t('site_logo')} />
             </a>
           </div>
           <div className="contact">
             <div className="email">
-              <a href={`mailto: ${email}`}>
-              <img src={mailIcon} alt={t('common:footer.email')} /><div>{email}</div>
-                {/* <img src={`${process.env.PUBLIC_URL}/Mail.png`} alt="Email" /><div>{email}</div> */}
-              </a>
+              <img src={mailIcon} alt={t('common:footer.email')} />
+              <a href={`mailto: ${email}`}>{email}</a>
             </div>
-            <div className="whatsapp">
-              <a
-                href={`https://wa.me/${phone}`}
-                className="whatsapp_btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faWhatsapp} ></FontAwesomeIcon><div>{phone}</div>
-              </a>
+            <div className="tel">
+              <FontAwesomeIcon icon={faPhone} />
+              <a href={`tel:${phone}`}>{phone}</a>
             </div>
             {/* <div className="address">
               {t('common:footer.address_line_1')}<br />
@@ -57,8 +50,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div id="opening">
-            <h2 className="underline">{t('common:footer.opening_hours')}</h2>
+          <div className="opening">
+            <div className="title underline">{t('common:footer.opening_hours')}</div>
             <div className="time">
               {t('common:footer.mon2fri_arrangement')}<br />
               {t('common:footer.sun_holiday_arrangement')}

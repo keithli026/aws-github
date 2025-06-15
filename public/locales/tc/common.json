@@ -1,7 +1,7 @@
 {
   "header": {
     "about": "關於",
-    "meet_our_team": "約見團隊",
+    "meet_the_team": "約見團隊",
     "services": {
       "title": "服務",
       "manual_therapy": "徒手治療",
@@ -32,7 +32,7 @@
   "breadcrumb": {
     "home": "首頁",
     "about": "關於",
-    "meet_our_team": "約見團隊",
+    "meet_the_team": "約見團隊",
     "services": "服務",
     "manual_therapy": "徒手治療",
     "acupuncture": "針灸治療",
@@ -56,5 +56,6 @@
   "shining_dot": "發光點",
   "physiotherapist": "物理治療師",
   "no_area_available": "沒有部位資料",
-  "no_answer_available": "沒有答案"
+  "no_answer_available": "沒有答案",
+  "tel": "電話"
 }
