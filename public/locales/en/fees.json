@@ -87,5 +87,14 @@
         "answer": "The aim of an intensive week program is to make the treatment sessions more affordable especially for clients who need intensive treatments for optimal recovery. A discount will be applicable on follow-up consultations in the following week after the initial consultation."
       }
     ]
+  },
+  "type": {
+    "medicare": "Medicare",
+    "private_health_insurance": "Private Health Insurance",
+    "motor_vehicle_accident": "Motor Vehicle Accident",
+    "department_of_veterans_affairs": "Department of Veterans’ Affairs",
+    "workers_compensation": "Worker's Compensation",
+    "home_care_package": "Home Care Package",
+    "ndis": "NDIS"
   }
 }

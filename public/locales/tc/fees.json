@@ -87,5 +87,14 @@
         "answer": "週密集計劃的目的是為了讓需要多次密集治療以實現最佳恢復的客戶，能夠更輕鬆地負擔治療費用。在初次諮詢後的下週，後續諮詢將享有折扣優惠。"
       }
     ]
+  },
+  "health_services": {
+    "medicare": "Medicare",
+    "private_health_insurance": "Private Health Insurance",
+    "motor_vehicle_accident": "Motor Vehicle Accident",
+    "department_of_veterans_affairs": "Department of Veterans’ Affairs",
+    "workers_compensation": "Worker's Compensation",
+    "home_care_package": "Home Care Package",
+    "ndis": "NDIS"
   }
 }

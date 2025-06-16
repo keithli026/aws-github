@@ -12,6 +12,14 @@ import Staff from './pages/Staff';
 // import Physiotherapist from './pages/Physiotherapist';
 import MeetTheTeam from './pages/MeetTheTeam';
 import Fees from './pages/Fees';
+import FeesOverView from './pages/FeesOverView';
+import Medicare from './pages/Medicare'
+import PrivateHealthInsurance from './pages/PrivateHealthInsurance'
+import MotorVehicleAccident from './pages/MotorVehicleAccident'
+import DepartmentOfVeteransAffairs from './pages/DepartmentOfVeteransAffairs'
+import WorkersCompensation from './pages/WorkersCompensation'
+import HomeCarePackage from './pages/HomeCarePackage'
+import NDIS from './pages/NDIS'
 import Services from "./pages/Services";
 import ServicesOverview from './pages/ServicesOverview';
 import Acupuncture from './pages/Acupuncture';
@@ -63,7 +71,16 @@ function App() {
               <Route path="electrotherapy" element={<Electrotherapy />} /> */}
               <Route path="cupping-therapy" element={<CuppingTherapy />} />
             </Route>
-            <Route path="fees" element={<Fees />} />
+            <Route path="fees" element={<Fees />}>
+              <Route index element={<FeesOverView />} />
+              <Route path="medicare" element={<Medicare/>} />
+              <Route path="private-health-insurance" element={<PrivateHealthInsurance/>} />
+              <Route path="motor-vehicle-accident" element={<MotorVehicleAccident/>} />
+              <Route path="department-of-veterans-affairs" element={<DepartmentOfVeteransAffairs/>} />
+              <Route path="workers-compensation" element={<WorkersCompensation/>} />
+              <Route path="home-care-package" element={<HomeCarePackage/>} />
+              <Route path="ndis" element={<NDIS/>} />
+            </Route>
             <Route path="conditions" element={<Conditions />} />
             <Route path="contact" element={<Contact />} />
             <Route path="book-online" element={<BookOnline />} />

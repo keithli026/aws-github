@@ -165,7 +165,7 @@ const Conditions = () => {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
         const data = await response.json();
-        console.log("data:", data.conditions);
+        // console.log("data:", data.conditions);
         setConditionsData(data.conditions || []);
       } catch (error) {
         console.error("Error fetching conditions data:", error);

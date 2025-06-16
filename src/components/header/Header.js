@@ -36,7 +36,7 @@ const Header = () => {
   const refMenu = useRef(null);
   const initialState = {
     isServicesOn: false,
-    isTestingOn: false
+    isFeesOn: false
   };
   const [state, dispatch] = useReducer(reducer, initialState);
 
@@ -46,16 +46,16 @@ const Header = () => {
     // console.log(window.innerHeight, refHeader.current.clientHeight);
     // console.log("pathname: " + location.pathname + "; search: " + location.search);
     // console.log("after setShow: ",show);
-    // console.log(initialState.isServicesOn, state.isServicesOn, initialState.isTestingOn, state.isTestingOn);
+    // console.log(initialState.isServicesOn, state.isServicesOn, initialState.isFeesOn, state.isFeesOn);
   }, []);
 
 
   function reducer(state, action) {
     switch (action.type) {
       case "isServicesOn":
-        return { ...state, isServicesOn: !state.isServicesOn, isTestingOn: false };
-      case "isTestingOn":
-        return { ...state, isTestingOn: !state.isTestingOn, isServicesOn: false };
+        return { ...state, isServicesOn: !state.isServicesOn, isFeesOn: false };
+      case "isFeesOn":
+        return { ...state, isFeesOn: !state.isFeesOn, isServicesOn: false };
       default:
         return initialState;
     }
@@ -106,8 +106,17 @@ const Header = () => {
                     <li><Link to={LocalizedPath({ path: "/services/cupping-therapy" })}>{t('header.services.cupping_therapy')}</Link></li>
                   </ul>
                 </li>
-                <li>
-                  <Link to={LocalizedPath({ path: "/fees" })}>{t('header.fees')}</Link>
+                <li className="expandable">
+                  <Link to={LocalizedPath({ path: "/fees" })}>{t('header.fees.title')}</Link>
+                  <ul id="level-1">
+                    <li><Link to={LocalizedPath({ path: "/fees/medicare" })}>{t('header.fees.medicare')}</Link></li>
+                    <li><Link to={LocalizedPath({ path: "/fees/private-health-insurance" })}>{t('header.fees.private_health_insurance')}</Link></li>
+                    <li><Link to={LocalizedPath({ path: "/fees/motor-vehicle-accident" })}>{t('header.fees.motor_vehicle_accident')}</Link></li>
+                    <li><Link to={LocalizedPath({ path: "/fees/department-of-veterans-affairs" })}>{t('header.fees.department_of_veterans_affairs')}</Link></li>
+                    <li><Link to={LocalizedPath({ path: "/fees/workers-compensation" })}>{t('header.fees.workers_compensation')}</Link></li>
+                    <li><Link to={LocalizedPath({ path: "/fees/home-care-package" })}>{t('header.fees.home_care_package')}</Link></li>
+                    <li><Link to={LocalizedPath({ path: "/fees/ndis" })}>{t('header.fees.ndis')}</Link></li>
+                  </ul>
                 </li>
                 <li>
                   <Link to={LocalizedPath({ path: "/conditions" })}>{t('header.conditions')}</Link>
@@ -126,9 +135,9 @@ const Header = () => {
             <div className="menuBtn" onClick={() => setShow(!show)}>
               <FontAwesomeIcon icon={show ? faTimes : faBars} />
             </div>
-           
+
             <div className="telphone">
-               {telButton()}
+              {telButton()}
             </div>
           </Container>
         </Navbar>
@@ -156,7 +165,19 @@ const Header = () => {
               </ul>
             </li>
             <li>
-              <Link to={LocalizedPath({ path: "/fees" })} onClick={closeMenu}>{t('header.fees')}</Link>
+              <Link to={LocalizedPath({ path: "/fees" })} style={{ paddingBottom: state.isFeesOn ? "0.5rem" : "0" }} onClick={closeMenu}>{t('header.fees.title')}</Link>
+              <div className="dropdownBtn" onClick={() => dispatch({ type: "isFeesOn" })} aria-expanded={state.isFeesOn ? "true" : "false"}>
+                {state.isFeesOn ? (<div className="up"></div>) : (<div className="down"></div>)}
+              </div>
+              <ul id="mlevel-1" className={state.isFeesOn ? "expanded" : ""}>
+                <li><Link to={LocalizedPath({ path: "/fees/medicare" })} onClick={closeMenu}>{t('header.fees.medicare')}</Link></li>
+                <li><Link to={LocalizedPath({ path: "/fees/private-health-insurance" })} onClick={closeMenu}>{t('header.fees.private_health_insurance')}</Link></li>
+                <li><Link to={LocalizedPath({ path: "/fees/motor-vehicle-accident" })} onClick={closeMenu}>{t('header.fees.motor_vehicle_accident')}</Link></li>
+                <li><Link to={LocalizedPath({ path: "/fees/department-of-veterans-affairs" })} onClick={closeMenu}>{t('header.fees.department_of_veterans_affairs')}</Link></li>
+                <li><Link to={LocalizedPath({ path: "/fees/workers-compensation" })} onClick={closeMenu}>{t('header.fees.workers_compensation')}</Link></li>
+                <li><Link to={LocalizedPath({ path: "/fees/home-care-package" })} onClick={closeMenu}>{t('header.fees.home_care_package')}</Link></li>
+                <li><Link to={LocalizedPath({ path: "/fees/ndis" })} onClick={closeMenu}>{t('header.fees.ndis')}</Link></li>
+              </ul>
             </li>
             <li>
               <Link to={LocalizedPath({ path: "/conditions" })} onClick={closeMenu}>{t('header.conditions')}</Link>

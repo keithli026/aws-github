@@ -55,14 +55,14 @@ const Home = () => {
                   <div className="slogan-1">{t('home:banner.slogan_1')}</div>
                   <div className="slogan-2">{t("home:banner.slogan_2")}</div>
                   <ul>
-                    <li>{t('home:banner.Pain_relief')}</li>
-                    <li>{t('home:banner.Improved_mobility_and_function')}</li>
-                    <li>{t('home:banner.Injury_prevention')}</li>
-                    <li>{t('home:banner.Enhanced_sports_performance')}</li>
+                    <li>{t('home:banner.pain_relief')}</li>
+                    <li>{t('home:banner.improved_mobility_and_function')}</li>
+                    <li>{t('home:banner.injury_prevention')}</li>
+                    <li>{t('home:banner.enhanced_sports_performance')}</li>
                   </ul>
                   <div className="button_container">
-                    <a className="button" href={LocalizedPath({ path: "/contact" })}>{t('home:banner.Contact_Us')}</a>
-                    <a className="button" href={LocalizedPath({ path: "/book-online" })}>{t('home:banner.Book_Now')}</a>
+                    <a className="button" href={LocalizedPath({ path: "/contact" })}>{t('home:banner.contact_us')}</a>
+                    <a className="button" href={LocalizedPath({ path: "/book-online" })}>{t('home:banner.book_now')}</a>
                   </div>
                   <div className="learn-more">
                     <div>{t('common:learn_more')}</div>
@@ -86,14 +86,14 @@ const Home = () => {
                   <div className="slogan-1">{t('home:banner.slogan_1')}</div>
                   <div className="slogan-2">{t("home:banner.slogan_2")}</div>
                   <ul>
-                    <li>{t('home:banner.Pain_relief')}</li>
-                    <li>{t('home:banner.Improved_mobility_and_function')}</li>
-                    <li>{t('home:banner.Injury_prevention')}</li>
-                    <li>{t('home:banner.Enhanced_sports_performance')}</li>
+                    <li>{t('home:banner.pain_relief')}</li>
+                    <li>{t('home:banner.improved_mobility_and_function')}</li>
+                    <li>{t('home:banner.injury_prevention')}</li>
+                    <li>{t('home:banner.enhanced_sports_performance')}</li>
                   </ul>
                   <div className="button_container">
-                    <a className="button" href={LocalizedPath({ path: "/contact" })}>{t('home:banner.Contact_Us')}</a>
-                    <a className="button" href={LocalizedPath({ path: "/book-online" })}>{t('home:banner.Book_Now')}</a>
+                    <a className="button" href={LocalizedPath({ path: "/contact" })}>{t('home:banner.contact_us')}</a>
+                    <a className="button" href={LocalizedPath({ path: "/book-online" })}>{t('home:banner.book_now')}</a>
                   </div>
                   <div className="learn-more">
                     <div>{t('common:learn_more')}</div>
@@ -113,51 +113,51 @@ const Home = () => {
             <div className="boxes">
               <div className="box">
                 <div className='image_wrapper'>
-                  <img src={holisticCare} alt={t('home:values:Holistic_care')} loading="lazy" />
+                  <img src={holisticCare} alt={t('home:values:holistic_care')} loading="lazy" />
                 </div>
-                <div className="value">{t('home:values:Holistic_care')}</div>
+                <div className="value">{t('home:values:holistic_care')}</div>
               </div>
               <div className="box">
                 <div className='image_wrapper'>
-                  <img src={individualizedServices} alt={t('home:values:Individualized_services')} loading="lazy" />
+                  <img src={individualizedServices} alt={t('home:values:individualized_services')} loading="lazy" />
                 </div>
-                <div className="value">{t('home:values:Individualized_services')}</div>
+                <div className="value">{t('home:values:individualized_services')}</div>
               </div>
               <div className="box">
                 <div className='image_wrapper'>
-                  <img src={exerciseRehabilitation} alt={t('home:values:Exercise_rehabilitation')} loading="lazy" />
+                  <img src={exerciseRehabilitation} alt={t('home:values:exercise_rehabilitation')} loading="lazy" />
                 </div>
-                <div className="value">{t('home:values:Exercise_rehabilitation')}</div>
+                <div className="value">{t('home:values:exercise_rehabilitation')}</div>
               </div>
               <div className="box">
                 <div className='image_wrapper'>
-                  <img src={goalOriented} alt={t('home:values:Goal_oriented')} loading="lazy" />
+                  <img src={goalOriented} alt={t('home:values:goal_oriented')} loading="lazy" />
                 </div>
-                <div className="value">{t('home:values:Goal_oriented')}</div>
+                <div className="value">{t('home:values:goal_oriented')}</div>
               </div>
               <div className="box">
                 <div className='image_wrapper'>
-                  <img src={empowerment} alt={t('home:values:Empowerment')} loading="lazy" />
+                  <img src={empowerment} alt={t('home:values:empowerment')} loading="lazy" />
                 </div>
-                <div className="value">{t('home:values:Empowerment')}</div>
+                <div className="value">{t('home:values:empowerment')}</div>
               </div>
               <div className="box">
                 <div className='image_wrapper'>
-                  <img src={longLastingClinicalOutcomes} alt={t('home:values:Long_lasting_clinical_outcomes')} loading="lazy" />
+                  <img src={longLastingClinicalOutcomes} alt={t('home:values:long_lasting_clinical_outcomes')} loading="lazy" />
                 </div>
-                <div className="value">{t('home:values:Long_lasting_clinical_outcomes')}</div>
+                <div className="value">{t('home:values:long_lasting_clinical_outcomes')}</div>
               </div>
               <div className="box">
                 <div className='image_wrapper'>
-                  <img src={ongoingSupport} alt={t('home:values:Ongoing_support')} loading="lazy" />
+                  <img src={ongoingSupport} alt={t('home:values:ongoing_support')} loading="lazy" />
                 </div>
-                <div className="value">{t('home:values:Ongoing_support')}</div>
+                <div className="value">{t('home:values:ongoing_support')}</div>
               </div>
               <div className="box">
                 <div className='image_wrapper'>
-                  <img src={evidenceBasedPractice} alt={t('home:values:Evidence_based_practice')} loading="lazy" />
+                  <img src={evidenceBasedPractice} alt={t('home:values:evidence_based_practice')} loading="lazy" />
                 </div>
-                <div className="value">{t('home:values:Evidence_based_practice')}</div>
+                <div className="value">{t('home:values:evidence_based_practice')}</div>
               </div>
             </div>
             {/* <div className="button_wrapper">

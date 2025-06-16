@@ -1,13 +1,12 @@
 {
-  "motor_vehicle_accident": {
-    "description": "People involved in a road accident may require physiotherapy to assist them return to pre-injury level of function. You need a GP referral for your physiotherapy to be covered by the Insurance.",
-    "initial_consultation_requirements": {
-      "requirements": [
-        "A GP referral letter",
-        "Your Compulsory Third Party (CTP) letter of acceptance",
-        "Claim details including a claim number, case manager name, and contact details",
-        "Any relevant tests or scans"
-      ]
-    }
+  "description": "People involved in a road accident may require physiotherapy to assist them return to pre-injury level of function. You need a GP referral for your physiotherapy to be covered by the Insurance.",
+  "initial_consultation_requirements": {
+    "title": "Please bring the following along to your initial consultation:",
+    "requirements": [
+      "A GP referral letter",
+      "Your Compulsory Third Party (CTP) letter of acceptance",
+      "Claim details including a claim number, case manager name, and contact details",
+      "Any relevant tests or scans"
+    ]
   }
 }

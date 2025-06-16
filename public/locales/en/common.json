@@ -12,7 +12,16 @@
       "electrotherapy": "Electrotherapy",
       "cupping_therapy": "Cupping Therapy"
     },
-    "fees": "Fees",
+    "fees": {
+      "title": "Fees",
+      "medicare": "Medicare",
+      "private_health_insurance": "Private Health Insurance",
+      "motor_vehicle_accident": "Motor Vehicle Accident",
+      "department_of_veterans_affairs": "Department of Veterans' Affairs",
+      "workers_compensation": "Worker's Compensation",
+      "home_care_package": "Home Care Package",
+      "ndis": "NDIS"
+    },
     "conditions": "Conditions",
     "contact": "Contact",
     "book_online": "Book Online"
@@ -42,6 +51,13 @@
     "electrotherapy": "Electrotherapy",
     "cupping_therapy": "Cupping Therapy",
     "fees": "Fees",
+    "medicare": "Medicare",
+    "private_health_insurance": "Private Health Insurance",
+    "motor_vehicle_accident": "Motor Vehicle Accident",
+    "department_of_veterans_affairs": "Department of Veterans' Affairs",
+    "workers_compensation": "Worker's Compensation",
+    "home_care_package": "Home Care Package",
+    "ndis": "NDIS",
     "conditions": "Conditions",
     "contact": "Contact",
     "book_online": "Book Online",
