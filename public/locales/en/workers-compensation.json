@@ -1,12 +1,10 @@
 {
-  "workers_compensation": {
-    "description": "Workers sustained an injury from work may require physiotherapy to facilitate early recovery and assist them return to pre-injury level of function.",
-    "initial_consultation_requirements": {
-      "requirements": [
-        "A GP referral letter",
-        "Claim acceptance letter",
-        "Claim details including a claim number, case manager name, and contact details"
-      ]
-    }
+  "description": "Workers sustained an injury from work may require physiotherapy to facilitate early recovery and assist them return to pre-injury level of function.",
+  "initial_consultation_requirements": {
+    "requirements": [
+      "A GP referral letter",
+      "Claim acceptance letter",
+      "Claim details including a claim number, case manager name, and contact details"
+    ]
   }
 }

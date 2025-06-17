@@ -11,21 +11,21 @@ const MotorVehicleAccident = () => {
   const language = getLanguageFromPath(location.pathname);
 
   useEffect(() => {
-    const fetchConditionsData = async () => {
+    const fetchFeesData = async () => {
       try {
         const response = await fetch(`/locales/${language}/motor-vehicle-accident.json`);
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
         const data = await response.json();
-        // console.log("data:", data.conditions);
+  
         setAccidentData(data.initial_consultation_requirements.requirements || []);
       } catch (error) {
         console.error("Error fetching motor vehicle accident data:", error);
       }
     };
 
-    fetchConditionsData();
+    fetchFeesData();
 
   }, [location.pathname]);
   return (

@@ -1,31 +1,58 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Container from 'react-bootstrap/Container'
+import { useTranslation } from 'react-i18next'
+import { useLocation } from 'react-router-dom';
+import { getLanguageFromPath } from '../utils/getLanguage';
 
 const Medicare = () => {
+  const { t } = useTranslation(['common', 'medicare']);
+  const [medicareData, setMedicareData] = useState([]);
+  const location = useLocation();
+  const language = getLanguageFromPath(location.pathname);
+
+  useEffect(() => {
+    const fetchFeesData = async () => {
+      try {
+        const response = await fetch(`/locales/${language}/medicare.json`);
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        const data = await response.json();
+
+        setMedicareData(data.costs.details || []);
+      } catch (error) {
+        console.error("Error fetching medicare data:", error);
+      }
+    };
+
+    fetchFeesData();
+
+  }, [location.pathname]);
+
   return (
-    <>
-      <Container>
-        <h1>Medicare</h1>
+    <Container>
+      <div class="section">
+        <h1>{t('common:header.fees.medicare')}</h1>
 
-        <h2>Chronic Disease Management (CDM)</h2>
-        <p>Chronic Disease Management (formerly known as Enhanced Primary Care or EPC) is a program designed to support General Practitioners (GPs) in managing the health and well-being of patients living with chronic or long-term medical conditions (those lasting or expected to last at least six months). Through this program, eligible patients may receive Medicare rebates for specific Allied Health Services, including physiotherapy, upon referral from their GP.</p>
+        <h2>{t('medicare:chronic_disease_management.title')}</h2>
+        <p>{t('medicare:chronic_disease_management.description')}</p>
 
-        <h3>How do I obtain a CDM referral?</h3>
-        <p>Your GP will determine if you qualify for the CDM program based on a clinical assessment of your medical condition and healthcare needs. If eligible, your GP can provide you with a referral that allows you to access up to five Medicare-subsidised Allied Health consultations per calendar year.</p>
+        <h3>{t('medicare:how_to_obtain_referral.title')}</h3>
+        <p>{t('medicare:how_to_obtain_referral.description')}</p>
 
-        <h3>What should I do after receiving a CDM referral?</h3>
-        <p>After obtaining your referral, simply contact our clinic to book your appointment. Please mention that you have a CDM plan when scheduling, so we can apply the correct Medicare coding.</p>
+        <h3>{t('medicare:after_receiving_referral.title')}</h3>
+        <p>{t('medicare:after_receiving_referral.description')}</p>
 
-        <h3>What are the costs involved?</h3>
-        <p>Under the CDM program, you may be eligible for:</p>
+        <h3>{t('medicare:costs.title')}</h3>
+        <p>{t('medicare:costs.eligibility')}</p>
         <ul>
-          <li>Up to 5 physiotherapy sessions partially covered by Medicare.</li>
-          <li>There is a $60 out-of-pocket fee per session for all five sessions.</li>
-          <li>Any additional CDM sessions beyond this will be charged at private rate.</li>
+          {medicareData.map((detail, index) => (
+            <li ket={index}>{detail}</li>
+          ))}
         </ul>
-        <p>Please note that standard fees may apply in accordance with our cancellation policy.</p>
-      </Container>
-    </>
+        <p>{t('medicare:costs.note')}</p>
+      </div>
+    </Container>
   )
 }
 

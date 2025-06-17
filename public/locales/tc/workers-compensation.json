@@ -1,12 +1,10 @@
 {
-  "workers_compensation": {
-    "description": "因工作受傷的工人可能需要物理治療，以促進早期康復並幫助他們恢復到受傷前的功能水平。",
-    "initial_consultation_requirements": {
-      "requirements": [
-        "GP轉介信",
-        "索賠接受信",
-        "索賠詳情，包括索賠號碼、案主姓名和聯絡方式"
-      ]
-    }
+  "description": "因工作受傷的工人可能需要物理治療，以促進早期康復並幫助他們恢復到受傷前的功能水平。",
+  "initial_consultation_requirements": {
+    "requirements": [
+      "GP轉介信",
+      "索賠接受信",
+      "索賠詳情，包括索賠號碼、案主姓名和聯絡方式"
+    ]
   }
 }

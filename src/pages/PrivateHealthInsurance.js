@@ -39,93 +39,93 @@ const PrivateHealthInsurance = () => {
 
   return (
     <Container id="private-health-insurance">
-      {/* <Breadcrumb /> */}
-      <h1>{t('common:header.fees.private_health_insurance')}</h1>
+      <div className='section'>
+        <h1>{t('common:header.fees.private_health_insurance')}</h1>
 
-      {/* Home Visit Physiotherapy Consultation Fee */}
-      <h2>{t('private-health-insurance:home_visit_physiotherapy_consultation_fee.title')}</h2>
-      <div className="table-responsive mb-5">
-        <table className="table table-bordered table-hover">
-          <thead>
-            <tr>
-              <th></th>
-              <th>{t('private-health-insurance:home_visit_physiotherapy_consultation_fee.headers.time')}</th>
-              <th>{t('private-health-insurance:home_visit_physiotherapy_consultation_fee.headers.fee')}</th>
-            </tr>
-          </thead>
-          <tbody>
-            {home_visit_physiotherapy_consultation_fee.services.map((service, index) => (
-              <tr key={index}>
-                <td>{service.name}</td>
-                <td>{service.duration}</td>
-                <td>{service.cost}</td>
+        {/* Home Visit Physiotherapy Consultation Fee */}
+        <h2>{t('private-health-insurance:home_visit_physiotherapy_consultation_fee.title')}</h2>
+        <div className="table-responsive mb-5">
+          <table className="table table-bordered table-hover">
+            <thead>
+              <tr>
+                <th></th>
+                <th>{t('private-health-insurance:home_visit_physiotherapy_consultation_fee.headers.time')}</th>
+                <th>{t('private-health-insurance:home_visit_physiotherapy_consultation_fee.headers.fee')}</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+            </thead>
+            <tbody>
+              {home_visit_physiotherapy_consultation_fee.services.map((service, index) => (
+                <tr key={index}>
+                  <td>{service.name}</td>
+                  <td>{service.duration}</td>
+                  <td>{service.cost}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
 
-      {/* Physiotherapy Program and Package Fees */}
-      <h2>{t('private-health-insurance:physiotherapy_program_and_package_fees.title')}</h2>
-      <div className="table-responsive mb-5">
-        <table className="table table-bordered table-hover">
-          <thead>
-            <tr>
-              <th>{t('private-health-insurance:physiotherapy_program_and_package_fees.headers.package_program')}</th>
-              <th>{t('private-health-insurance:physiotherapy_program_and_package_fees.headers.description')}</th>
-              <th>{t('private-health-insurance:physiotherapy_program_and_package_fees.headers.time')}</th>
-              <th>{t('private-health-insurance:physiotherapy_program_and_package_fees.headers.fee')}</th>
-            </tr>
-          </thead>
-          <tbody>
-            {physiotherapy_program_and_package_fees.packages.map((packageItem, index) => (
-              <tr key={index}>
-                <td>{packageItem.name}</td>
-                <td>{packageItem.description}</td>
-                <td>{packageItem.duration}</td>
-                <td>
-                  {packageItem.discounts ? packageItem.discounts.join(', ') : packageItem.pricing.join(', ')}
-                </td>
+        {/* Physiotherapy Program and Package Fees */}
+        <h2>{t('private-health-insurance:physiotherapy_program_and_package_fees.title')}</h2>
+        <div className="table-responsive mb-5">
+          <table className="table table-bordered table-hover">
+            <thead>
+              <tr>
+                <th>{t('private-health-insurance:physiotherapy_program_and_package_fees.headers.package_program')}</th>
+                <th>{t('private-health-insurance:physiotherapy_program_and_package_fees.headers.description')}</th>
+                <th>{t('private-health-insurance:physiotherapy_program_and_package_fees.headers.time')}</th>
+                <th>{t('private-health-insurance:physiotherapy_program_and_package_fees.headers.fee')}</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+            </thead>
+            <tbody>
+              {physiotherapy_program_and_package_fees.packages.map((packageItem, index) => (
+                <tr key={index}>
+                  <td>{packageItem.name}</td>
+                  <td>{packageItem.description}</td>
+                  <td>{packageItem.duration}</td>
+                  <td>
+                    {packageItem.discounts ? packageItem.discounts.join(', ') : packageItem.pricing.join(', ')}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
 
-      {/* Home Visit Massage Fee */}
-      <h2>{t('private-health-insurance:home_visit_massage_fee.title')}</h2>
-      <div className="table-responsive mb-5">
-        <table className="table table-bordered table-hover">
-          <thead>
-            <tr>
-              <th></th>
-              <th>{t('private-health-insurance:home_visit_massage_fee.headers.time')}</th>
-              <th>{t('private-health-insurance:home_visit_massage_fee.headers.fee')}</th>
-            </tr>
-          </thead>
-          <tbody>
-            {home_visit_massage_fee.services.map((service, index) => (
-              <tr key={index}>
-                <td>{service.name}</td>
-                <td>{service.duration}</td>
-                <td>{service.cost}</td>
+        {/* Home Visit Massage Fee */}
+        <h2>{t('private-health-insurance:home_visit_massage_fee.title')}</h2>
+        <div className="table-responsive mb-5">
+          <table className="table table-bordered table-hover">
+            <thead>
+              <tr>
+                <th></th>
+                <th>{t('private-health-insurance:home_visit_massage_fee.headers.time')}</th>
+                <th>{t('private-health-insurance:home_visit_massage_fee.headers.fee')}</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {home_visit_massage_fee.services.map((service, index) => (
+                <tr key={index}>
+                  <td>{service.name}</td>
+                  <td>{service.duration}</td>
+                  <td>{service.cost}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        {/* FAQ Section */}
+        <h2>{t('private-health-insurance:faq.title')}</h2>
+        <Accordion defaultActiveKey={['0']} alwaysOpen>
+          {faq.questions.map((question, index) => (
+            <Accordion.Item eventKey={index.toString()} key={index}>
+              <Accordion.Header>{t(question.question)}</Accordion.Header>
+              <Accordion.Body>{t(question.answer)}</Accordion.Body>
+            </Accordion.Item>
+          ))}
+        </Accordion>
       </div>
-
-
-      {/* FAQ Section */}
-      <h2>{t('private-health-insurance:faq.title')}</h2>
-      <Accordion defaultActiveKey={['0']} alwaysOpen>
-        {faq.questions.map((question, index) => (
-          <Accordion.Item eventKey={index.toString()} key={index}>
-            <Accordion.Header>{t(question.question)}</Accordion.Header>
-            <Accordion.Body>{t(question.answer)}</Accordion.Body>
-          </Accordion.Item>
-        ))}
-      </Accordion>
     </Container>
   );
 }

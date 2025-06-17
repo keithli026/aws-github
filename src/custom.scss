@@ -67,6 +67,10 @@ h5 {
   }
 }
 
+.section {
+  margin-bottom: 80px;
+}
+
 .underline {
   text-transform: uppercase;
   width: fit-content;
@@ -153,6 +157,10 @@ a {
 
 .table {
   tr {
+    @include media-breakpoint-up(lg) {
+      font-size: $font-size-lg;
+    }
+
     th {}
 
     td {
@@ -173,16 +181,6 @@ a {
 
 .breadcrumb {
   margin-top: 30px;
-
-  a {
-    text-decoration: none;
-
-    &.active {
-      &:last-child {
-        // color: $cyan;
-      }
-    }
-  }
 
   >span {
     margin: 0 10px;
@@ -266,5 +264,11 @@ a {
         font-size: 16px;
       }
     }
+  }
+}
+
+.accordion-button {
+  @include media-breakpoint-up(lg) {
+    font-size: $font-size-lg;
   }
 }
