@@ -1,4 +1,5 @@
 import physiotherapist from "./assets/images/unknown.png"
+import oli from "./assets/images/oliver_li.jpg"
 
 var physiotherapists = [
   {
@@ -7,7 +8,7 @@ var physiotherapists = [
     name: "meet-the-team:oli.name",
     gender: "M",
     title: "meet-the-team:oli.title",
-    photo: physiotherapist,
+    photo: oli,
     summary: [
       "meet-the-team:oli.summary.line1",
       "meet-the-team:oli.summary.line2",

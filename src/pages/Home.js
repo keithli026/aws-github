@@ -62,7 +62,7 @@ const Home = () => {
                   </ul>
                   <div className="button_container">
                     <a className="button" href={LocalizedPath({ path: "/contact" })}>{t('home:banner.contact_us')}</a>
-                    <a className="button" href={LocalizedPath({ path: "/book-online" })}>{t('home:banner.book_now')}</a>
+                    {/* <a className="button" href={LocalizedPath({ path: "/book-online" })}>{t('home:banner.book_now')}</a> */}
                   </div>
                   <div className="learn-more">
                     <div>{t('common:learn_more')}</div>
@@ -93,7 +93,7 @@ const Home = () => {
                   </ul>
                   <div className="button_container">
                     <a className="button" href={LocalizedPath({ path: "/contact" })}>{t('home:banner.contact_us')}</a>
-                    <a className="button" href={LocalizedPath({ path: "/book-online" })}>{t('home:banner.book_now')}</a>
+                    {/* <a className="button" href={LocalizedPath({ path: "/book-online" })}>{t('home:banner.book_now')}</a> */}
                   </div>
                   <div className="learn-more">
                     <div>{t('common:learn_more')}</div>

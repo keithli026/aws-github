@@ -48,9 +48,9 @@ const PrivateHealthInsurance = () => {
           <table className="table table-bordered table-hover">
             <thead>
               <tr>
-                <th></th>
-                <th>{t('private-health-insurance:home_visit_physiotherapy_consultation_fee.headers.time')}</th>
-                <th>{t('private-health-insurance:home_visit_physiotherapy_consultation_fee.headers.fee')}</th>
+                <th style={{ width: "50%" }}></th>
+                <th style={{ width: "20%" }}>{t('private-health-insurance:home_visit_physiotherapy_consultation_fee.headers.time')}</th>
+                <th style={{ width: "30%" }}>{t('private-health-insurance:home_visit_physiotherapy_consultation_fee.headers.fee')}</th>
               </tr>
             </thead>
             <tbody>
@@ -80,11 +80,19 @@ const PrivateHealthInsurance = () => {
             <tbody>
               {physiotherapy_program_and_package_fees.packages.map((packageItem, index) => (
                 <tr key={index}>
-                  <td>{packageItem.name}</td>
-                  <td>{packageItem.description}</td>
-                  <td>{packageItem.duration}</td>
-                  <td>
-                    {packageItem.discounts ? packageItem.discounts.join(', ') : packageItem.pricing.join(', ')}
+                  <td style={{ width: "10%" }}>{packageItem.name}</td>
+                  <td style={{ width: "40%" }}>{packageItem.description}</td>
+                  <td style={{ width: "20%" }}>{packageItem.duration}</td>
+                  <td style={{ width: "30%" }}>
+                    {packageItem.discounts ? (
+                      packageItem.discounts.map((discount, discountIndex) => (
+                        <div key={discountIndex}>{discount}</div>
+                      ))
+                    ) : (
+                      packageItem.pricings.map((pricing, pricingIndex) => (
+                        <div key={pricingIndex}>{pricing}</div>
+                      ))
+                    )}
                   </td>
                 </tr>
               ))}
@@ -107,8 +115,8 @@ const PrivateHealthInsurance = () => {
               {home_visit_massage_fee.services.map((service, index) => (
                 <tr key={index}>
                   <td>{service.name}</td>
-                  <td>{service.duration}</td>
-                  <td>{service.cost}</td>
+                  <td style={{ width: "20%" }}>{service.duration}</td>
+                  <td style={{ width: "30%" }}>{service.cost}</td>
                 </tr>
               ))}
             </tbody>
@@ -121,7 +129,13 @@ const PrivateHealthInsurance = () => {
           {faq.questions.map((question, index) => (
             <Accordion.Item eventKey={index.toString()} key={index}>
               <Accordion.Header>{t(question.question)}</Accordion.Header>
-              <Accordion.Body>{t(question.answer)}</Accordion.Body>
+              <Accordion.Body>
+                {Array.isArray(question.answer)
+                  ? question.answer.map((answer, answerIndex) => (
+                    <div key={answerIndex}>{t(answer)}</div>
+                  ))
+                  : t(question.answer)}
+              </Accordion.Body>
             </Accordion.Item>
           ))}
         </Accordion>

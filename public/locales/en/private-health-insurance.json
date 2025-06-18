@@ -7,8 +7,13 @@
     },
     "services": [
       {
-        "name": "Initial Consultation",
-        "duration": "40 min",
+        "name": "Initial Assessment",
+        "duration": "20 min",
+        "cost": "Waived"
+      },
+      {
+        "name": "Initial Treatment",
+        "duration": "20 min",
         "cost": "$150"
       },
       {
@@ -19,7 +24,7 @@
       {
         "name": "Travel",
         "duration": "20 min",
-        "cost": "Free"
+        "cost": "Waived"
       }
     ]
   },
@@ -33,19 +38,21 @@
     },
     "packages": [
       {
-        "name": "Intensive Week",
-        "description": "Discount will be applicable on subsequent consultations in the following week after an initial consultation. Only applicable to one body part at a time.",
+        "name": "Intensive Fortnight",
+        "description": "Discount will be applicable on subsequent consultations in the following 2 weeks after an initial consultation. Only applicable to one body part at a time.",
         "duration": "20 min per session",
         "discounts": [
           "$20 off on the 2nd visit",
-          "$40 off on the 3rd visit"
+          "$30 off on the 3rd visit",
+          "$40 off on the 4th visit",
+          "$50 off on the 5th visit"
         ]
       },
       {
         "name": "Wellness Package",
         "description": "No expiry date for the package",
         "duration": "20 min per session",
-        "pricing": [
+        "pricings": [
           "$650 for 5 sessions",
           "$1100 for 10 sessions"
         ]
@@ -85,6 +92,15 @@
       {
         "question": "How does a physiotherapy program work?",
         "answer": "The aim of an intensive week program is to make the treatment sessions more affordable especially for clients who need intensive treatments for optimal recovery. A discount will be applicable on follow-up consultations in the following week after the initial consultation."
+      },
+      {
+        "question": "What do I expect during free initial assessment?",
+        "answer": [
+          "Free initial assessment",
+          "Free discussion with our physiotherapists",
+          "Free advice on how physiotherapy can help and self-management strategies",
+          "Free recommendations for ongoing physiotherapy plan"
+        ]
       }
     ]
   }

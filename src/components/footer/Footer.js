@@ -40,21 +40,21 @@ const Footer = () => {
               {t('common:footer.address_line_3')}<br />
               {t('common:footer.address_line_4')}
             </div> */}
-            <div className="follow-us">
-              <div>{t('common:footer.follow_us_on')}</div>
-              <div className="socialMedia">
-                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
-                <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
-                <a href="https://twitter.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
-                <a href="https://www.youtube.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faYoutube} /></a>
-              </div>
-            </div>
           </div>
           <div className="opening">
             <div className="title underline">{t('common:footer.opening_hours')}</div>
             <div className="time">
               {t('common:footer.mon2fri_arrangement')}<br />
               {t('common:footer.sun_holiday_arrangement')}
+            </div>
+          </div>
+          <div className="follow-us">
+            <div>{t('common:footer.follow_us_on')}</div>
+            <div className="socialMedia">
+              <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
+              <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+              <a href="https://twitter.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
+              <a href="https://www.youtube.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faYoutube} /></a>
             </div>
           </div>
           <div className="disclaimer">

@@ -124,9 +124,9 @@ const Header = () => {
                 <li>
                   <Link to={LocalizedPath({ path: "/contact" })}>{t('header.contact')}</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to={LocalizedPath({ path: "/book-online" })} className="button">{t('header.book_online')}</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="language-switcher">
@@ -185,9 +185,9 @@ const Header = () => {
             <li>
               <Link to={LocalizedPath({ path: "/contact" })} onClick={closeMenu}>{t('header.contact')}</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to={LocalizedPath({ path: "/book-online" })} onClick={closeMenu}>{t('header.book_online')}</Link>
-            </li>
+            </li> */}
             <li>
               <LanguageSwitcher />
             </li>

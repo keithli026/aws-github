@@ -83,7 +83,7 @@ function App() {
             </Route>
             <Route path="conditions" element={<Conditions />} />
             <Route path="contact" element={<Contact />} />
-            <Route path="book-online" element={<BookOnline />} />
+            {/* <Route path="book-online" element={<BookOnline />} /> */}
             {/* <Route path="testing" element={<Testing/>}>
               <Route index element={<TestingOverview/>}></Route>
               <Route path="testing-content-page" element={<TestingContentPage/>} />
