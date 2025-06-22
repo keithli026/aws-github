@@ -1,9 +1,6 @@
-import React, { useEffect, useRef, useContext, useState, useCallback } from 'react';
-import { Map, AdvancedMarker, MapCameraChangedEvent, useMap, Pin } from '@vis.gl/react-google-maps';
-import { GoogleMapsContext } from './GoogleMapsProvider';
+import React, { useEffect, useRef, useState, useCallback } from 'react';
+import { AdvancedMarker, useMap, Pin } from '@vis.gl/react-google-maps';
 import { MarkerClusterer } from '@googlemaps/markerclusterer';
-import { Marker } from '@googlemaps/markerclusterer';
-
 
 const PoiMarkers = (props) => {
   const map = useMap();

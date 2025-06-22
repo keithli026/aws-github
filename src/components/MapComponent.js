@@ -1,8 +1,5 @@
-import React, { useEffect, useRef, useContext } from 'react';
-import { Map, AdvancedMarker, MapCameraChangedEvent, useMap, Pin } from '@vis.gl/react-google-maps';
-import { GoogleMapsContext } from './GoogleMapsProvider';
-import { MarkerClusterer } from '@googlemaps/markerclusterer';
-import { Marker } from '@googlemaps/markerclusterer';
+import React from 'react';
+import { Map } from '@vis.gl/react-google-maps';
 import PoiMarkers from './PoiMarkers';
 
 const containerStyle = {
@@ -11,8 +8,8 @@ const containerStyle = {
 };
 
 const center = {
-  lat: -37.842, // Approximate latitude
-  lng: 145.091  // Approximate longitude
+  lat: -37.842, 
+  lng: 145.091
 };
 
 // Define the locations
@@ -91,8 +88,6 @@ const MapComponent = () => {
       style={containerStyle}
     >
       <PoiMarkers pois={locations} />
-
-      {/* You can render markers here if you want */}
     </Map>
   );
 };
