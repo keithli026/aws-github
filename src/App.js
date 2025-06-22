@@ -2,7 +2,7 @@ import './custom.scss';
 import "./components/i18n";
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import LanguageSwitcher from './components/LanguageSwitcher';
+// import LanguageSwitcher from './components/LanguageSwitcher';
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
