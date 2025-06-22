@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebook, faInstagram, faTwitter, faYoutube, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
-import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import logoIcon from "../../assets/images/fitzio_logo_trans.png"
 import mailIcon from "../../assets/images/Mail.png"
 import "../../components/i18n"
@@ -26,8 +26,12 @@ const Footer = () => {
             </a>
           </div>
           <div className="contact">
-            <div className="email">
+            {/* <div className="email">
               <img src={mailIcon} alt={t('common:footer.email')} />
+              <a href={`mailto: ${email}`}>{email}</a>
+            </div> */}
+            <div className="email">
+              <FontAwesomeIcon icon={faEnvelope} />
               <a href={`mailto: ${email}`}>{email}</a>
             </div>
             <div className="tel">

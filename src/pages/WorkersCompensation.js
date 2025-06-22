@@ -31,13 +31,15 @@ const WorkersCompensation = () => {
 
   return (
     <Container>
-      <h1>{t('common:header.fees.workers_compensation')}</h1>
-      <p>{t('workers-compensation:description')}</p>
-      <ul>
-        {workersData.map((requirement, index) => (
-          <li key={index}>{requirement}</li>
-        ))}
-      </ul>
+      <div className='section'>
+        <h1>{t('common:header.fees.workers_compensation')}</h1>
+        <p>{t('workers-compensation:description')}</p>
+        <ul>
+          {workersData.map((requirement, index) => (
+            <li key={index}>{requirement}</li>
+          ))}
+        </ul>
+      </div>
     </Container>
   );
 };

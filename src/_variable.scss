@@ -656,7 +656,7 @@ $headings-margin-bottom:      $spacer * 2;
 $headings-font-family:        null !default;
 $headings-font-style:         null !default;
 $headings-font-weight:        600;
-$headings-line-height:        1.2 !default;
+$headings-line-height:        1.5;
 $headings-color:              inherit !default;
 // scss-docs-end headings-variables
 
@@ -1368,10 +1368,10 @@ $card-group-margin:                 $grid-gutter-width * .5 !default;
 $accordion-padding-y:                     1rem !default;
 $accordion-padding-x:                     1.25rem !default;
 $accordion-color:                         var(--#{$prefix}body-color) !default;
-$accordion-bg:                            var(--#{$prefix}body-bg) !default;
-$accordion-border-width:                  var(--#{$prefix}border-width) !default;
+$accordion-bg:                            $gray-200;
+$accordion-border-width:                  0;
 $accordion-border-color:                  var(--#{$prefix}border-color) !default;
-$accordion-border-radius:                 var(--#{$prefix}border-radius) !default;
+$accordion-border-radius:                 10px;
 $accordion-inner-border-radius:           subtract($accordion-border-radius, $accordion-border-width) !default;
 
 $accordion-body-padding-y:                $accordion-padding-y !default;
@@ -1382,15 +1382,15 @@ $accordion-button-padding-x:              $accordion-padding-x !default;
 $accordion-button-color:                  var(--#{$prefix}body-color) !default;
 $accordion-button-bg:                     var(--#{$prefix}accordion-bg) !default;
 $accordion-transition:                    $btn-transition, border-radius .15s ease !default;
-$accordion-button-active-bg:              var(--#{$prefix}primary-bg-subtle) !default;
-$accordion-button-active-color:           var(--#{$prefix}primary-text-emphasis) !default;
+$accordion-button-active-bg:              $primary;
+$accordion-button-active-color:           $white;
 
 $accordion-button-focus-border-color:     $input-focus-border-color !default;
 $accordion-button-focus-box-shadow:       $btn-focus-box-shadow !default;
 
 $accordion-icon-width:                    1.25rem !default;
 $accordion-icon-color:                    $body-color !default;
-$accordion-icon-active-color:             $primary-text-emphasis !default;
+$accordion-icon-active-color:             $white;
 $accordion-icon-transition:               transform .2s ease-in-out !default;
 $accordion-icon-transform:                rotate(-180deg) !default;
 

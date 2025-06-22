@@ -30,20 +30,13 @@
     }
 
     .contact {
-      // font-size: $font-size-base;
-      // margin-bottom: 30px;
-
-      @include media-breakpoint-up(lg) {
-        // font-size: $font-size-lg;
-        // margin-bottom: 80px;
-      }
-
+      
       .email {
         display: flex;
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
 
-        img {
+        svg {
           font-size: 30px;
           margin-right: 20px;
 
@@ -109,7 +102,7 @@
         }
 
         @include media-breakpoint-up(md) {
-            margin-left: 0;
+          margin-left: 0;
           margin-right: 0;
           margin-bottom: 20px;
           font-size: 25px;

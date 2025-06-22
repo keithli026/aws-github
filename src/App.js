@@ -35,6 +35,7 @@ import BookOnline from './pages/BookOnline';
 import NoPage from "./pages/NoPage";
 import MeetTheTeamOverview from './pages/MeetTheTeamOverview';
 import ScrollToTop from './components/ScrollToTop';
+import GoogleMapsProvider from './components/GoogleMapsProvider';
 
 // import Testing from './pages/Testing';
 // import TestingOverview from './pages/TestingOverview';
@@ -44,55 +45,57 @@ function App() {
   const defaultLanguage = 'en'; // Or your default language
 
   return (
-    <BrowserRouter>
-      <ScrollToTop>
-        <Routes>
-          {/* Redirect root path to default language */}
-          <Route path="/" element={<Navigate to={`/${defaultLanguage}`} replace />} />
+    <GoogleMapsProvider>
+      <BrowserRouter>
+        <ScrollToTop>
+          <Routes>
+            {/* Redirect root path to default language */}
+            <Route path="/" element={<Navigate to={`/${defaultLanguage}`} replace />} />
 
-          <Route path="/:lang" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="about" element={<About />} />
-            {/* <Route path="physiotherapists" element={<Physiotherapists />}>
+            <Route path="/:lang" element={<Layout />}>
+              <Route index element={<Home />} />
+              <Route path="about" element={<About />} />
+              {/* <Route path="physiotherapists" element={<Physiotherapists />}>
             <Route index element={<PhysiotherapistsOverview />} />
             <Route path=":physiotherapistId" element={<Physiotherapist />} />
           </Route> */}
-            <Route path="meet-the-team" element={<MeetTheTeam />}>
-              <Route index element={<MeetTheTeamOverview />} />
-              <Route path=":staffId" element={<Staff />} />
-            </Route>
-            <Route path="services" element={<Services />}>
-              <Route index element={<ServicesOverview />} />
-              <Route path="manual-therapy" element={<ManualTherapy />} />
-              <Route path="acupuncture" element={<Acupuncture />} />
-              <Route path="exercise-rehabilitation" element={<ExerciseRehabilitation />} />
-              <Route path="massage-therapy" element={<MassageTherapy />} />
-              {/* <Route path="shockwave-therapy" element={<ShockwaveTherapy />} />
+              <Route path="meet-the-team" element={<MeetTheTeam />}>
+                <Route index element={<MeetTheTeamOverview />} />
+                <Route path=":staffId" element={<Staff />} />
+              </Route>
+              <Route path="services" element={<Services />}>
+                <Route index element={<ServicesOverview />} />
+                <Route path="manual-therapy" element={<ManualTherapy />} />
+                <Route path="acupuncture" element={<Acupuncture />} />
+                <Route path="exercise-rehabilitation" element={<ExerciseRehabilitation />} />
+                <Route path="massage-therapy" element={<MassageTherapy />} />
+                {/* <Route path="shockwave-therapy" element={<ShockwaveTherapy />} />
               <Route path="electrotherapy" element={<Electrotherapy />} /> */}
-              <Route path="cupping-therapy" element={<CuppingTherapy />} />
-            </Route>
-            <Route path="fees" element={<Fees />}>
-              <Route index element={<FeesOverView />} />
-              <Route path="medicare" element={<Medicare/>} />
-              <Route path="private-health-insurance" element={<PrivateHealthInsurance/>} />
-              <Route path="motor-vehicle-accident" element={<MotorVehicleAccident/>} />
-              <Route path="department-of-veterans-affairs" element={<DepartmentOfVeteransAffairs/>} />
-              <Route path="workers-compensation" element={<WorkersCompensation/>} />
-              <Route path="home-care-package" element={<HomeCarePackage/>} />
-              <Route path="ndis" element={<NDIS/>} />
-            </Route>
-            <Route path="conditions" element={<Conditions />} />
-            <Route path="contact" element={<Contact />} />
-            {/* <Route path="book-online" element={<BookOnline />} /> */}
-            {/* <Route path="testing" element={<Testing/>}>
+                <Route path="cupping-therapy" element={<CuppingTherapy />} />
+              </Route>
+              <Route path="fees" element={<Fees />}>
+                <Route index element={<FeesOverView />} />
+                <Route path="medicare" element={<Medicare />} />
+                <Route path="private-health-insurance" element={<PrivateHealthInsurance />} />
+                <Route path="motor-vehicle-accident" element={<MotorVehicleAccident />} />
+                <Route path="department-of-veterans-affairs" element={<DepartmentOfVeteransAffairs />} />
+                <Route path="workers-compensation" element={<WorkersCompensation />} />
+                <Route path="home-care-package" element={<HomeCarePackage />} />
+                <Route path="ndis" element={<NDIS />} />
+              </Route>
+              <Route path="conditions" element={<Conditions />} />
+              <Route path="contact" element={<Contact />} />
+              {/* <Route path="book-online" element={<BookOnline />} /> */}
+              {/* <Route path="testing" element={<Testing/>}>
               <Route index element={<TestingOverview/>}></Route>
               <Route path="testing-content-page" element={<TestingContentPage/>} />
             </Route> */}
-            <Route path="*" element={<NoPage />} />
-          </Route>
-        </Routes>
-      </ScrollToTop>
-    </BrowserRouter>
+              <Route path="*" element={<NoPage />} />
+            </Route>
+          </Routes>
+        </ScrollToTop>
+      </BrowserRouter>
+    </GoogleMapsProvider>
   );
 }
 

@@ -203,6 +203,7 @@ const Conditions = () => {
   return (
     <Container>
       <Breadcrumb />
+      <h1>{t('common:header.conditions')}</h1>
       <div className="bodychart">
         <div className='image_wrapper'>
           <img src={bodyChart} alt={t('common:body_chart')} title={t('common:body_chart')} />
