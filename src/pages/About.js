@@ -3,7 +3,6 @@ import { Outlet } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Breadcrumb from "../components/Breadcrumb";
 import { useTranslation } from 'react-i18next';
-import Map from '../components/Map';
 import MapComponent from '../components/MapComponent';
 import Accordion  from 'react-bootstrap/Accordion';
 
@@ -48,8 +47,8 @@ const About = () => {
           <h1>{t('common:header.about')}</h1>
           <p>{t('about:paragraph1')}</p>
           <p>{t('about:paragraph2')}</p>
-          <p>{t('about:service')}</p>
-          <Accordion defaultActiveKey="0">
+          <p style={{marginBottom: "50px"}}>{t('about:service')}</p>
+          <Accordion>
             {Object.entries(data).map(([city, suburbs], index) => (
               <Accordion.Item eventKey={index.toString()} key={city}>
                 <Accordion.Header>{city}</Accordion.Header>

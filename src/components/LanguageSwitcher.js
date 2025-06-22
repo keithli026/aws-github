@@ -15,7 +15,7 @@ const defaultLanguage = 'en'; // Define the default language
 function LanguageSwitcher() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   useEffect(() => {
-    console.log("lg", lg);
+    // console.log("lg", lg);
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
     };
@@ -61,7 +61,7 @@ function LanguageSwitcher() {
   // Effect to set initial language based on URL
   useEffect(() => {
     const pathSegments = location.pathname.split('/').filter(Boolean); // Split pathname into segments
-    console.log("path segements: ", pathSegments);
+    // console.log("path segements: ", pathSegments);
     let lng = defaultLanguage; // Default to English
 
     // If the first segment is a known language, set the language
