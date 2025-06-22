@@ -7,7 +7,7 @@ const HomeCarePackage = () => {
   return (
     // <div>HomeCarePackage</div>
     <Container>
-      <div class="section">
+      <div className="section">
         <h1>{t('common:header.fees.home_care_package')}</h1>
         <p>{t('home-care-package:what_is_hcp.description')}</p>
         <p>{t('home-care-package:who_is_eligible.description')}</p>

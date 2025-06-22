@@ -2,15 +2,13 @@ import React from 'react';
 import { Outlet } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faPhone, faEnvelope, faClock } from '@fortawesome/free-solid-svg-icons'
-
-import mailIcon from "../assets/images/Mail.png"
 import Container from "react-bootstrap/Container"
 import Breadcrumb from "../components/Breadcrumb";
 import { useTranslation } from 'react-i18next';
 import { phone, email } from '../components/ContactButtons';
 
 const Contact = () => {
-  const { t, i18n } = useTranslation(['common']);
+  const { t } = useTranslation(['common']);
   return (
     <>
       <Container id="contact">

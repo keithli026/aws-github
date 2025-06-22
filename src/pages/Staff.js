@@ -11,7 +11,7 @@ const Staff = () => {
   let params = useParams();
   let staff = getPhysiotherapistBySymbol(params.staffId);
   const {t} = useTranslation();
-  console.log(location, params, staff);
+  // console.log(location, params, staff);
   // const summaryLines = staff.summary.map(lineKey => t(lineKey)).join(" "); // Join with a space or any other delimiter
   const summaryLines = (staff.summary ? staff.summary.map(lineKey => t(lineKey)).join(" ") : "");
   return (

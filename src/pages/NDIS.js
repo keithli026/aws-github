@@ -7,7 +7,7 @@ const NDIS = () => {
   return (
     // <div>NDIS</div>
     <Container>
-      <div class="section">
+      <div className="section">
         <h1>{t('common:header.fees.ndis')}</h1>
       </div>
     </Container>

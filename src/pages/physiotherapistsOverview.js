@@ -1,10 +1,10 @@
-import { NavLink, Outlet, useSearchParams, useLocation } from "react-router-dom"
+import { NavLink, Outlet, useSearchParams } from "react-router-dom"
 import Container from "react-bootstrap/Container"
 import { getPhysiotherapists } from "../PhysiotherapistInfo"
-import { getPosts } from "../api/axios"
+// import { getPosts } from "../api/axios"
 import { useState, useEffect } from "react"
 import SearchBar from "../components/SearchBar"
-import ListPage from "../components/ListPage"
+// import ListPage from "../components/ListPage"
 
 const PhysiotherapistsOverview = () => {
   const physiotherapists = getPhysiotherapists();

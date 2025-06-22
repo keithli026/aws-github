@@ -27,11 +27,11 @@ const Medicare = () => {
 
     fetchFeesData();
 
-  }, [location.pathname]);
+  }, [language]);
 
   return (
     <Container>
-      <div class="section">
+      <div className="section">
         <h1>{t('common:header.fees.medicare')}</h1>
 
         <h2>{t('medicare:chronic_disease_management.title')}</h2>
@@ -47,7 +47,7 @@ const Medicare = () => {
         <p>{t('medicare:costs.eligibility')}</p>
         <ul>
           {medicareData.map((detail, index) => (
-            <li ket={index}>{detail}</li>
+            <li key={index}>{detail}</li>
           ))}
         </ul>
         <p>{t('medicare:costs.note')}</p>

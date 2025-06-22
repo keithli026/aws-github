@@ -1,15 +1,13 @@
 import React from 'react'
 import Container from "react-bootstrap/Container"
-import { Link, useParams, useNavigate, useLocation } from "react-router-dom"
-import { getPhysiotherapist, getPhysiotherapists, deletePhysiotherapist, getPhysiotherapistBySymbol } from "../PhysiotherapistInfo"
-import { useTranslation, Trans } from 'react-i18next'
+import { Link } from "react-router-dom"
+import { getPhysiotherapists } from "../PhysiotherapistInfo"
+import { useTranslation } from 'react-i18next'
 import LocalizedPath from "../components/LocalizedPath"
 
 const MeetTheTeamOverview = () => {
-  let params = useParams();
   let Physiotherapists = getPhysiotherapists();
-  // let staff = getPhysiotherapistBySymbol(params.staffId);
-  console.log(Physiotherapists.length, params);
+
   const { t } = useTranslation(['common']);
   return (
     <>

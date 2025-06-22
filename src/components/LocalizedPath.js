@@ -1,6 +1,3 @@
-
-// src/components/LocalizedPath.js
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 const LocalizedPath = ({ path }) => {

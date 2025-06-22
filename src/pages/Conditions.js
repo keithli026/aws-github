@@ -174,7 +174,7 @@ const Conditions = () => {
 
     fetchConditionsData();
 
-  }, [location.pathname]);
+  }, [language]);
 
   useEffect(() => {
     resetDotsState(); // Reset dots first
@@ -186,7 +186,7 @@ const Conditions = () => {
       if (state[x]) {
         isStageChanged = true;
         let i = x.slice(3);
-        console.log(`Showing details for dot ${i}`); // Debug log
+        // console.log(`Showing details for dot ${i}`); // Debug log
         dot.current[i].classList.add("hide");
         shiningDot.current[i].classList.add("show");
         textBox.current[i].classList.add("show");
@@ -194,7 +194,7 @@ const Conditions = () => {
     }
 
     if (!isStageChanged) {
-      console.log("No stages changed, resetting dots."); // Debug log
+      // console.log("No stages changed, resetting dots."); // Debug log
       resetDotsState();
     }
 

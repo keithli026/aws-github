@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from "react-bootstrap/Container"
-import { useTranslation, Trans } from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 import shockwaveTherapy from "../assets/images/Shockwave_therapy.jpg"
 
 const ShockwaveTherapy = () => {
@@ -12,7 +12,6 @@ const ShockwaveTherapy = () => {
         <div className='flexbox'>
           <div className='image_wrapper'>
             <img src={shockwaveTherapy} alt={t('common:header.services.shockwave_therapy')} />
-            {/* <img src={process.env.PUBLIC_URL + "/Shockwave_therapy.jpg"} alt="Shockwave Therapy"></img> */}
           </div>
           <div className='content'>
             <p>{t('shockwave-therapy:paragraph')}</p>

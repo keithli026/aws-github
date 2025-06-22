@@ -8,7 +8,7 @@ const DepartmentOfVeteransAffairs = () => {
   return (
     // <div>DepartmentOfVeteransAffairs</div>
     <Container>
-      <div class="section">
+      <div className="section">
         <h1>{t('common:header.fees.department_of_veterans_affairs')}</h1>
         <p>{t('department-of-veterans-affairs:description')}</p>
         <p>{t('department-of-veterans-affairs:referral_information.requirements')}</p>

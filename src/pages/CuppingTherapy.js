@@ -1,7 +1,6 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
-// import "../components/i18n"
-import { useTranslation, Trans } from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 import cuppingTherapy from "../assets/images/Cupping_therapy.jpg"
 
 const CuppingTherapy = () => {

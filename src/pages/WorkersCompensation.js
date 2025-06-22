@@ -18,7 +18,7 @@ const WorkersCompensation = () => {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
         const data = await response.json();
-        console.log(data);
+        // console.log(data);
         setWorkersData(data.initial_consultation_requirements.requirements || []);
 
       } catch (error) {
@@ -27,7 +27,7 @@ const WorkersCompensation = () => {
     };
 
     fetchFeesData();
-  }, [location.pathname]);
+  }, [language]);
 
   return (
     <Container>

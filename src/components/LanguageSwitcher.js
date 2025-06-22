@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import i18n from './i18n'; // Adjust path as needed
-import "../GlobalStyle"
+// import "../GlobalStyle"
 import { lg } from "../GlobalStyle"
 
 // Example lngs object (replace with your actual configuration)
@@ -75,7 +75,7 @@ function LanguageSwitcher() {
     if (!pathSegments.length || !Object.keys(lngs).includes(pathSegments[0])) {
       navigate(`/${lng}${location.pathname}${location.search}`, { replace: true }); // Use replace to avoid adding to history
     }
-  }, [location.pathname, location.search, navigate, i18n]);
+  }, [location.pathname, location.search, navigate]);
 
   return (
     <div>

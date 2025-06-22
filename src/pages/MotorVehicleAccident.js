@@ -27,11 +27,11 @@ const MotorVehicleAccident = () => {
 
     fetchFeesData();
 
-  }, [location.pathname]);
+  }, [language]);
   return (
     // <div>MotorVehicleAccident</div>
     <Container>
-      <div class="section">
+      <div className="section">
         <h1>{t('common:header.fees.motor_vehicle_accident')}</h1>
         <p>{t('motor-vehicle-accident:description')}</p>
         <h2>{t('motor-vehicle-accident:initial_consultation_requirements.title')}</h2>

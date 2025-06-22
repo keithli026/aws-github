@@ -1,7 +1,6 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
-// import "../components/i18n"
-import { useTranslation, Trans } from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 import electrotherapy from "../assets/images/Electrotherapy.jpg"
 
 const Electrotherapy = () => {

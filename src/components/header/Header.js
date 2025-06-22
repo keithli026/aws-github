@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { telButton } from '../ContactButtons';
 import "../../components/i18n"
-import { useTranslation, Trans } from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 import logoIcon from "../../assets/images/fitzio_logo_trans.png"
 import Container from "react-bootstrap/Container"
 import Navbar from "react-bootstrap/Navbar"

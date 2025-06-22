@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Container from "react-bootstrap/Container"
 import { getPhysiotherapists } from "../PhysiotherapistInfo";
-import { useTranslation, Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import bannerImg from "../assets/images/banner-image-1.jpg"
 import banner2Img from "../assets/images/banner-image-2.jpg"
 import holisticCare from "../assets/images/Holistic_approach.png"
@@ -17,7 +17,6 @@ import longLastingClinicalOutcomes from "../assets/images/Long_lasting_clinical_
 import ongoingSupport from "../assets/images/Ongoing_support.png"
 import evidenceBasedPractice from "../assets/images/Evidence_based_practice.png"
 import arrowIcon from "../assets/images/arrow.png"
-// import Button from "react-bootstrap/Button"
 import LocalizedPath from "../components/LocalizedPath"
 
 const Home = () => {

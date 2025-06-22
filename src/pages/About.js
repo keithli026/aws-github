@@ -7,7 +7,7 @@ import MapComponent from '../components/MapComponent';
 import Accordion  from 'react-bootstrap/Accordion';
 
 const About = () => {
-  const { t, i18n } = useTranslation(['common', 'about']);
+  const { t } = useTranslation(['common', 'about']);
 
   const data = {
     "City of Whitehorse": [

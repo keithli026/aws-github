@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import Container from "react-bootstrap/Container";
 import { useTranslation } from 'react-i18next';
-import Breadcrumb from '../components/Breadcrumb';
 import Accordion from 'react-bootstrap/Accordion';
 import { getLanguageFromPath } from '../utils/getLanguage';
 
@@ -10,9 +9,9 @@ const PrivateHealthInsurance = () => {
   const { t } = useTranslation(['common', 'private-health-insurance']);
   const [feesData, setFeesData] = useState(null);
   const location = useLocation();
+  const language = getLanguageFromPath(location.pathname);
 
   useEffect(() => {
-    const language = getLanguageFromPath(location.pathname);
     // console.log("Current language:", language); 
 
     const fetchFeesData = async () => {
@@ -29,7 +28,7 @@ const PrivateHealthInsurance = () => {
     };
 
     fetchFeesData();
-  }, [location.pathname]); // Fetch data whenever lng or pathname changes
+  }, [language]); // Fetch data whenever lng or pathname changes
 
   if (!feesData) {
     return <div>Loading...</div>; // Loading state
@@ -125,7 +124,7 @@ const PrivateHealthInsurance = () => {
 
         {/* FAQ Section */}
         <h2>{t('private-health-insurance:faq.title')}</h2>
-        <Accordion defaultActiveKey={['0']} alwaysOpen>
+        <Accordion>
           {faq.questions.map((question, index) => (
             <Accordion.Item eventKey={index.toString()} key={index}>
               <Accordion.Header>{t(question.question)}</Accordion.Header>

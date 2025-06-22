@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from "react-bootstrap/Container"
-import { useTranslation, Trans } from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 import manualTherapy from "../assets/images/Manual_therapy.jpg"
 
 const ManualTherapy = () => {

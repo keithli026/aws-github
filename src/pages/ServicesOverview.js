@@ -1,8 +1,7 @@
 import React from 'react'
 import Container from "react-bootstrap/Container"
 import { Link } from "react-router-dom"
-
-import { useTranslation, Trans } from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 import acupuncture from "../assets/images/Acupuncture.jpg"
 import manualTherapy from "../assets/images/Manual_therapy.jpg"
 import exerciseRehabilitation from "../assets/images/Exercise_therapy.jpg"

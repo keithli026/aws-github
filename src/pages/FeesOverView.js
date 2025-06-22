@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from "react-bootstrap/Container"
-import { Link, useParams, useNavigate, useLocation } from "react-router-dom"
-import { useTranslation, Trans } from 'react-i18next'
+import { Link } from "react-router-dom"
+import { useTranslation } from 'react-i18next'
 import LocalizedPath from "../components/LocalizedPath"
 import medicareLogo from '../assets/images/medicare.svg'
 import NDISLogo from '../assets/images/ndis.svg'
