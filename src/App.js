@@ -46,7 +46,7 @@ function App() {
 
   return (
     <GoogleMapsProvider>
-      <BrowserRouter>
+      <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
         <ScrollToTop>
           <Routes>
             {/* Redirect root path to default language */}
